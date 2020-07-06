@@ -1,29 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { NavCont, NavTxt, linkStyle } from './headerStyles';
 
 const Nav = () => {
     return (
-        <div>
-            <nav>
-                <ul style={{ display: "flex" }}>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/work">Work</Link>
-                    </li>
-                    <li>
-                        <Link to="/photo">Photo</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <NavCont>
+            <Link to="/" style={linkStyle}>
+                <NavTxt>index</NavTxt>
+            </Link>
+            <Link to="/work" style={linkStyle}>
+                <NavTxt>work</NavTxt>
+            </Link>
+            <Link to="/photo" style={linkStyle}>
+                <NavTxt>photo</NavTxt>
+            </Link>
+            <Link to="/about" style={linkStyle}>
+                <NavTxt>about</NavTxt>
+            </Link>
+            <Link to="/contact" style={linkStyle}>
+                <NavTxt>contact</NavTxt>
+            </Link>
+        </NavCont>
     );
 }
 

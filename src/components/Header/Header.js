@@ -1,13 +1,14 @@
 import React from 'react';
 import Logo from './Logo';
 import Nav from './Nav';
+import { HeaderCont } from './headerStyles';
 
 const Header = () => {
     return (
-        <div style={{ display: "flex" }}>
+        <HeaderCont>
             <Logo />
             <Nav />
-        </div>
+        </HeaderCont>
     );
 }
 
