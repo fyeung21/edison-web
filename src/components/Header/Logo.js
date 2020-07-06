@@ -1,7 +1,14 @@
 import React from 'react';
+import { LogoText } from './headerStyles';
 
 const Logo = () => {
-    return <h2>Logo</h2>;
+    return (
+        <>
+            <LogoText>
+                {`portfolio:/edison/design`}
+            </LogoText>
+        </>
+    );
 }
 
 export default Logo;
