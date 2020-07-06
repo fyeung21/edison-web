@@ -5,10 +5,13 @@ import Work from '../pages/work/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
 import Contact from '../pages/contact';
+import Header from '../components/Header/Header';
+import Footer from "../components/Footer/Footer";
 
 const Routes = () => {
     return (
         <Fragment>
+            <Header />
             <Switch>
                 <Route path="/work">
                     <Work />
@@ -26,6 +29,7 @@ const Routes = () => {
                     <Home />
                 </Route>
             </Switch>
+            <Footer />
         </Fragment>
     );
 }
