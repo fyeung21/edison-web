@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const HeroCont = styled.div`
-    margin: 20rem 0 0 15rem;
+    margin: 20rem 15rem 0;
 `
 export const HeroTxt = styled.h1`
     font-family: ${theme.bodyFont};
@@ -52,3 +52,23 @@ export const Dot = styled.p`
     text-align: center;
     margin: 0.25rem 0.75rem 0;
 `
+
+//////////////// LinkToWork
+
+export const LinkCont = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+`
+export const Txt = styled.p`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.h2FontSize};
+    color: ${({ theme }) => theme.accentTxtColor};
+    :hover {
+        color: ${({ theme }) => theme.mainTxtColor};
+    }
+`
+export const iconStyle = {
+    fontWeight: 600,
+    margin: 3
+}
