@@ -3,7 +3,7 @@ import { theme } from "../Theme";
 
 export const AboutCont = styled.div`
     width: 65%;
-    margin: 0 auto 8rem;
+    margin: 4rem auto 8rem;
 `
 export const AboutHeading = styled.h2`
     font-family: ${theme.bodyFont};

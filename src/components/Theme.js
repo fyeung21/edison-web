@@ -28,8 +28,9 @@ export const darkTheme = {
 export const theme = {
     bodyFont: "Helvetica, sans-serif",
     h1FontSize: "75px",
-    h2FontSize: "30px",
-    h3FontSize: "14px",
+    h2FontSize: "50px",
+    h3FontSize: "30px",
+    h4FontSize: "14px",
     bodyFontSize: "20px",
     smallFontSize: "12px",
     tabletSize: "768px",

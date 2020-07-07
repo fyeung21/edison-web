@@ -15,7 +15,7 @@ export const HeroTxt = styled.h1`
 export const Flex = styled.div`
     display: flex;
 `
-export const AccentTxt = styled.h3`
+export const AccentTxt = styled.h1`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h1FontSize};
     color: ${({ theme }) => theme.accentColor};
@@ -30,19 +30,19 @@ export const HeroSubCont = styled.div`
     align-items: center;
     margin: 1rem auto;
 `
-export const Txt1 = styled.h2`
+export const Txt1 = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.heroSubColor1};
 `
-export const Txt2 = styled.h2`
+export const Txt2 = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.heroSubColor2};
 `
-export const Txt3 = styled.h2`
+export const Txt3 = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.heroSubColor3};
 `
 export const Dot = styled.p`
@@ -60,9 +60,9 @@ export const LinkCont = styled.div`
     justify-content: flex-end;
     align-items: center;
 `
-export const Txt = styled.p`
+export const Txt = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.accentTxtColor};
     :hover {
         color: ${({ theme }) => theme.mainTxtColor};
