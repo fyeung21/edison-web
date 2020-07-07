@@ -4,7 +4,7 @@ import { theme } from "../Theme";
 export const FooterCont = styled.div`
     display: flex;
     width: 70%;
-    margin: 37rem auto 0;
+    margin: 0 auto;
     position: sticky;
     bottom: 2.5rem;
 `

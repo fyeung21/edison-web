@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const SkillsCont = styled.div`
-    margin: 10rem 15rem;
+    margin: 8rem 15rem;
 `
 ////////////
 
