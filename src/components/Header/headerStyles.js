@@ -4,8 +4,9 @@ import { theme } from "../Theme";
 export const HeaderCont = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 70%;
-    margin: 3rem auto;
+    margin: 2.5rem auto;
 `
 export const NavCont = styled.div`
     display: flex;

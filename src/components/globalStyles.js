@@ -7,3 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
   }
 `
+export const MenuCont = styled.div`
+    display: flex;
+    align-items: center;
+`

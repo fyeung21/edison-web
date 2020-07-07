@@ -9,10 +9,13 @@ import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
 
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "../components/globalStyles";
+import { GlobalStyles, MenuCont } from "../components/globalStyles";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 import { lightTheme, darkTheme } from "../components/Theme";
 import Toggle from "../components/Header/Toggler";
+import { HeaderCont } from "../components/Header/headerStyles";
+import Logo from "../components/Header/Logo";
+import Nav from "../components/Header/Nav";
 
 const Routes = () => {
 
@@ -24,8 +27,14 @@ const Routes = () => {
         <Fragment>
             <ThemeProvider theme={themeMode}>
                 <GlobalStyles />
-                <Header />
-                <Toggle theme={theme} toggleTheme={themeToggler} />
+                {/* <Header /> */}
+                <HeaderCont>
+                    <Logo />
+                    <MenuCont>
+                        <Nav />
+                        <Toggle theme={theme} toggleTheme={themeToggler} />
+                    </MenuCont>
+                </HeaderCont>
                 <Switch>
                     <Route path="/work">
                         <Work />
