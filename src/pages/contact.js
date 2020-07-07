@@ -1,7 +1,10 @@
 import React from 'react';
+import ContactMe from "../components/Contact/ContactMe";
 
 const Contact = () => {
-    return <h2>Contact</h2>;
+    return (
+        <ContactMe />
+    );
 }
 
 export default Contact;
