@@ -23,7 +23,7 @@ export const theme = {
     h2FontSize: "30px",
     h3FontSize: "14px",
     bodyFontSize: "20px",
-    smallFontSize: "8px",
+    smallFontSize: "12px",
     tabletSize: "768px",
     desktopSize: "1200px",
     widescreenSize: "1400px",

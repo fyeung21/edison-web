@@ -1,7 +1,15 @@
-import React from 'react';
+import React from "react";
+import { FooterCont, FooterTxt, LinkedInLink } from "./footerStyles";
 
 const Footer = () => {
-    return <h2>Footer</h2>;
+    return (
+        <FooterCont>
+            <FooterTxt>
+                copyright 2020 all rights reserved.
+            </FooterTxt>
+            <LinkedInLink href="https://www.linkedin.com/in/koedison/">LinkedIn</LinkedInLink>
+        </FooterCont>
+    );
 }
 
 export default Footer;
