@@ -7,6 +7,9 @@ export const HeaderCont = styled.div`
     align-items: center;
     width: 70%;
     margin: 2.5rem auto;
+    position: sticky;
+    top: 2.5rem;
+    z-index: 20;
 `
 export const NavCont = styled.div`
     display: flex;

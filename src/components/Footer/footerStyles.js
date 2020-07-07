@@ -5,9 +5,8 @@ export const FooterCont = styled.div`
     display: flex;
     width: 70%;
     margin: 37rem auto 0;
-    // position: fixed;
-    // bottom: 2rem;
-    // left: 15rem;
+    position: sticky;
+    bottom: 2.5rem;
 `
 export const FooterTxt = styled.p`
     font-family: ${theme.bodyFont};
