@@ -21,7 +21,7 @@ export const LogoText = styled.p`
 export const NavTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h3FontSize};
-    color: ${theme.accentTxtColor};
+    color: ${({ theme }) => theme.accentTxtColor};
     text-transform: uppercase;
     margin: 0 1.5rem;
     :hover {
