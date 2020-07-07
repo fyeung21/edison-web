@@ -18,7 +18,7 @@ export const HeaderSubCont = styled.div`
     margin: 0 auto;
 `
 
-//////////////
+//////////////  Logo and Nav
 
 export const NavCont = styled.div`
     display: flex;
