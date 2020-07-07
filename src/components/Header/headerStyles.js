@@ -25,7 +25,7 @@ export const NavTxt = styled.p`
     text-transform: uppercase;
     margin: 0 1.5rem;
     :hover {
-        color: ${theme.mainTxtColor};
+        color: ${({ theme }) => theme.mainTxtColor};
     }
 `
 export const linkStyle = {
