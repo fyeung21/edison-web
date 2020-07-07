@@ -9,6 +9,7 @@ export const lightTheme = {
     heroSubColor3: "#A172F2",
     dotColor: "#CCCCCC",
     imgBrightness: "100%",
+    headerBkgColor: "rgba(250, 250, 250, 0.70)",
     toggleBorder: "#FAFAFA"
 }
 
@@ -22,6 +23,7 @@ export const darkTheme = {
     heroSubColor3: "#A172F2",
     dotColor: "#CCCCCC",
     imgBrightness: "90%",
+    headerBkgColor: "rgba(18, 18, 18, 0.80)",
     toggleBorder: "#121212"
 }
 

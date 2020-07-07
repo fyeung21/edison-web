@@ -1,14 +1,16 @@
 import React from 'react';
 import Logo from './Logo';
 import Nav from './Nav';
-import { HeaderCont } from './headerStyles';
+import { HeaderMainCont, HeaderSubCont } from './headerStyles';
 
 const Header = () => {
     return (
-        <HeaderCont>
-            <Logo />
-            <Nav />
-        </HeaderCont>
+        <HeaderMainCont>
+            <HeaderSubCont>
+                <Logo />
+                <Nav />
+            </HeaderSubCont>
+        </HeaderMainCont>
     );
 }
 

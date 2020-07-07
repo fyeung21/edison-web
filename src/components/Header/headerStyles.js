@@ -1,15 +1,21 @@
 import styled from "styled-components";
 import { theme } from "../Theme";
 
-export const HeaderCont = styled.div`
+export const HeaderMainCont = styled.div`
+    position: sticky;
+    z-index: 20;
+    top: 0;
+    padding: 1rem;
+    background-color: ${({ theme }) => theme.headerBkgColor}
+
+`
+export const HeaderSubCont = styled.div`
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    margin: 2.5rem auto;
-    position: sticky;
-    top: 2.5rem;
-    z-index: 20;
+    margin: 0 auto;
 `
 
 //////////////
@@ -37,3 +43,15 @@ export const NavTxt = styled.h3`
 export const linkStyle = {
     textDecoration: 'none'
 }
+
+////////////////// Toggler
+
+export const ThemeBtn = styled.button`
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    outline: none;
+`

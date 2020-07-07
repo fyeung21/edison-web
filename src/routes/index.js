@@ -13,7 +13,7 @@ import { GlobalStyles, MenuCont } from "../components/globalStyles";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 import { lightTheme, darkTheme } from "../components/Theme";
 import Toggle from "../components/Header/Toggler";
-import { HeaderCont } from "../components/Header/headerStyles";
+import { HeaderMainCont, HeaderSubCont } from "../components/Header/headerStyles";
 import Logo from "../components/Header/Logo";
 import Nav from "../components/Header/Nav";
 
@@ -28,13 +28,15 @@ const Routes = () => {
             <ThemeProvider theme={themeMode}>
                 <GlobalStyles />
                 {/* <Header /> */}
-                <HeaderCont>
-                    <Logo />
-                    <MenuCont>
-                        <Nav />
-                        <Toggle theme={theme} toggleTheme={themeToggler} />
-                    </MenuCont>
-                </HeaderCont>
+                <HeaderMainCont>
+                    <HeaderSubCont>
+                        <Logo />
+                        <MenuCont>
+                            <Nav />
+                            <Toggle theme={theme} toggleTheme={themeToggler} />
+                        </MenuCont>
+                    </HeaderSubCont>
+                </HeaderMainCont>
                 <Switch>
                     <Route path="/work">
                         <Work />
