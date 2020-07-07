@@ -1,7 +1,15 @@
-import React from 'react';
+import React from "react";
+import { HeroCont } from "./heroStyles";
+import HeroSubTxt from "./HeroSubTxt";
+import HeroMain from "./HeroMain";
 
 const Hero = () => {
-    return <h2>Hero</h2>;
+    return (
+        <HeroCont>
+            <HeroMain />
+            <HeroSubTxt />
+        </HeroCont>
+    );
 }
 
 export default Hero;

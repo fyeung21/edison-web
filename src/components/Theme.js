@@ -4,6 +4,10 @@ export const lightTheme = {
     accentColor: "#41BAAE",
     mainTxtColor: "#000",
     accentTxtColor: "#858585",
+    heroSubColor1: "#30BDFF",
+    heroSubColor2: "#E99F86",
+    heroSubColor3: "#A172F2",
+    dotColor: "#CCCCCC",
     imgBrightness: "100%",
     toggleBorder: "#FAFAFA"
 }
@@ -13,6 +17,10 @@ export const darkTheme = {
     accentColor: "#41BAAE",
     mainTxtColor: "#FAFAFA",
     accentTxtColor: "#858585",
+    heroSubColor1: "#30BDFF",
+    heroSubColor2: "#E99F86",
+    heroSubColor3: "#A172F2",
+    dotColor: "#CCCCCC",
     imgBrightness: "90%",
     toggleBorder: "#121212"
 }
