@@ -2,8 +2,15 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const HeroCont = styled.div`
-    margin: 20rem 15rem 0;
+    margin: 20rem 15rem;
 `
+export const FlexSubHero = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
+
+//////////////// Hero Main
+
 export const HeroTxt = styled.h1`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h1FontSize};
@@ -28,7 +35,6 @@ export const AccentTxt = styled.h1`
 export const HeroSubCont = styled.div`
     display: flex;
     align-items: center;
-    margin: 1rem auto;
 `
 export const Txt1 = styled.h3`
     font-family: ${theme.bodyFont};
