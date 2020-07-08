@@ -8,9 +8,9 @@ const Toggle = ({ theme, toggleTheme }) => {
     return (
         <ThemeBtn onClick={toggleTheme}>
             {theme === "light" ?
-                <Moon color={"#FFDA03"} size={18} />
+                <Moon color={"#858585"} size={21} />
                 :
-                <Sun color={"#FFDA03"} size={18} />}
+                <Sun color={"#ABABAB"} size={21} />}
         </ThemeBtn>
     );
 };

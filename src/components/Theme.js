@@ -17,7 +17,7 @@ export const darkTheme = {
     body: "#121212",
     accentColor: "#41BAAE",
     mainTxtColor: "#FAFAFA",
-    accentTxtColor: "#858585",
+    accentTxtColor: "#ABABAB",
     heroSubColor1: "#30BDFF",
     heroSubColor2: "#E99F86",
     heroSubColor3: "#A172F2",
