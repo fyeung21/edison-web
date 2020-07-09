@@ -13,7 +13,7 @@ export const HeaderSubCont = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    max-width: 70%;
     margin: 0 auto;
 `
 
@@ -53,4 +53,5 @@ export const ThemeBtn = styled.button`
     overflow: hidden;
     position: relative;
     outline: none;
+    padding-right: 0;
 `
