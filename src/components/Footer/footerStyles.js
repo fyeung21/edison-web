@@ -3,7 +3,6 @@ import { theme } from "../Theme";
 
 export const FooterCont = styled.div`
     display: flex;
-    width: 70%;
     margin: 0 auto;
     padding-bottom: 2.5rem;
 `

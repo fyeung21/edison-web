@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const AboutCont = styled.div`
-    width: 65%;
     margin: 4rem auto 8rem;
 `
 export const AboutHeading = styled.h2`

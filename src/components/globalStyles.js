@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { theme } from "./Theme";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -10,4 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 export const MenuCont = styled.div`
     display: flex;
     align-items: center;
+`
+export const MainCont = styled.div`
+    width: 65%;
+    margin: 0 auto;
 `

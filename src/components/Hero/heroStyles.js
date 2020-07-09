@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const HeroCont = styled.div`
-    margin: 20rem 15rem;
+    margin: 20rem auto;
 `
 export const FlexSubHero = styled.div`
     display: flex;

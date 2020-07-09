@@ -9,7 +9,7 @@ import Contact from '../pages/contact';
 import Footer from "../components/Footer/Footer";
 
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles, MenuCont } from "../components/globalStyles";
+import { GlobalStyles, MenuCont, MainCont } from "../components/globalStyles";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 import { lightTheme, darkTheme } from "../components/Theme";
 import Toggle from "../components/Header/Toggler";
@@ -37,24 +37,26 @@ const Routes = () => {
                         </MenuCont>
                     </HeaderSubCont>
                 </HeaderMainCont>
-                <Switch>
-                    <Route path="/work">
-                        <Work />
-                    </Route>
-                    <Route path="/photo">
-                        <Photo />
-                    </Route>
-                    <Route path="/about">
-                        <About />
-                    </Route>
-                    <Route path="/contact">
-                        <Contact />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
-                <Footer />
+                <MainCont>
+                    <Switch>
+                        <Route path="/work">
+                            <Work />
+                        </Route>
+                        <Route path="/photo">
+                            <Photo />
+                        </Route>
+                        <Route path="/about">
+                            <About />
+                        </Route>
+                        <Route path="/contact">
+                            <Contact />
+                        </Route>
+                        <Route path="/">
+                            <Home />
+                        </Route>
+                    </Switch>
+                    <Footer />
+                </MainCont>
             </ThemeProvider>
         </Fragment>
     );

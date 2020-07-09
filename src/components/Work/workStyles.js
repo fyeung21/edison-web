@@ -5,7 +5,7 @@ export const WorkCont = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 4rem 13rem 8rem;
+    margin: 4rem auto 8rem;
 `
 
 ///////////////  Tall

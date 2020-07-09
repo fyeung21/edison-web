@@ -2,8 +2,7 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const ContactCont = styled.div`
-    width: 65%;
-    margin: 4rem auto 30rem;
+    margin: 4rem auto 22rem;
 `
 export const ContactHeading = styled.h2`
     font-family: ${theme.bodyFont};
