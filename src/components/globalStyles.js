@@ -11,6 +11,6 @@ export const MenuCont = styled.div`
     align-items: center;
 `
 export const MainCont = styled.div`
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 `

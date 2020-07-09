@@ -5,9 +5,8 @@ export const HeaderMainCont = styled.div`
     position: sticky;
     z-index: 20;
     top: 0;
-    padding: 1rem;
+    padding: 1rem 0;
     background-color: ${({ theme }) => theme.headerBkgColor}
-
 `
 export const HeaderSubCont = styled.div`
     display: flex;
