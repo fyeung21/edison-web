@@ -8,9 +8,10 @@ export const lightTheme = {
     heroSubColor2: "#E99F86",
     heroSubColor3: "#A172F2",
     dotColor: "#CCCCCC",
-    imgBrightness: "100%",
     headerBkgColor: "rgba(250, 250, 250, 0.70)",
-    toggleBorder: "#FAFAFA"
+    toggleBorder: "#FAFAFA",
+    imgBrightness: "100%",
+    cardHoverColor: "rgba(250, 250, 250, 0.90)"
 }
 
 export const darkTheme = {
@@ -22,9 +23,10 @@ export const darkTheme = {
     heroSubColor2: "#E99F86",
     heroSubColor3: "#A172F2",
     dotColor: "#CCCCCC",
-    imgBrightness: "90%",
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
-    toggleBorder: "#121212"
+    toggleBorder: "#121212",
+    imgBrightness: "90%",
+    cardHoverColor: "rgba(18, 18, 18, 0.90)"
 }
 
 export const theme = {
