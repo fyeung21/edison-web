@@ -13,7 +13,7 @@ export const HeaderSubCont = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
 `
 

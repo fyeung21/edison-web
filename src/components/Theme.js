@@ -35,6 +35,8 @@ export const theme = {
     h2FontSize: "50px",
     h3FontSize: "30px",
     h4FontSize: "14px",
+    h5FontSize: "38px",
+    h6FontSize: "24px",
     bodyFontSize: "20px",
     smallFontSize: "12px",
     tabletSize: "768px",

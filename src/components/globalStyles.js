@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { theme } from "./Theme";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -11,6 +12,10 @@ export const MenuCont = styled.div`
     align-items: center;
 `
 export const MainCont = styled.div`
-    max-width: 70%;
-    margin: 4rem auto 0;
+    width: 85%;
+    margin: 1rem auto 0;
+    @media (min-width: ${theme.tabletSize}) {
+      max-width: 70%;
+      margin: 4rem auto 0;
+    }
 `

@@ -9,6 +9,7 @@ const HeroMain = () => {
                 <HeroTxt>I am a</HeroTxt>
                 <AccentTxt>Designer</AccentTxt>
             </Flex>
+
         </>
     );
 }
