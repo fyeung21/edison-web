@@ -4,11 +4,6 @@ import { theme } from "../Theme";
 export const AboutCont = styled.div`
     margin: 0 auto 8rem;
 `
-export const AboutHeading = styled.h2`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-`
 export const AboutTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};

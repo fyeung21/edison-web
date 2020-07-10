@@ -4,11 +4,6 @@ import { theme } from "../Theme";
 export const ContactCont = styled.div`
     margin: 4rem auto 22rem;
 `
-export const ContactHeading = styled.h2`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-`
 export const LinkCont = styled.div`
     display: flex;
     justify-content: space-evenly;

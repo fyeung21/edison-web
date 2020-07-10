@@ -1,10 +1,11 @@
 import React from "react";
-import { AboutCont, AboutHeading, AboutTxt } from "./aboutStyles";
+import { Heading } from "../globalStyles";
+import { AboutCont, AboutTxt } from "./aboutStyles";
 
 const AboutMe = () => {
     return (
         <AboutCont>
-            <AboutHeading>About Me</AboutHeading>
+            <Heading>About Me</Heading>
             <AboutTxt>
                 The limitless art universe has sparked a curiosity in me. I categorize myself as
                 an art addict, if that is a thing. Exploring all types of art has always been my

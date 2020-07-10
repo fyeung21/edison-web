@@ -1,11 +1,12 @@
 import React from "react";
-import { ContactCont, ContactHeading, LinkCont, BtnCont, ContactLink } from "./contactStyles";
+import { Heading } from "../globalStyles";
+import { ContactCont, LinkCont, BtnCont, ContactLink } from "./contactStyles";
 import { Mail, Linkedin } from "react-feather";
 
 const ContactMe = () => {
     return (
         <ContactCont>
-            <ContactHeading>Let&#39;s chat!</ContactHeading>
+            <Heading>Let&#39;s chat!</Heading>
             <LinkCont>
                 <BtnCont>
                     <Mail color={"#41BAAE"} size={20} />
