@@ -63,7 +63,7 @@ export const CardTitle = styled.p`
 `
 export const CardDesc = styled.p`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h4FontSize};
+    font-size: ${theme.smallFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 0.5rem 0;
     line-height: 22px;

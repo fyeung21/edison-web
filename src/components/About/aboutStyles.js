@@ -7,7 +7,7 @@ export const AboutCont = styled.div`
 export const AboutTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
-    color: ${({ theme }) => theme.accentTxtColor};
+    color: ${({ theme }) => theme.mainTxtColor};
     line-height: 2.5rem;
     margin: 2rem auto;
 `

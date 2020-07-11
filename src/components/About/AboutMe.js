@@ -5,9 +5,9 @@ import { AboutCont, AboutTxt } from "./aboutStyles";
 const AboutMe = () => {
     return (
         <AboutCont>
-            <Heading>About Me</Heading>
+            <Heading>about.</Heading>
             <AboutTxt>
-                The limitless art universe has sparked a curiosity in me. I categorize myself as
+                The limitless universe of art has sparked a curiosity in me. I categorize myself as
                 an art addict, if that is a thing. Exploring all types of art has always been my
                 goal as art comes in different forms, mediums and approaches. I enjoy the process
                 of turning a blank canvas into my own imaginative and creative playground. The outcome

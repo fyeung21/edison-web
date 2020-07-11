@@ -4,10 +4,9 @@ import { HeroTxt, Flex, AccentTxt } from "./heroStyles";
 const HeroMain = () => {
     return (
         <>
-            <HeroTxt>Hello, I&#39;m Edison and</HeroTxt>
+            <HeroTxt>Hi, I&#39;m Edison and</HeroTxt>
             <Flex>
-                <HeroTxt>I am a</HeroTxt>
-                <AccentTxt>Designer</AccentTxt>
+                <HeroTxt>I am a Designer</HeroTxt>
             </Flex>
 
         </>

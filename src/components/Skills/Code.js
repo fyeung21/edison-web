@@ -5,10 +5,10 @@ const Code = () => {
     return (
         <SkillsSubCont>
             <SkillHeading>code</SkillHeading>
-            <SkillTxt>HTML</SkillTxt>
-            <SkillTxt>CSS</SkillTxt>
-            <SkillTxt>JavaScript</SkillTxt>
-            <SkillTxt>NodeJS</SkillTxt>
+            <SkillTxt>html</SkillTxt>
+            <SkillTxt>css</SkillTxt>
+            <SkillTxt>javascript</SkillTxt>
+            <SkillTxt>nodejs</SkillTxt>
         </SkillsSubCont>
     );
 }

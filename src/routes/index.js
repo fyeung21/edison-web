@@ -4,7 +4,6 @@ import Home from '../pages/index';
 import Work from '../pages/work/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
-import Contact from '../pages/contact';
 // import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
 
@@ -47,9 +46,6 @@ const Routes = () => {
                         </Route>
                         <Route path="/about">
                             <About />
-                        </Route>
-                        <Route path="/contact">
-                            <Contact />
                         </Route>
                         <Route path="/">
                             <Home />

@@ -17,9 +17,6 @@ const Nav = () => {
             <Link to="/about" style={linkStyle}>
                 <NavTxt>about</NavTxt>
             </Link>
-            <Link to="/contact" style={linkStyle}>
-                <NavTxt>contact</NavTxt>
-            </Link>
         </NavCont>
     );
 }

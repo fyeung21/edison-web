@@ -9,7 +9,6 @@ export const FooterCont = styled.div`
 export const FooterTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.smallFontSize};
-    color: ${({ theme }) => theme.accentTxtColor};
-    letter-spacing: 0.15rem;
+    color: ${({ theme }) => theme.mainTxtColor};
     margin: 0 5px 0 0;
 `

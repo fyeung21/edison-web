@@ -24,19 +24,17 @@ export const NavCont = styled.div`
 `
 export const LogoText = styled.h4`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h4FontSize};
+    font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
+    font-weight: 500;
 `
 export const NavTxt = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h4FontSize};
-    color: ${({ theme }) => theme.accentTxtColor};
-    text-transform: uppercase;
+    font-size: ${theme.bodyFontSize};
+    color: ${({ theme }) => theme.mainTxtColor};
     margin: 0 1.5rem;
     :hover {
-        color: ${({ theme }) => theme.mainTxtColor};
+        color: ${({ theme }) => theme.hoverTxtColor};
     }
 `
 export const linkStyle = {

@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <Link to="/" style={linkStyle}>
             <LogoText>
-                {`portfolio:/edison/design`}
+                {`edison.`}
             </LogoText>
         </Link>
     );

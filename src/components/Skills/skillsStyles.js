@@ -12,13 +12,13 @@ export const SkillsSubCont = styled.div`
 export const SkillHeading = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
+    font-weight: 500;
     color: ${({ theme }) => theme.mainTxtColor};
-    letter-spacing: 0.05rem;
     margin: 1rem 0;
 `
 export const SkillTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
-    color: ${({ theme }) => theme.accentTxtColor};
+    color: ${({ theme }) => theme.mainTxtColor};
     margin: 0.25rem 0;
 `

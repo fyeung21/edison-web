@@ -5,10 +5,10 @@ const Experience = () => {
     return (
         <SkillsSubCont>
             <SkillHeading>experience</SkillHeading>
-            <SkillTxt>UX / UI Designer</SkillTxt>
-            <SkillTxt>Design TA</SkillTxt>
-            <SkillTxt>Financial Advisor</SkillTxt>
-            <SkillTxt>Retail Supervisor</SkillTxt>
+            <SkillTxt>ux + ui designer</SkillTxt>
+            <SkillTxt>design teaching assistant</SkillTxt>
+            <SkillTxt>financial advisor</SkillTxt>
+            <SkillTxt>retail supervisor</SkillTxt>
         </SkillsSubCont>
     );
 }

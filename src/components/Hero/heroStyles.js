@@ -24,8 +24,8 @@ export const FlexSubHero = styled.div`
 export const HeroTxt = styled.h1`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h5FontSize};
+    font-weight: 500;
     color: ${({ theme }) => theme.mainTxtColor};
-    letter-spacing: 0.10rem;
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h2FontSize};
@@ -38,62 +38,22 @@ export const Flex = styled.div`
     display: flex;
     align-items: center;
 `
-export const AccentTxt = styled.h1`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h5FontSize};
-    color: ${({ theme }) => theme.accentColor};
-    letter-spacing: 0.10rem;
-    margin-left: 0.75rem;
-    
-    @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h2FontSize};
-        margin-left: 1.25rem;
-    }
-    @media (min-width: ${theme.desktopSize}) {
-        font-size: ${theme.h1FontSize};
-        margin-left: 1.75rem;
-    }
-`
 
 //////////////// HeroSubTxt
 
 export const HeroSubCont = styled.div`
     display: flex;
+    justify-content: space-between;
     align-items: center;
 `
-export const Txt1 = styled.h3`
+export const SubTxt = styled.h3`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h6FontSize};
-    color: ${({ theme }) => theme.heroSubColor1};
+    color: ${({ theme }) => theme.mainTxtColor};
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h3FontSize};
     }
-`
-export const Txt2 = styled.h3`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h6FontSize};
-    color: ${({ theme }) => theme.heroSubColor2};
-
-    @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h3FontSize};
-    }
-`
-export const Txt3 = styled.h3`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h6FontSize};
-    color: ${({ theme }) => theme.heroSubColor3};
-
-    @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h3FontSize};
-    }
-`
-export const Dot = styled.p`
-    background-color: ${({ theme }) => theme.dotColor};
-    border-radius: 50%;
-    padding: 0.25rem;
-    text-align: center;
-    margin: 0.25rem 0.75rem 0;
 `
 
 //////////////// LinkToWork
@@ -106,9 +66,9 @@ export const LinkCont = styled.div`
 export const Txt = styled.h3`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h6FontSize};
-    color: ${({ theme }) => theme.accentTxtColor};
+    color: ${({ theme }) => theme.mainTxtColor};
     :hover {
-        color: ${({ theme }) => theme.mainTxtColor};
+        color: ${({ theme }) => theme.hoverTxtColor};
     }
 
     @media (min-width: ${theme.tabletSize}) {

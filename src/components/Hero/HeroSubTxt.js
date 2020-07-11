@@ -1,14 +1,12 @@
 import React from "react";
-import { HeroSubCont, Txt1, Txt2, Txt3, Dot } from "./heroStyles";
+import { HeroSubCont, SubTxt } from "./heroStyles";
+import LinkToWork from "./LinkToWork";
 
 const HeroSubTxt = () => {
     return (
         <HeroSubCont>
-            <Txt1>product</Txt1>
-            <Dot />
-            <Txt2>visual</Txt2>
-            <Dot />
-            <Txt3>experience</Txt3>
+            <SubTxt>product. visual. experience.</SubTxt>
+            <LinkToWork />
         </HeroSubCont>
     );
 }

@@ -1,17 +1,13 @@
 import React from "react";
-import { HeroCont, FlexSubHero } from "./heroStyles";
+import { HeroCont } from "./heroStyles";
 import HeroSubTxt from "./HeroSubTxt";
 import HeroMain from "./HeroMain";
-import LinkToWork from "./LinkToWork";
 
 const Hero = () => {
     return (
         <HeroCont>
             <HeroMain />
-            <FlexSubHero>
-                <HeroSubTxt />
-                <LinkToWork />
-            </FlexSubHero>
+            <HeroSubTxt />
         </HeroCont>
     );
 }
