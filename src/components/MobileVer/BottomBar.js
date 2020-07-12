@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../Header/Nav';
-import { BottomBarCont, BottomSubCont } from './mobileStyles';
+import { BottomBarCont, BottomSubCont, ToggleCont } from './mobileStyles';
 import Toggle from '../ThemeToggle/Toggle';
 
 const BottomBar = () => {
@@ -8,7 +8,9 @@ const BottomBar = () => {
         <BottomBarCont>
             <BottomSubCont>
                 <Nav />
-                <Toggle />
+                <ToggleCont>
+                    <Toggle />
+                </ToggleCont>
             </BottomSubCont>
         </BottomBarCont>
     );

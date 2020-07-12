@@ -42,15 +42,22 @@ export const NavMainCont = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
+        padding: 0;
     }
 `
 export const NavCont = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2.5rem;
+
+    @media (min-width: ${theme.tabletSize}) {
+        padding: 0;
+    }
 `
 export const IconCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
@@ -58,15 +65,17 @@ export const IconCont = styled.div`
     }
 `
 export const NavTxt = styled.h3`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.smallFontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-    margin: 0 1.75rem;
-    :hover {
-        color: ${({ theme }) => theme.hoverTxtColor};
-    }
-    @media (min-width: ${theme.desktopSize}) {
+    display: none;
+
+    @media (min-width: ${theme.tabletSize}) {
+        display: block;
+        font-family: ${theme.bodyFont};
         font-size: ${theme.bodyFontSize};
+        color: ${({ theme }) => theme.mainTxtColor};
         margin: 0 1.5rem;
+
+        :hover {
+            color: ${({ theme }) => theme.hoverTxtColor};
+        }
     }
 `

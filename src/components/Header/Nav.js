@@ -10,7 +10,7 @@ const Nav = () => {
             <Link to="/work" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#727272"} size={20} />
+                        <Mail color={"#BBBBBB"} size={26} />
                     </IconCont>
                     <NavTxt>work</NavTxt>
                 </NavCont>
@@ -19,7 +19,7 @@ const Nav = () => {
             <Link to="/photo" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#727272"} size={20} />
+                        <Mail color={"#BBBBBB"} size={26} />
                     </IconCont>
                     <NavTxt>photo</NavTxt>
                 </NavCont>
@@ -28,7 +28,7 @@ const Nav = () => {
             <Link to="/about" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#727272"} size={20} />
+                        <Mail color={"#BBBBBB"} size={26} />
                     </IconCont>
                     <NavTxt>about</NavTxt>
                 </NavCont>
