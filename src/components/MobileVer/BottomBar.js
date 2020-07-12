@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../Header/Nav';
 import { BottomBarCont, BottomSubCont } from './mobileStyles';
-import Toggle from '../Header/Toggler';
+import Toggle from '../ThemeToggle/Toggle';
 
 const BottomBar = () => {
     return (

@@ -11,7 +11,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles, MenuCont, MainCont } from "../components/globalStyles";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 import { lightTheme, darkTheme } from "../components/Theme";
-import Toggle from "../components/Header/Toggler";
+import Toggle from "../components/ThemeToggle/Toggle";
 import { HeaderMainCont, HeaderSubCont } from "../components/Header/headerStyles";
 import Logo from "../components/Header/Logo";
 import Nav from "../components/Header/Nav";
