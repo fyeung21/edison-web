@@ -15,6 +15,8 @@ import Toggle from "../components/Header/Toggler";
 import { HeaderMainCont, HeaderSubCont } from "../components/Header/headerStyles";
 import Logo from "../components/Header/Logo";
 import Nav from "../components/Header/Nav";
+import BottomBar from "../components/MobileVer/BottomBar";
+import MobileHeader from "../components/MobileVer/MobileHeader";
 
 const Routes = () => {
 
@@ -36,6 +38,7 @@ const Routes = () => {
                         </MenuCont>
                     </HeaderSubCont>
                 </HeaderMainCont>
+                <MobileHeader />
                 <MainCont>
                     <Switch>
                         <Route path="/work">
@@ -53,6 +56,7 @@ const Routes = () => {
                     </Switch>
                     <Footer />
                 </MainCont>
+                <BottomBar />
             </ThemeProvider>
         </Fragment>
     );

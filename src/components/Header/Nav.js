@@ -1,23 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { NavCont, NavTxt, linkStyle } from './headerStyles';
+import { NavMainCont, NavCont, NavTxt, IconCont, linkStyle } from './headerStyles';
+import { Mail } from "react-feather";
 
 const Nav = () => {
     return (
-        <NavCont>
-            <Link to="/" style={linkStyle}>
-                <NavTxt>index</NavTxt>
-            </Link>
+        <NavMainCont>
+
             <Link to="/work" style={linkStyle}>
-                <NavTxt>work</NavTxt>
+                <NavCont>
+                    <IconCont>
+                        <Mail color={"#727272"} size={20} />
+                    </IconCont>
+                    <NavTxt>work</NavTxt>
+                </NavCont>
             </Link>
+
             <Link to="/photo" style={linkStyle}>
-                <NavTxt>photo</NavTxt>
+                <NavCont>
+                    <IconCont>
+                        <Mail color={"#727272"} size={20} />
+                    </IconCont>
+                    <NavTxt>photo</NavTxt>
+                </NavCont>
             </Link>
+
             <Link to="/about" style={linkStyle}>
-                <NavTxt>about</NavTxt>
+                <NavCont>
+                    <IconCont>
+                        <Mail color={"#727272"} size={20} />
+                    </IconCont>
+                    <NavTxt>about</NavTxt>
+                </NavCont>
             </Link>
-        </NavCont>
+
+        </NavMainCont>
     );
 }
 
