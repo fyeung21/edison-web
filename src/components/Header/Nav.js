@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { NavMainCont, NavCont, NavTxt, IconCont, linkStyle } from './headerStyles';
-import { Mail } from "react-feather";
+import Edit from "../Icons/Edit";
+import MountSun from '../Icons/MountSun';
+import UserIcon from "../Icons/UserIcon";
+
 
 const Nav = () => {
     return (
@@ -10,7 +13,7 @@ const Nav = () => {
             <Link to="/work" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#BBBBBB"} size={26} />
+                        <Edit />
                     </IconCont>
                     <NavTxt>work</NavTxt>
                 </NavCont>
@@ -19,7 +22,7 @@ const Nav = () => {
             <Link to="/photo" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#BBBBBB"} size={26} />
+                        <MountSun />
                     </IconCont>
                     <NavTxt>photo</NavTxt>
                 </NavCont>
@@ -28,7 +31,7 @@ const Nav = () => {
             <Link to="/about" style={linkStyle}>
                 <NavCont>
                     <IconCont>
-                        <Mail color={"#BBBBBB"} size={26} />
+                        <UserIcon />
                     </IconCont>
                     <NavTxt>about</NavTxt>
                 </NavCont>
