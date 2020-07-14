@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterCont, FooterTxt } from "./footerStyles";
+import { FooterCont, FooterTxt, ContactLink } from "./footerStyles";
 
 const Footer = () => {
     return (
@@ -7,6 +7,8 @@ const Footer = () => {
             <FooterTxt>
                 copyright &copy; 2020
             </FooterTxt>
+            <ContactLink href="https://www.linkedin.com/in/koedison/">LinkedIn</ContactLink>
+            <ContactLink href="https://www.linkedin.com/in/koedison/">Email</ContactLink>
         </FooterCont>
     );
 }
