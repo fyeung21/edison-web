@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroTxt, Flex, AccentTxt } from "./heroStyles";
+import { HeroTxt, Flex } from "./heroStyles";
 
 const HeroMain = () => {
     return (
