@@ -1,11 +1,15 @@
 import React from "react";
-import { PortraitCont, PortraitImg } from "./photoStyles";
+import { PositionCont, PortraitCont, PhotoImg } from "./photoStyles";
 
-const Portrait = () => {
+const Portrait = ({ img }) => {
     return (
-        <PortraitCont>
-            <PortraitImg />
-        </PortraitCont>
+        <PositionCont>
+            <PortraitCont>
+                <PhotoImg
+                    src={img}
+                    alt="photo" />
+            </PortraitCont>
+        </PositionCont>
     );
 }
 

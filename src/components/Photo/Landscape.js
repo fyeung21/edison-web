@@ -1,11 +1,15 @@
 import React from "react";
-import { LandscapeCont, LandscapeImg } from "./photoStyles";
+import { PositionCont, LandscapeCont, PhotoImg } from "./photoStyles";
 
-const Landscape = () => {
+const Landscape = ({ img }) => {
     return (
-        <LandscapeCont>
-            <LandscapeImg />
-        </LandscapeCont>
+        <PositionCont>
+            <LandscapeCont>
+                <PhotoImg
+                    src={img}
+                    alt="photo" />
+            </LandscapeCont>
+        </PositionCont>
     );
 }
 
