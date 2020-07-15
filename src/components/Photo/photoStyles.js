@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PhotoCont = styled.div`
-    margin: 4rem auto 8rem;
+    margin: 4rem auto;
 `
 
 ///////////////// PositionCont
