@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ChevronRight } from "react-feather";
-import { linkStyle } from "../Header/headerStyles";
+import { linkStyle } from "../globalStyles";
 import { LinkCont, Txt, iconStyle } from "./heroStyles";
+import { ChevronRight } from "react-feather";
 
 const LinkToWork = () => {
     return (

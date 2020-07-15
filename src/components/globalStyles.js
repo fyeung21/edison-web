@@ -31,3 +31,6 @@ export const Heading = styled.h2`
       font-size: ${theme.h2FontSize};
     }
 `
+export const linkStyle = {
+  textDecoration: 'none'
+}

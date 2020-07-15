@@ -1,8 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { NavMainCont, NavCont, NavTxt, IconCont, linkStyle } from './headerStyles';
+import React from "react";
+import { Link } from "react-router-dom";
+import { linkStyle } from "../globalStyles";
+import { NavMainCont, NavCont, NavTxt, IconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
-import MountSun from '../Icons/MountSun';
+import MountSun from "../Icons/MountSun";
 import UserIcon from "../Icons/UserIcon";
 
 

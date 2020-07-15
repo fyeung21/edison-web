@@ -31,10 +31,6 @@ export const LogoText = styled.h4`
     font-weight: 500;
 `
 
-export const linkStyle = {
-    textDecoration: 'none'
-}
-
 //////////////  Nav
 
 export const NavMainCont = styled.div`

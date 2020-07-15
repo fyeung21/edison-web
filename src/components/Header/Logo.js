@@ -1,6 +1,7 @@
-import React from 'react';
-import { LogoText, linkStyle } from './headerStyles';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import { linkStyle } from "../globalStyles";
+import { LogoText } from "./headerStyles";
 
 const Logo = () => {
     return (

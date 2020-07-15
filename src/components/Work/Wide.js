@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { linkStyle } from "../globalStyles";
 import { WideCont, StyledImg, MobileVer } from "./workStyles";
 import HoverCard from "./HoverCard";
 import CardInfo from "./CardInfo";
-import { linkStyle } from "../Header/headerStyles";
 
 const Wide = ({ title, description, img, link }) => {
     return (
