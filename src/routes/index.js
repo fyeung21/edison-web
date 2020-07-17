@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from '../pages/index';
-import Work from '../pages/work/work';
+import Work from '../pages/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
+import Translink from "../pages/detailsPages/translink";
 // import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
 
@@ -41,6 +42,9 @@ const Routes = () => {
                 <MobileHeader />
                 <MainCont>
                     <Switch>
+                        <Route path="/translink">
+                            <Translink />
+                        </Route>
                         <Route path="/work">
                             <Work />
                         </Route>

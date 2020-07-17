@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkLayout from '../../components/Work/WorkLayout';
+import WorkLayout from '../components/Work/WorkLayout';
 
 const Work = () => {
     return (

@@ -10,7 +10,7 @@ const WorkLayout = () => {
                 title="TransLink Compass"
                 description={"A concept project providing an on-the-go solution for an essential city service."}
                 img={"https://via.placeholder.com/315x446/d3d3d3"}
-                link={"/"}
+                link={"/translink"}
             />
             <Wide
                 title={"Pokedex Database"}
