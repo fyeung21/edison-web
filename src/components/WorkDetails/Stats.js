@@ -1,12 +1,33 @@
 import React from "react";
-import { ProjectHeading, Category } from "./detailStyles";
+import { StatsMainCont, ProjectHeading, StatsSubCont, TypeCont, Category, DataTxt, PresLink } from "./detailStyles";
 
-const Stats = () => {
+const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation }) => {
     return (
-        <>
-            <ProjectHeading>Translink Compass</ProjectHeading>
-            <Category></Category>
-        </>
+        <StatsMainCont>
+            <ProjectHeading>{projectName}</ProjectHeading>
+            <StatsSubCont>
+                <TypeCont>
+                    <Category>project time</Category>
+                    <DataTxt>{projectTime}</DataTxt>
+                </TypeCont>
+                <TypeCont>
+                    <Category>my role</Category>
+                    <DataTxt>{myRole}</DataTxt>
+                </TypeCont>
+                <TypeCont>
+                    <Category>tools</Category>
+                    <DataTxt>{tools}</DataTxt>
+                </TypeCont>
+                <TypeCont>
+                    <Category>platform</Category>
+                    <DataTxt>{platform}</DataTxt>
+                </TypeCont>
+                <TypeCont>
+                    <Category>presentation</Category>
+                    <PresLink href={presentation}>case study link</PresLink>
+                </TypeCont>
+            </StatsSubCont>
+        </StatsMainCont>
     );
 }
 
