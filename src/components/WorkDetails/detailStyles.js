@@ -61,3 +61,14 @@ export const PresLink = styled.a`
     font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor}
 `
+
+////////////////// Image
+
+export const ProjectImgCont = styled.div`
+    margin: 1rem 0;
+    height: 500px;
+`
+export const Image = styled.img`
+    height: 100%;
+    width: 100%;
+`
