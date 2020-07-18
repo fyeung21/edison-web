@@ -1,6 +1,18 @@
 import styled from "styled-components";
 import { theme } from "../Theme";
 
+///////////// Banner
+
+export const BannerCont = styled.div`
+    height: 700px;
+`
+export const BannerImg = styled.img`
+    height: 100%;
+    width: 100%;
+`
+
+///////////// Stats
+
 export const StatsMainCont = styled.div`
     margin: 4rem auto 8rem;
 `

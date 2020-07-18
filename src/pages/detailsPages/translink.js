@@ -1,9 +1,11 @@
 import React from 'react';
 import Stats from '../../components/WorkDetails/Stats';
+import Banner from '../../components/WorkDetails/Banner';
 
 const Translink = () => {
     return (
         <>
+            <Banner bannerImg={"https://via.placeholder.com/800x446/d3d3d3"} />
             <Stats
                 projectName={"Translink Compass"}
                 projectTime={"2 weeks"}
