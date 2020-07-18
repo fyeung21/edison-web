@@ -1,9 +1,12 @@
-import React from 'react';
-import PhotoLayout from '../components/Photo/PhotoLayout';
+import React from "react";
+import { MainCont } from "../components/globalStyles";
+import PhotoLayout from "../components/Photo/PhotoLayout";
 
 const Photo = () => {
     return (
-        <PhotoLayout />
+        <MainCont>
+            <PhotoLayout />
+        </MainCont>
     );
 }
 

@@ -40,26 +40,24 @@ const Routes = () => {
                     </HeaderSubCont>
                 </HeaderMainCont>
                 <MobileHeader />
-                <MainCont>
-                    <Switch>
-                        <Route path="/translink">
-                            <Translink />
-                        </Route>
-                        <Route path="/work">
-                            <Work />
-                        </Route>
-                        <Route path="/photo">
-                            <Photo />
-                        </Route>
-                        <Route path="/about">
-                            <About />
-                        </Route>
-                        <Route path="/">
-                            <Home />
-                        </Route>
-                    </Switch>
-                    <Footer />
-                </MainCont>
+                <Switch>
+                    <Route path="/translink">
+                        <Translink />
+                    </Route>
+                    <Route path="/work">
+                        <Work />
+                    </Route>
+                    <Route path="/photo">
+                        <Photo />
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+                <Footer />
                 <BottomBar />
             </ThemeProvider>
         </Fragment>

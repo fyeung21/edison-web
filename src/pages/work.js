@@ -1,9 +1,12 @@
-import React from 'react';
-import WorkLayout from '../components/Work/WorkLayout';
+import React from "react";
+import { MainCont } from "../components/globalStyles";
+import WorkLayout from "../components/Work/WorkLayout";
 
 const Work = () => {
     return (
-        <WorkLayout />
+        <MainCont>
+            <WorkLayout />
+        </MainCont>
     );
 }
 
