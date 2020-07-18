@@ -1,14 +1,17 @@
-import React from 'react';
-import Logo from './Logo';
-import Nav from './Nav';
-import { HeaderMainCont, HeaderSubCont } from './headerStyles';
+import React from "react";
+import Logo from "./Logo";
+import Nav from "./Nav";
+import { HeaderMainCont, HeaderSubCont, MenuCont } from "./headerStyles";
 
-const Header = () => {
+const Header = ({ children }) => {
     return (
         <HeaderMainCont>
             <HeaderSubCont>
                 <Logo />
-                <Nav />
+                <MenuCont>
+                    <Nav />
+                    {children}
+                </MenuCont>
             </HeaderSubCont>
         </HeaderMainCont>
     );

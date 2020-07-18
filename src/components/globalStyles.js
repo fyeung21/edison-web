@@ -7,10 +7,6 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
   }
 `
-export const MenuCont = styled.div`
-    display: flex;
-    align-items: center;
-`
 export const MainCont = styled.div`
     width: 85%;
     margin: 1rem auto 0;

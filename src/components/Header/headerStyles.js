@@ -22,6 +22,11 @@ export const HeaderSubCont = styled.div`
     margin: 0 auto;
 `
 
+export const MenuCont = styled.div`
+    display: flex;
+    align-items: center;
+`
+
 ////////////// Logo
 
 export const LogoText = styled.h4`
