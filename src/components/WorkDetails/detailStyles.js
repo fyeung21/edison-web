@@ -16,15 +16,21 @@ export const ProjectHeading = styled.h1`
 
 export const StatsSubCont = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 1rem 0;
+    @media (min-width: ${theme.tabletSize}) {
+        flex-direction: row;
+    }
 `
 export const TypeCont = styled.div`
     display: flex;
     flex-direction: column;
-    margin: 2rem 6rem 2rem 0;
+    margin: 0.75rem 0;
+    @media (min-width: ${theme.tabletSize}) {
+        margin: 2rem 6rem 2rem 0;
+    }
 `
 export const Category = styled.h1`
     font-family: ${theme.bodyFont};
