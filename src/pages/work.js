@@ -1,8 +1,8 @@
 import React from "react";
 import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
-import Wide from "./Wide";
-import Tall from "./Tall";
+import Wide from "../components/Work/Wide";
+import Tall from "../components/Work/Tall";
 
 const Work = () => {
     return (
