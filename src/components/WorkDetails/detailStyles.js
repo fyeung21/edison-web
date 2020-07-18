@@ -59,7 +59,7 @@ export const DataTxt = styled.h1`
 export const PresLink = styled.a`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
-    color: ${({ theme }) => theme.mainTxtColor}
+    color: ${({ theme }) => theme.mainTxtColor};
 `
 
 ////////////////// Image
@@ -71,4 +71,16 @@ export const ProjectImgCont = styled.div`
 export const Image = styled.img`
     height: 100%;
     width: 100%;
+`
+
+////////////////// Description
+
+export const DescriptionCont = styled.div`
+    margin: 4rem 0;
+`
+export const DescTxt = styled.p`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    color: ${({ theme }) => theme.mainTxtColor};
+    line-height: 26px;
 `
