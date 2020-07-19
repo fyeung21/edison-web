@@ -6,7 +6,7 @@ export const MobileHeadCont = styled.div`
         position: sticky;
         z-index: 20;
         top: 0;
-        padding: 1rem 0 0 2.5rem;
+        padding: 1rem 0 0 1.5rem;
 
     @media (min-width: ${theme.tabletSize}) {
         display: none;
@@ -28,8 +28,6 @@ export const BottomBarCont = styled.div`
     bottom: 0;
     border-top: 1px solid ${({ theme }) => theme.inactiveTxtColor};
     background-color: ${({ theme }) => theme.headerBkgColor};
-    display: flex;
-    justify-content: center;
 
     @media (min-width: ${theme.tabletSize}) {
         display: none;
@@ -38,9 +36,8 @@ export const BottomBarCont = styled.div`
 export const BottomSubCont = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
+    // justify-content: space-between;
 `
 export const ToggleCont = styled.div`
-    padding: 1rem 2.5rem;
+    margin: 1rem;
 `

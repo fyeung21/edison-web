@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { linkStyle } from "../globalStyles";
-import { NavMainCont, NavCont, NavTxt, IconCont } from "./headerStyles";
+import { NavMainCont, NavCont, NavClickCont, NavTxt, IconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
 import MountSun from "../Icons/MountSun";
 import UserIcon from "../Icons/UserIcon";
@@ -10,33 +10,37 @@ import UserIcon from "../Icons/UserIcon";
 const Nav = () => {
     return (
         <NavMainCont>
+            <NavCont>
+                <Link to="/work" style={linkStyle}>
+                    <NavClickCont>
+                        <IconCont>
+                            <Edit />
+                        </IconCont>
+                        <NavTxt>work</NavTxt>
+                    </NavClickCont>
+                </Link>
+            </NavCont>
 
-            <Link to="/work" style={linkStyle}>
-                <NavCont>
-                    <IconCont>
-                        <Edit />
-                    </IconCont>
-                    <NavTxt>work</NavTxt>
-                </NavCont>
-            </Link>
-
-            <Link to="/photo" style={linkStyle}>
-                <NavCont>
-                    <IconCont>
-                        <MountSun />
-                    </IconCont>
-                    <NavTxt>photo</NavTxt>
-                </NavCont>
-            </Link>
-
-            <Link to="/about" style={linkStyle}>
-                <NavCont>
-                    <IconCont>
-                        <UserIcon />
-                    </IconCont>
-                    <NavTxt>about</NavTxt>
-                </NavCont>
-            </Link>
+            <NavCont>
+                <Link to="/photo" style={linkStyle}>
+                    <NavClickCont>
+                        <IconCont>
+                            <MountSun />
+                        </IconCont>
+                        <NavTxt>photo</NavTxt>
+                    </NavClickCont>
+                </Link>
+            </NavCont>
+            <NavCont>
+                <Link to="/about" style={linkStyle}>
+                    <NavClickCont>
+                        <IconCont>
+                            <UserIcon />
+                        </IconCont>
+                        <NavTxt>about</NavTxt>
+                    </NavClickCont>
+                </Link>
+            </NavCont>
 
         </NavMainCont>
     );

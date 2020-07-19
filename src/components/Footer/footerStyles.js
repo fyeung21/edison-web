@@ -3,8 +3,11 @@ import { theme } from "../Theme";
 
 export const FooterCont = styled.div`
     display: flex;
-    margin: 0 auto;
-    padding-bottom: 2.5rem;
+    margin: 0 0 2.5rem 1.5rem;
+
+    @media (min-width: ${theme.tabletSize}) {
+        margin: 0 0 5rem 3rem;
+    }
 `
 export const FooterTxt = styled.p`
     font-family: ${theme.bodyFont};

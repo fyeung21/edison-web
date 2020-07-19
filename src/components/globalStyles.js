@@ -8,8 +8,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 `
 export const MainCont = styled.div`
-    width: 85%;
-    margin: 1rem auto 0;
+    margin: 1.5rem;
+
     @media (min-width: ${theme.tabletSize}) {
       max-width: 70%;
       margin: 1.5rem auto 0;

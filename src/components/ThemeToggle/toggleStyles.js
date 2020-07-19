@@ -16,15 +16,3 @@ export const ThemeCont = styled.div`
     flex-direction: column;
     align-items: center;
 `
-export const ToggleTxt = styled.p`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.smallFontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-    :hover {
-        color: ${({ theme }) => theme.hoverTxtColor};
-    }
-
-    @media (min-width: ${theme.tabletSize}) {
-        display: none;
-    }
-`

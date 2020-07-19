@@ -8,16 +8,6 @@ export const HeroCont = styled.div`
         margin: 20rem auto;
     }
 `
-export const FlexSubHero = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 1rem 0;
-
-    @media (min-width: ${theme.tabletSize}) {
-        flex-direction: row;
-    }
-`
 
 //////////////// Hero Main
 
@@ -26,30 +16,33 @@ export const HeroTxt = styled.h1`
     font-size: ${theme.h5FontSize};
     font-weight: 500;
     color: ${({ theme }) => theme.mainTxtColor};
+    line-height: 40px;
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h2FontSize};
+        line-height: 60px;
     }
     @media (min-width: ${theme.desktopSize}) {
         font-size: ${theme.h1FontSize};
     }
-`
-export const Flex = styled.div`
-    display: flex;
-    align-items: center;
 `
 
 //////////////// HeroSubTxt
 
 export const HeroSubCont = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: ${theme.tabletSize}) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 `
 export const SubTxt = styled.h3`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h6FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
+    margin: 1rem 0 4rem;
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h3FontSize};

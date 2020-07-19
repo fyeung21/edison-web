@@ -41,23 +41,23 @@ export const LogoText = styled.h4`
 export const NavMainCont = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    margin: 1rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
-        padding: 0;
+        margin: 0;
     }
 `
 export const NavCont = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 2.5rem;
+    margin: 0 1.5rem 0 0;
+`
+export const NavClickCont = styled.div`
+    margin: 0 1.75rem;
 
     @media (min-width: ${theme.tabletSize}) {
-        padding: 0;
+        margin: 0;
     }
 `
 export const IconCont = styled.div`
