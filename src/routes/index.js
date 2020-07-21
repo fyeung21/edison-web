@@ -5,17 +5,18 @@ import Work from '../pages/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
 import Translink from "../pages/detailsPages/translink";
+
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
+import BottomBar from "../components/MobileVer/BottomBar";
+import MobileHeader from "../components/MobileVer/MobileHeader";
 
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles, MenuCont } from "../components/globalStyles";
+import { GlobalStyles } from "../components/globalStyles";
 import { useDarkMode } from "../components/hooks/useDarkMode";
 import { lightTheme, darkTheme } from "../components/Theme";
 import Toggle from "../components/ThemeToggle/Toggle";
 
-import BottomBar from "../components/MobileVer/BottomBar";
-import MobileHeader from "../components/MobileVer/MobileHeader";
 
 const Routes = () => {
 
