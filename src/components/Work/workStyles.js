@@ -16,6 +16,7 @@ export const TallCont = styled.div`
     width: 425px;
     margin: 1.75rem auto;
     position: relative;
+
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
         width: 630px;
@@ -45,6 +46,7 @@ export const WideCont = styled.div`
 export const StyledImg = styled.img`
     width: 100%;
     border-radius: 25px;
+    object-fit: cover;
 `
 
 /////////////  Hover Card
