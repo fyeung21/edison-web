@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../Header/Logo";
-import { Container } from "../globalStyles";
+import Logo from "../Logo";
+import { Container } from "../../globalStyles";
 import { MobileHeadCont, MobileSubCont } from './mobileStyles';
 
 const MobileHeader = () => {

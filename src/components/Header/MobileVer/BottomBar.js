@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Header/Nav";
+import Nav from "../Nav";
 import { BottomBarCont, BottomSubCont, ToggleCont } from "./mobileStyles";
 
 const BottomBar = ({ children }) => {
