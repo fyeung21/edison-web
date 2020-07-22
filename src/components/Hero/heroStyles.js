@@ -17,13 +17,16 @@ export const HeroTxt = styled.h1`
     font-weight: 500;
     color: ${({ theme }) => theme.mainTxtColor};
     line-height: 40px;
+    width: 340px;
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h2FontSize};
         line-height: 60px;
+        width: 350px;
     }
     @media (min-width: ${theme.desktopSize}) {
         font-size: ${theme.h1FontSize};
+        width: 550px;
     }
 `
 
