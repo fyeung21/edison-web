@@ -1,8 +1,8 @@
 import React from 'react';
-import Stats from '../../components/WorkDetails/Stats';
-import Banner from '../../components/WorkDetails/Banner';
-import ProjectImg from '../../components/WorkDetails/ProjectImg';
-import Description from '../../components/WorkDetails/Description';
+import Stats from '../../components/CaseStudies/Stats';
+import Banner from '../../components/CaseStudies/Banner';
+import ProjectImg from '../../components/CaseStudies/ProjectImg';
+import Description from '../../components/CaseStudies/Description';
 
 const Translink = () => {
     return (
