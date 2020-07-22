@@ -25,6 +25,9 @@ export const TallCont = styled.div`
     position: relative;
     width: 325px;
 
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        width: 400px;
+    }
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
         width: 650px;
@@ -40,7 +43,9 @@ export const WideCont = styled.div`
     position: relative;
     width: 325px;
     
-
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        width: 400px;
+    }
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
         width: 650px;

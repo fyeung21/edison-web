@@ -6,7 +6,7 @@ export const MobileHeadCont = styled.div`
         position: sticky;
         z-index: 20;
         top: 0;
-        padding: 1rem 0 0 1.5rem;
+        padding: 1rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
         display: none;
@@ -15,6 +15,7 @@ export const MobileHeadCont = styled.div`
 export const MobileSubCont = styled.div`
     display: flex;
     justify-content: space-between;
+
     @media (min-width: ${theme.tabletSize}) {
         display: none;
     }
@@ -36,7 +37,6 @@ export const BottomBarCont = styled.div`
 export const BottomSubCont = styled.div`
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
 `
 export const ToggleCont = styled.div`
     margin: 1rem;
