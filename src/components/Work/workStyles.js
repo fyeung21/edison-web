@@ -58,6 +58,7 @@ export const StyledImg = styled.img`
     width: 100%;
     border-radius: 25px;
     object-fit: cover;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
 
 /////////////  Hover Card

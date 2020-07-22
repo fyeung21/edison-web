@@ -9,6 +9,7 @@ export const BannerCont = styled.div`
 export const BannerImg = styled.img`
     height: 100%;
     width: 100%;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
 
 ///////////// Stats
@@ -71,6 +72,7 @@ export const ProjectImgCont = styled.div`
 export const Image = styled.img`
     height: 100%;
     width: 100%;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
 
 ////////////////// Description
