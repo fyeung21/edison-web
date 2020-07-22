@@ -8,8 +8,8 @@ import Translink from "../pages/detailsPages/translink";
 
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
-import BottomBar from "../components/MobileVer/BottomBar";
-import MobileHeader from "../components/MobileVer/MobileHeader";
+import BottomBar from "../components/Header/MobileVer/BottomBar";
+import MobileHeader from "../components/Header/MobileVer/MobileHeader";
 
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "../components/globalStyles";
