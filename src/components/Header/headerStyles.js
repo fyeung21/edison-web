@@ -6,7 +6,7 @@ export const HeaderMainCont = styled.div`
 
     @media (min-width: ${theme.tabletSize}) {
         display: block;
-        position: sticky;
+        // position: sticky;
         z-index: 20;
         top: 0;
         padding: 1rem 0;
@@ -17,9 +17,14 @@ export const HeaderSubCont = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto;
+
+    @media (min-width: ${theme.tabletSize}) {
+        width: 650px;
+        margin: 0 auto;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        width: 1000px;
+    }
 `
 
 export const MenuCont = styled.div`

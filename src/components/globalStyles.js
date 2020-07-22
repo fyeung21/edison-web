@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
 `
 export const MainCont = styled.div`
     width: 325px;
-    margin: 0 auto;
+    margin: 2.5rem auto 0;
 
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;

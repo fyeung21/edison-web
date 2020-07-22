@@ -3,10 +3,13 @@ import { theme } from "../Theme";
 
 export const FooterCont = styled.div`
     display: flex;
-    margin: 0 0 2.5rem 1.5rem;
+    margin: 0 0 2rem 1.5rem;
 
     @media (min-width: ${theme.tabletSize}) {
-        margin: 0 0 5rem 3rem;
+        margin: 0 0 3rem 3.5rem;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        margin: 0 0 3rem 13.5rem;
     }
 `
 export const FooterTxt = styled.p`
