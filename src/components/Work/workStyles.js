@@ -86,11 +86,17 @@ export const CardDesc = styled.p`
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 0.5rem 0;
     line-height: 22px;
+    display: none;
+
+    @media (min-width: ${theme.desktopSize}) {
+        display: block;
+    }
 `
 ///////////// Container for Mobile/Tablet version
 
 export const MobileVer = styled.div`
     margin: 1rem 0;
+
     @media (min-width: ${theme.desktopSize}) {
         display:none;
     }
