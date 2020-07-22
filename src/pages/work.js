@@ -22,45 +22,51 @@ const Work = () => {
                 />
                 <Wide
                     title={"feed+"}
-                    description={"testing description"}
+                    description={"A solution for a common first world problem: the existence of multiple social media accounts"}
                     img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
                     link={"/"}
                 />
                 <Tall
                     title={"Coop-radio"}
-                    description={"testing description"}
+                    description={"A landing website for artists featured on Vancouver Coop Radio"}
                     img={require("../assets/case-studies/coopradio/coverimage-coopradio.jpg")}
                     link={"/"}
                 />
                 <Tall
                     title={"Genomic Science"}
-                    description={"testing description"}
+                    description={"An educational mobile app that links existing desktop data into mobile"}
                     img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
                     link={"/"}
                 />
                 <Wide
-                    title={"Ecommerce"}
-                    description={"testing description"}
+                    title={"E-Commerce Retail"}
+                    description={"Combining local retail shops on West Van to design a one stop shop e-commerce experience"}
                     img={require("../assets/case-studies/ecommerce/coverimage-ecommerce.jpg")}
                     link={"/"}
                 />
                 <Wide
-                    title={"Space Battle Ex"}
-                    description={"testing description"}
-                    img={require("../assets/case-studies/spacebattle/coverimage-spacebattle.png")}
+                    title={"Space Battle Ex Mobile Game"}
+                    description={"A space themed revision of a retro game called Puzzle Bobble"}
+                    img={require("../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
                     link={"/"}
                 />
                 <Tall
                     title={"Experimental Designs"}
-                    description={"testing description"}
+                    description={null}
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/"}
                 />
                 <Tall
-                    title={"skyrocket"}
-                    description={"testing description"}
+                    title={"AssistList"}
+                    description={null}
+                    img={require("../assets/case-studies/coverimage-assistlist.jpg")}
+                    link={null}
+                />
+                <Wide
+                    title={"Skyrocket Digital"}
+                    description={null}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
-                    link={"/"}
+                    link={null}
                 />
 
             </WorkCont>

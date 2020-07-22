@@ -22,8 +22,8 @@ export const TallCont = styled.div`
         width: 630px;
     }
     @media (min-width: ${theme.desktopSize}) {
-        height: 446px;
-        width: 315px;
+        height: 448px;
+        width: 317px;
     }
 `
 export const WideCont = styled.div`
