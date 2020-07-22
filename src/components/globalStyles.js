@@ -8,14 +8,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 `
 export const MainCont = styled.div`
-    margin: 1.5rem;
+    width: 325px;
+    margin: 0 auto;
 
     @media (min-width: ${theme.tabletSize}) {
-      max-width: 70%;
-      margin: 1.5rem auto 0;
+      width: 650px;
     }
     @media (min-width: ${theme.desktopSize}) {
-      margin: 4rem auto 0;
+      width: 1000px;
     }
 `
 export const Heading = styled.h2`
