@@ -1,13 +1,21 @@
 import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Home from '../pages/index';
-import Work from '../pages/work';
-import Photo from '../pages/photo';
-import About from '../pages/about';
+import Home from "../pages/index";
+import Work from "../pages/work";
+import Photo from "../pages/photo";
+import About from "../pages/about";
+// import NotFound from "../pages/404";
 import Translink from "../pages/caseStudies/translink";
-import NotFound from "../pages/404";
+import Pokemondb from "../pages/caseStudies/pokemondb";
+import Feedplus from "../pages/caseStudies/feedplus";
+import CoopRadio from "../pages/caseStudies/coopradio";
+import Genomic from "../pages/caseStudies/genomic";
+import Ecommerce from "../pages/caseStudies/ecommerce";
+import Spacebattle from "../pages/caseStudies/spacebattle";
+import Concepts from "../pages/caseStudies/concepts";
 
-import Header from '../components/Header/Header';
+
+import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import BottomBar from "../components/Header/MobileVer/BottomBar";
 import MobileHeader from "../components/Header/MobileVer/MobileHeader";
@@ -37,6 +45,28 @@ const Routes = () => {
                     <Route path="/work/translink">
                         <Translink />
                     </Route>
+                    <Route path="/work/pokemondb">
+                        <Pokemondb />
+                    </Route>
+                    <Route path="/work/feedplus">
+                        <Feedplus />
+                    </Route>
+                    <Route path="/work/coopradio">
+                        <CoopRadio />
+                    </Route>
+                    <Route path="/work/genomic">
+                        <Genomic />
+                    </Route>
+                    <Route path="/work/ecommerce">
+                        <Ecommerce />
+                    </Route>
+                    <Route path="/work/spacebattle">
+                        <Spacebattle />
+                    </Route>
+                    <Route path="/work/concepts">
+                        <Concepts />
+                    </Route>
+
                     <Route exact path="/work">
                         <Work />
                     </Route>
@@ -50,8 +80,8 @@ const Routes = () => {
                         <Home />
                     </Route>
                     <Route path="*" >
-                        <NotFound />
-                        {/* <Redirect to="/" /> */}
+                        {/* <NotFound /> */}
+                        <Redirect to="/" />
                     </Route>
                 </Switch>
                 <Footer />
