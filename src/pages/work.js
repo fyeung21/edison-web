@@ -12,7 +12,7 @@ const Work = () => {
                     title="TransLink Compass"
                     description={"A concept project providing an on-the-go solution for an essential city service."}
                     img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
-                    link={"/translink"}
+                    link={"/work/translink"}
                 />
                 <Wide
                     title={"Pokedex Database"}

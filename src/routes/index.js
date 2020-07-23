@@ -33,19 +33,19 @@ const Routes = () => {
                 </Header>
                 <MobileHeader />
                 <Switch>
-                    <Route path="/translink">
+                    <Route path="/work/translink">
                         <Translink />
                     </Route>
-                    <Route path="/work">
+                    <Route exact path="/work">
                         <Work />
                     </Route>
-                    <Route path="/photo">
+                    <Route exact path="/photo">
                         <Photo />
                     </Route>
-                    <Route path="/about">
+                    <Route exact path="/about">
                         <About />
                     </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
                     </Route>
                 </Switch>
