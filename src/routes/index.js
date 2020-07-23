@@ -4,7 +4,7 @@ import Home from '../pages/index';
 import Work from '../pages/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
-import Translink from "../pages/detailsPages/translink";
+import Translink from "../pages/caseStudies/translink";
 
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
