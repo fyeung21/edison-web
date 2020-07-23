@@ -50,8 +50,8 @@ const Routes = () => {
                         <Home />
                     </Route>
                     <Route path="*" >
-                        {/* <NotFound /> */}
-                        <Redirect to="/" />
+                        <NotFound />
+                        {/* <Redirect to="/" /> */}
                     </Route>
                 </Switch>
                 <Footer />
