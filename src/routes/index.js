@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Home from '../pages/index';
 import Work from '../pages/work';
 import Photo from '../pages/photo';
 import About from '../pages/about';
 import Translink from "../pages/caseStudies/translink";
+import NotFound from "../pages/404";
 
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
@@ -47,6 +48,10 @@ const Routes = () => {
                     </Route>
                     <Route exact path="/">
                         <Home />
+                    </Route>
+                    <Route path="*" >
+                        {/* <NotFound /> */}
+                        <Redirect to="/" />
                     </Route>
                 </Switch>
                 <Footer />
