@@ -1,5 +1,5 @@
 import React from "react";
-import { BannerCont, BannerImg } from "./detailStyles";
+import { BannerCont, BannerImg } from "./caseStyles";
 
 const Banner = ({ bannerImg }) => {
     return (

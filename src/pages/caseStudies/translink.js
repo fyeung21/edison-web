@@ -1,9 +1,9 @@
 import React from "react";
-import { CaseStudyCont } from "../../components/CaseStudies/detailStyles";
-import Stats from "../../components/CaseStudies/Stats";
-import Banner from "../../components/CaseStudies/Banner";
-import ProjectImg from "../../components/CaseStudies/ProjectImg";
-import Description from "../../components/CaseStudies/Description";
+import { CaseStudyCont } from "../../components/WorkCaseStudies/caseStyles";
+import Stats from "../../components/WorkCaseStudies/Stats";
+import Banner from "../../components/WorkCaseStudies/Banner";
+import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
+import Description from "../../components/WorkCaseStudies/Description";
 
 const Translink = () => {
     return (

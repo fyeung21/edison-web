@@ -86,6 +86,7 @@ export const ProjectImgCont = styled.div`
     @media (min-width: ${theme.desktopSize}) {
         border-radius: 25px;
         width: 1000px;
+        margin: 0 auto;
         
     }
 `

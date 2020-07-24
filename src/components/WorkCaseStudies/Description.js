@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../globalStyles";
-import { DescriptionCont, DescTxt } from "./detailStyles"
+import { DescriptionCont, DescTxt } from "./caseStyles"
 
 const Description = ({ description }) => {
     return (

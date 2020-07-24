@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectImgCont, Image } from "./detailStyles"
+import { ProjectImgCont, Image } from "./caseStyles"
 
 const ProjectImg = ({ projectImg }) => {
     return (
