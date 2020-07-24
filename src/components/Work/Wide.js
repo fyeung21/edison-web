@@ -7,7 +7,7 @@ import CardInfo from "./CardInfo";
 
 const Wide = ({ title, description, img, link }) => {
     return (
-        <Link to={link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+        <Link to={link} rel="noopener noreferrer" style={linkStyle}>
             <WideCont>
                 <StyledImg
                     src={img}
