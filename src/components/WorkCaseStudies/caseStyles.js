@@ -63,7 +63,7 @@ export const Category = styled.h1`
     font-weight: 500;
     margin: 0.5rem 0;
 `
-export const DataTxt = styled.h1`
+export const DataTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
@@ -79,15 +79,15 @@ export const PresLink = styled.a`
 export const ProjectImgCont = styled.div`
     margin: 1rem 0;
     height: 350px;
+    margin: 3rem auto;
 
     @media (min-width: ${theme.tabletSize}) {
         height: auto;
     }
     @media (min-width: ${theme.desktopSize}) {
         border-radius: 25px;
-        width: 1000px;
-        margin: 0 auto;
-        
+        width: 1000px; 
+        margin: 4rem auto;
     }
 `
 export const Image = styled.img`
@@ -101,17 +101,33 @@ export const Image = styled.img`
     }
 `
 
-////////////////// Description
+////////////////// Description 
 
-export const DescriptionCont = styled.div`
-    margin: 4rem 0;
-`
-export const DescTxt = styled.p`
+export const Description = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     line-height: 26px;
+    width: 325px;
+    margin: 1rem auto 2rem;
 
+    @media (min-width: ${theme.skinnyWindowSize}) {
+      width: 400px;
+    }
+    @media (min-width: ${theme.tabletSize}) {
+      width: 650px;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+      width: 1000px;
+    }
+`
+
+export const ContentHeading = styled.h2`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    font-weight: 600;
+    color: ${({ theme }) => theme.mainTxtColor};
+    line-height: 26px;
     width: 325px;
     margin: 0 auto;
 
