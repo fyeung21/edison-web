@@ -13,11 +13,11 @@ const CoopRadio = () => {
             />
             <Stats
                 projectName={"Coop Radio"}
-                projectTime={"2 weeks"}
+                projectTime={"2.5 weeks"}
                 myRole={"UX & UI"}
-                tools={"Sketch / Illustrator / Photoshop"}
-                platform={"iOS Mobile App"}
-                presentation={"https://www.canva.com/design/DAD7VmqxQhc/7eRKD-ef_RatsS_RuACCbw/view?utm_content=DAD7VmqxQhc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"}
+                tools={"Sketch / Illustrator / Photoshop / Miro / Invision"}
+                platform={"desktop website"}
+                presentation={"https://medium.com/@koedison/microsite-radio-program-e574885c5312"}
             />
             <ProjectImg
                 projectImg={"https://via.placeholder.com/650x450/d3d3d3"}

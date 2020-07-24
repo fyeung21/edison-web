@@ -13,11 +13,11 @@ const Spacebattle = () => {
             />
             <Stats
                 projectName={"Space Battle Ex"}
-                projectTime={"2 weeks"}
+                projectTime={"0.5 week"}
                 myRole={"UX & UI"}
-                tools={"Sketch / Illustrator / Photoshop"}
+                tools={"Sketch / Illustrator / Photoshop / Figma"}
                 platform={"iOS Mobile App"}
-                presentation={"https://www.canva.com/design/DAD7VmqxQhc/7eRKD-ef_RatsS_RuACCbw/view?utm_content=DAD7VmqxQhc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"}
+                presentation={null}
             />
             <ProjectImg
                 projectImg={"https://via.placeholder.com/650x450/d3d3d3"}

@@ -13,11 +13,11 @@ const Ecommerce = () => {
             />
             <Stats
                 projectName={"E-commerce Retail"}
-                projectTime={"2 weeks"}
+                projectTime={"2.0 weeks"}
                 myRole={"UX & UI"}
-                tools={"Sketch / Illustrator / Photoshop"}
-                platform={"iOS Mobile App"}
-                presentation={"https://www.canva.com/design/DAD7VmqxQhc/7eRKD-ef_RatsS_RuACCbw/view?utm_content=DAD7VmqxQhc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"}
+                tools={"Sketch / Miro / Invision"}
+                platform={"desktop website"}
+                presentation={"https://medium.com/@koedison/e-commerce-store-bicycles-1c3f1ed86c6e"}
             />
             <ProjectImg
                 projectImg={"https://via.placeholder.com/650x450/d3d3d3"}
