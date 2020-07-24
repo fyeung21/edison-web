@@ -8,7 +8,6 @@ export const CaseStudyCont = styled.div`
 ///////////// Banner
 
 export const BannerCont = styled.div`
-    object-fit: cover;
     height: 400px;
 
     @media (min-width: ${theme.tabletSize}) {
@@ -18,6 +17,7 @@ export const BannerCont = styled.div`
 export const BannerImg = styled.img`
     height: 100%;
     width: 100%;
+    object-fit: cover;
     filter: brightness(${({ theme }) => theme.imgBrightness});
 `
 
@@ -93,6 +93,7 @@ export const ProjectImgCont = styled.div`
 export const Image = styled.img`
     height: 100%;
     width: 100%;
+    object-fit: cover;
     filter: brightness(${({ theme }) => theme.imgBrightness});
 
     @media (min-width: ${theme.desktopSize}) {

@@ -26,5 +26,8 @@ export const LandscapeCont = styled.div`
 //////////////// Img
 
 export const PhotoImg = styled.img`
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
