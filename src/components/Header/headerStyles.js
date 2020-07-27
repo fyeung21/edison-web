@@ -57,6 +57,10 @@ export const NavMainCont = styled.div`
 `
 export const NavCont = styled.div`
     margin: 0 1.5rem 0 0;
+
+    @media (min-width: ${theme.tabletSize}) {
+        margin: 0;
+    }
 `
 export const NavClickCont = styled.div`
     margin: 0 1.75rem;
