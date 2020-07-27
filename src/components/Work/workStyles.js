@@ -8,7 +8,7 @@ export const WorkCont = styled.div`
     margin: 0 0 2rem;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-        margin: 0 1rem 2rem;
+        margin: 0 0 2rem;
     }
     @media (min-width: ${theme.tabletSize}) {
         margin: 0 0 4rem;

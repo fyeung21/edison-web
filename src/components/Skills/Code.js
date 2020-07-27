@@ -1,15 +1,23 @@
 import React from "react";
-import { SkillsSubCont, SkillHeading, SkillTxt } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import CodeBrace from "../Icons/CodeBrace";
 
 const Code = () => {
     return (
         <SkillsSubCont>
-            <SkillHeading>code</SkillHeading>
-            <SkillTxt>html</SkillTxt>
-            <SkillTxt>css</SkillTxt>
-            <SkillTxt>javascript</SkillTxt>
-            <SkillTxt>nodejs</SkillTxt>
-        </SkillsSubCont>
+            <Flex>
+                <IconCont>
+                    <CodeBrace />
+                </IconCont>
+                <TxtCont>
+                    <SkillHeading>code</SkillHeading>
+                    <Txt>html</Txt>
+                    <Txt>css</Txt>
+                    <Txt>javascript</Txt>
+                    <Txt>nodejs</Txt>
+                </TxtCont>
+            </Flex>
+        </SkillsSubCont >
     );
 }
 

@@ -1,14 +1,22 @@
 import React from "react";
-import { SkillsSubCont, SkillHeading, SkillTxt } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import Award from "../Icons/Award";
 
 const Experience = () => {
     return (
         <SkillsSubCont>
-            <SkillHeading>experience</SkillHeading>
-            <SkillTxt>ux + ui designer</SkillTxt>
-            <SkillTxt>design teaching assistant</SkillTxt>
-            <SkillTxt>financial advisor</SkillTxt>
-            <SkillTxt>retail supervisor</SkillTxt>
+            <Flex>
+                <IconCont>
+                    <Award />
+                </IconCont>
+                <TxtCont>
+                    <SkillHeading>experience</SkillHeading>
+                    <Txt>ux + ui designer</Txt>
+                    <Txt>design teaching assistant</Txt>
+                    <Txt>financial advisor</Txt>
+                    <Txt>retail supervisor</Txt>
+                </TxtCont>
+            </Flex>
         </SkillsSubCont>
     );
 }

@@ -1,15 +1,23 @@
 import React from "react";
-import { SkillsSubCont, SkillHeading, SkillTxt } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import MountSun from "../Icons/MountSun";
 
 const Design = () => {
     return (
         <SkillsSubCont>
-            <SkillHeading>design</SkillHeading>
-            <SkillTxt>adobe suite</SkillTxt>
-            <SkillTxt>sketch</SkillTxt>
-            <SkillTxt>figma</SkillTxt>
-            <SkillTxt>invision</SkillTxt>
-            <SkillTxt>principle</SkillTxt>
+            <Flex>
+                <IconCont>
+                    <MountSun />
+                </IconCont>
+                <TxtCont>
+                    <SkillHeading>design</SkillHeading>
+                    <Txt>adobe suite</Txt>
+                    <Txt>sketch</Txt>
+                    <Txt>figma</Txt>
+                    <Txt>invision</Txt>
+                    <Txt>principle</Txt>
+                </TxtCont>
+            </Flex>
         </SkillsSubCont>
     );
 }

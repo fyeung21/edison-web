@@ -1,14 +1,22 @@
 import React from "react";
-import { SkillsSubCont, SkillHeading, SkillTxt } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import BookOpen from "../Icons/BookOpen";
 
 const Education = () => {
     return (
         <SkillsSubCont>
-            <SkillHeading>education</SkillHeading>
-            <SkillTxt>certificate in nodejs</SkillTxt>
-            <SkillTxt>user experience design diploma</SkillTxt>
-            <SkillTxt>certificate in general fine arts</SkillTxt>
-            <SkillTxt>bachelor of business administration in marketing management</SkillTxt>
+            <Flex>
+                <IconCont>
+                    <BookOpen />
+                </IconCont>
+                <TxtCont>
+                    <SkillHeading>education</SkillHeading>
+                    <Txt>certificate in nodejs</Txt>
+                    <Txt>user experience design diploma</Txt>
+                    <Txt>certificate in general fine arts</Txt>
+                    <Txt>bachelor of business administration in marketing management</Txt>
+                </TxtCont>
+            </Flex>
         </SkillsSubCont>
     );
 }

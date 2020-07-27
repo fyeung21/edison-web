@@ -1,5 +1,4 @@
 import React from "react";
-import { MainCont } from "../components/globalStyles";
 import { PhotoCont } from "../components/Photo/photoStyles";
 import Portrait from "../components/Photo/Portrait";
 import Landscape from "../components/Photo/Landscape";

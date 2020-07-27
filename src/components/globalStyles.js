@@ -17,7 +17,7 @@ export const MainCont = styled.div`
     margin: 2.5rem auto;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 400px;
+      width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;
