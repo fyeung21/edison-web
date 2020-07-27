@@ -13,8 +13,9 @@ const Pokemondb = () => {
                 projectTime={"2.0 weeks"}
                 myRole={"UX + UI + Dev"}
                 tools={"PUG / CSS / JS / NodeJS / Bootstrap / Miro / Figma / Photoshop"}
-                platform={"Desktop Website"}
-                presentation={"https://pokemon-db-web.herokuapp.com/"}
+                platform={"desktop website"}
+                github={"https://github.com/kedison/pokemon-web-db"}
+                demo={"https://pokemon-db-web.herokuapp.com/"}
             />
             <Description>
                 A project that focuses on creating a backend database with NodeJS. This is a demo of

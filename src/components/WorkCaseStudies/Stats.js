@@ -2,7 +2,7 @@ import React from "react";
 import { StatsMainCont, ProjectTitle, StatsSubCont, TypeCont, Category, DataTxt, PresLink } from "./caseStyles";
 import { Container } from "../globalStyles";
 
-const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation }) => {
+const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, demo, team, client }) => {
     return (
         <Container>
             <StatsMainCont>
@@ -24,10 +24,46 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                         <Category>platform</Category>
                         <DataTxt>{platform}</DataTxt>
                     </TypeCont>
-                    <TypeCont>
-                        <Category>presentation</Category>
-                        <PresLink href={presentation}>case study link</PresLink>
-                    </TypeCont>
+
+                    {presentation ?
+                        <TypeCont>
+                            <Category>presentation</Category>
+                            <PresLink href={presentation}>case study link</PresLink>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {github ?
+                        <TypeCont>
+                            <Category>github</Category>
+                            <PresLink href={github}>github link</PresLink>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {demo ?
+                        <TypeCont>
+                            <Category>presentation</Category>
+                            <PresLink href={demo}>demo link</PresLink>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {team ?
+                        <TypeCont>
+                            <Category>team breakdown</Category>
+                            <DataTxt>{team}</DataTxt>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {client ?
+                        <TypeCont>
+                            <Category>client</Category>
+                            <DataTxt>{client}</DataTxt>
+                        </TypeCont>
+                        : null
+                    }
                 </StatsSubCont>
             </StatsMainCont>
         </Container>

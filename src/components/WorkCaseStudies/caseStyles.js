@@ -24,7 +24,18 @@ export const BannerImg = styled.img`
 ///////////// Stats
 
 export const StatsMainCont = styled.div`
-    margin: 4rem auto 8rem;
+    width: 325px;
+    margin: 4rem auto;
+
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        width: 365px;
+    }
+    @media (min-width: ${theme.tabletSize}) {
+        width: 650px;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        width: 1000px;
+    }
 `
 
 export const ProjectTitle = styled.h1`
@@ -41,7 +52,7 @@ export const StatsSubCont = styled.div`
     flex-direction: column;
     margin: 1rem 0;
 
-    @media (min-width: ${theme.desktopSize}) {
+    @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -50,9 +61,11 @@ export const StatsSubCont = styled.div`
 export const TypeCont = styled.div`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0.75rem 0;
     
-    @media (min-width: ${theme.desktopSize}) {
+    @media (min-width: ${theme.tabletSize}) {
+        width: 225px;
         margin: 2rem 6rem 2rem 0;
     }
 `
@@ -67,6 +80,7 @@ export const DataTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
+    line-height: 26px;
 `
 export const PresLink = styled.a`
     font-family: ${theme.bodyFont};
@@ -112,7 +126,7 @@ export const Description = styled.p`
     margin: 1rem auto 2rem;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 400px;
+      width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;

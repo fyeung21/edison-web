@@ -11,10 +11,12 @@ const CoopRadio = () => {
             <Stats
                 projectName={"Coop Radio"}
                 projectTime={"2.5 weeks"}
-                myRole={"UX & UI"}
+                myRole={"UX + UI"}
                 tools={"Sketch / Illustrator / Photoshop / Miro / Invision"}
                 platform={"desktop website"}
                 presentation={"https://medium.com/@koedison/microsite-radio-program-e574885c5312"}
+                team={"3 UX / 3 UI / 4 Dev "}
+                client={"Vancouver Coop Radio"}
             />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
