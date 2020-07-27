@@ -7,6 +7,9 @@ export const WorkCont = styled.div`
     flex-direction: column;
     margin: 0 0 2rem;
 
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        margin: 0 1rem 2rem;
+    }
     @media (min-width: ${theme.tabletSize}) {
         margin: 0 0 4rem;
     }
@@ -23,10 +26,10 @@ export const WorkCont = styled.div`
 export const TallCont = styled.div`
     display: flex;
     position: relative;
-    width: 325px;
+    height: 446px;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 400px;
+        height: 546px;
     }
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
@@ -41,10 +44,10 @@ export const TallCont = styled.div`
 export const WideCont = styled.div`
     display: flex;
     position: relative;
-    width: 325px;
+    height: 446px;
     
     @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 400px;
+        height: 546px;
     }
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
