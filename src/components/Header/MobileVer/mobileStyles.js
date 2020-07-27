@@ -32,6 +32,7 @@ export const BottomBarCont = styled.div`
     bottom: 0;
     border-top: 1px solid ${({ theme }) => theme.inactiveTxtColor};
     background-color: ${({ theme }) => theme.headerBkgColor};
+    backdrop-filter: blur(4px);
 
     @media (min-width: ${theme.tabletSize}) {
         display: none;
