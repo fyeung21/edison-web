@@ -8,6 +8,9 @@ export const MobileHeadCont = styled.div`
         top: 0;
         padding: 1rem 0;
 
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        padding: 1rem 0 1rem 1rem;
+    }
     @media (min-width: ${theme.tabletSize}) {
         display: none;
     }
