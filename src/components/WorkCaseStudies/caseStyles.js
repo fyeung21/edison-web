@@ -167,9 +167,6 @@ export const ProjectNavCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
         padding: 2rem;
     }
-    @media (min-width: ${theme.desktopSize}) {
-        width: 1000px;
-    }
 `
 export const NavCardCont = styled.div`
     overflow: hidden;
@@ -178,6 +175,10 @@ export const NavCardCont = styled.div`
 
     @media (min-width: ${theme.skinnyWindowSize}) {
         width: 250px;
+        margin: 0 1rem;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        width: 300px;
         margin: 0 1rem;
     }
 `
@@ -190,6 +191,9 @@ export const CardImg = styled.img`
 
     @media (min-width: ${theme.skinnyWindowSize}) {
         height: 200px;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        height: 250px;
     }
 `
 export const CardTitle = styled.p`
