@@ -3,6 +3,7 @@ import { CaseStudyCont, ContentHeading, Description } from "../../components/Wor
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
+import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Ecommerce = () => {
     return (
@@ -11,7 +12,7 @@ const Ecommerce = () => {
             <Stats
                 projectName={"E-commerce Retail"}
                 projectTime={"2.0 weeks"}
-                myRole={"UX & UI"}
+                myRole={"UX + UI"}
                 tools={"Sketch / Miro / Invision"}
                 platform={"desktop website"}
                 presentation={"https://medium.com/@koedison/e-commerce-store-bicycles-1c3f1ed86c6e"}
@@ -46,6 +47,7 @@ const Ecommerce = () => {
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
+            <ProjectNav />
         </CaseStudyCont>
     );
 }

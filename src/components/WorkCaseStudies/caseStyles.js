@@ -146,7 +146,7 @@ export const ContentHeading = styled.h2`
     margin: 0 auto;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 400px;
+      width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;
@@ -154,4 +154,48 @@ export const ContentHeading = styled.h2`
     @media (min-width: ${theme.desktopSize}) {
       width: 1000px;
     }
+`
+
+///////////////// Project Navigation
+
+export const ProjectNavCont = styled.div`
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 2rem 0.5rem 1rem;
+    margin: 0 auto;
+
+    @media (min-width: ${theme.tabletSize}) {
+        padding: 2rem;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        width: 1000px;
+    }
+`
+export const NavCardCont = styled.div`
+    overflow: hidden;
+    width: 200px;
+    margin: 0 0.5rem;
+
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        width: 250px;
+        margin: 0 1rem;
+    }
+`
+export const CardImg = styled.img`
+    height: 150px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
+
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        height: 200px;
+    }
+`
+export const CardTitle = styled.p`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    color: ${({ theme }) => theme.mainTxtColor};
+    line-height: 30px;
 `

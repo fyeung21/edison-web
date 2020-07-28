@@ -3,6 +3,7 @@ import { CaseStudyCont, Description, ContentHeading } from "../../components/Wor
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
+import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Genomic = () => {
     return (
@@ -68,7 +69,7 @@ const Genomic = () => {
             <ProjectImg
                 projectImg={"https://via.placeholder.com/650x450/d3d3d3"}
             />
-
+            <ProjectNav />
         </CaseStudyCont >
     );
 }

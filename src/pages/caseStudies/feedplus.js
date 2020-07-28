@@ -3,6 +3,7 @@ import { CaseStudyCont, Description } from "../../components/WorkCaseStudies/cas
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
+import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Feedplus = () => {
     return (
@@ -11,7 +12,7 @@ const Feedplus = () => {
             <Stats
                 projectName={"feed+"}
                 projectTime={"2.5 weeks"}
-                myRole={"UX & UI"}
+                myRole={"UX + UI"}
                 tools={"Sketch / Illustrator / Photoshop / Miro / Invision"}
                 platform={"iOS Mobile App"}
                 presentation={"https://www.canva.com/design/DADmU9T-5IA/UN2lqk3J2f09zNs6qYIRfw/view?utm_content=DADmU9T-5IA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"}
@@ -33,6 +34,7 @@ const Feedplus = () => {
                 strict mode to lock users out when a specified time or post limit is reached.
                 </Description>
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
+            <ProjectNav />
         </CaseStudyCont>
     );
 }
