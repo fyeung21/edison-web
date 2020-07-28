@@ -55,7 +55,6 @@ export const StatsSubCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 `
 export const TypeCont = styled.div`
