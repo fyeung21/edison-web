@@ -21,7 +21,7 @@ export const darkTheme = {
     dotColor: "#CCCCCC",
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
     toggleBorder: "#121212",
-    imgBrightness: "83%",
+    imgBrightness: "90%",
     cardHoverColor: "rgba(18, 18, 18, 0.90)"
 }
 

@@ -161,44 +161,35 @@ export const ProjectNavCont = styled.div`
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    padding: 2rem 0.5rem 1rem;
+    padding: 7rem 2rem 2rem;
     margin: 0 auto;
 
     @media (min-width: ${theme.tabletSize}) {
-        padding: 2rem;
+        padding: 10rem 2rem 2rem
     }
 `
 export const NavCardCont = styled.div`
     overflow: hidden;
-    width: 200px;
-    margin: 0 0.5rem;
-
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 250px;
-        margin: 0 1rem;
-    }
-    @media (min-width: ${theme.desktopSize}) {
-        width: 300px;
-        margin: 0 1rem;
-    }
+    width: 350px;
+    margin: 0 1rem;
 `
 export const CardImg = styled.img`
-    height: 150px;
+    height: 250px;
     width: 100%;
     border-radius: 25px;
     object-fit: cover;
-    filter: brightness(${({ theme }) => theme.imgBrightness});
+    filter: grayscale(100%) brightness(${({ theme }) => theme.imgBrightness});
+    transition: filter .5s linear;
+
+    :hover {
+        filter:grayscale(0%) brightness(${({ theme }) => theme.imgBrightness});
+        transition: filter .08s linear;
+    }
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-        height: 200px;
+        height: 250px;
     }
     @media (min-width: ${theme.desktopSize}) {
         height: 250px;
     }
-`
-export const CardTitle = styled.p`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.bodyFontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-    line-height: 30px;
 `
