@@ -2,7 +2,11 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const CaseStudyCont = styled.div`
-    margin: 2.5rem 0 5rem;
+    margin: 2rem 0 5rem;
+
+    @media (min-width: ${theme.tabletSize}) {
+        margin: 0 0 5rem;
+    }
 `
 
 ///////////// Banner

@@ -4,7 +4,7 @@ import { theme } from "../Theme";
 ///////////////// Main Container for photo.js
 
 export const PhotoCont = styled.div`
-    margin: 2.5rem auto;
+    margin: 2rem auto;
 
     @media (min-width: ${theme.tabletSize}) {
         width: 650px;
