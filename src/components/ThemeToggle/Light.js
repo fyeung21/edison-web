@@ -5,7 +5,7 @@ import { Sun } from "react-feather";
 const Light = () => {
     return (
         <ThemeCont >
-            <Sun color={"#858585"} size={21} />
+            <Sun color={"#BBBBBB"} size={21} />
         </ThemeCont>
     );
 };

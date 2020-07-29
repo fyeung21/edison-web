@@ -8,7 +8,7 @@ export const ThemeBtn = styled.button`
     overflow: hidden;
     position: relative;
     outline: none;
-    padding-right: 0;
+    padding: 0;
 `
 export const ThemeCont = styled.div`
     display: flex;

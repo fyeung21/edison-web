@@ -5,7 +5,7 @@ import { Moon } from "react-feather";
 const Dark = () => {
     return (
         <ThemeCont>
-            <Moon color={"#858585"} size={21} />
+            <Moon color={"#BBBBBB"} size={21} />
         </ThemeCont>
     );
 };

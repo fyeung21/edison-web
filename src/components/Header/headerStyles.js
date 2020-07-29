@@ -26,11 +26,6 @@ export const HeaderSubCont = styled.div`
     }
 `
 
-export const MenuCont = styled.div`
-    display: flex;
-    align-items: center;
-`
-
 ////////////// Logo
 
 export const LogoText = styled.h4`
@@ -42,38 +37,31 @@ export const LogoText = styled.h4`
 
 //////////////  Nav
 
-export const NavMainCont = styled.div`
+export const NavCont = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
-
-    @media (min-width: ${theme.tabletSize}) {
-        flex-direction: row;
-        margin: 0;
-    }
-`
-export const NavCont = styled.div`
-    margin: 0 1.5rem 0 0;
+    width: 365px;
 
     @media (min-width: ${theme.tabletSize}) {
         margin: 0;
-    }
-`
-export const NavClickCont = styled.div`
-    margin: 0 1.75rem;
-
-    @media (min-width: ${theme.tabletSize}) {
-        margin: 0;
+        width: 320px;
     }
 `
 export const IconCont = styled.div`
+    color: ${({ theme }) => theme.inactiveTxtColor};
+    
+    :hover {
+        color: ${({ theme }) => theme.mainTxtColor};
+    }
+
     @media (min-width: ${theme.tabletSize}) {
         display: none;
     }
 `
-export const NavTxt = styled.h3`
+export const NavTxt = styled.p`
     display: none;
 
     @media (min-width: ${theme.tabletSize}) {
@@ -81,7 +69,6 @@ export const NavTxt = styled.h3`
         font-family: ${theme.bodyFont};
         font-size: ${theme.bodyFontSize};
         color: ${({ theme }) => theme.mainTxtColor};
-        margin: 0 1.5rem;
 
         :hover {
             color: ${({ theme }) => theme.hoverTxtColor};

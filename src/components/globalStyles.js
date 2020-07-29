@@ -61,3 +61,7 @@ export const Heading = styled.h2`
 export const linkStyle = {
   textDecoration: 'none'
 }
+
+export const activeStyle = {
+  color: "#000"
+}
