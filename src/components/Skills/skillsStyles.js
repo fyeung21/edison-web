@@ -16,7 +16,8 @@ export const Flex = styled.div`
     flex-direction: row;
 `
 export const IconCont = styled.div`
-    margin: .75rem 0.75rem 0 0;
+    color: ${({ theme }) => theme.mainTxtColor};
+    margin: 0.75rem 0.75rem 0 0;
 `
 export const SkillHeading = styled.p`
     font-family: ${theme.bodyFont};
