@@ -34,7 +34,7 @@ export const Container = styled.div`
     margin: 0 auto;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 400px;
+      width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;

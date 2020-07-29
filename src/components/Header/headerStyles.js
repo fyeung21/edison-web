@@ -43,8 +43,11 @@ export const NavCont = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
-    width: 365px;
+    width: 325px;
 
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        width: 365px;
+    }
     @media (min-width: ${theme.tabletSize}) {
         margin: 0;
         width: 320px;

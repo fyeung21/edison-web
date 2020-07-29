@@ -6,9 +6,7 @@ const Footer = () => {
     return (
         <Container>
             <FooterCont>
-                <FooterTxt>
-                    copyright &copy; 2020
-            </FooterTxt>
+                <FooterTxt> copyright &copy; 2020 </FooterTxt>
                 <ContactLink href="https://www.linkedin.com/in/koedison/">LinkedIn</ContactLink>
                 <ContactLink href="https://www.linkedin.com/in/koedison/">Email</ContactLink>
             </FooterCont>

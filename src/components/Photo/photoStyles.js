@@ -4,7 +4,7 @@ import { theme } from "../Theme";
 ///////////////// Main Container for photo.js
 
 export const PhotoCont = styled.div`
-    margin: 2.5rem auto 0;
+    margin: 2.5rem auto;
 
     @media (min-width: ${theme.tabletSize}) {
         width: 650px;
@@ -19,7 +19,7 @@ export const PhotoCont = styled.div`
 export const PositionCont = styled.div`
     display: flex;
     justify-content: flex-end;
-    margin: 0 0 4rem;
+    margin: 0;
 
     @media (min-width: ${theme.tabletSize}) {
         margin: 0 0 10rem;
@@ -31,11 +31,7 @@ export const PositionCont = styled.div`
 //////////////// Portrait/Landscape Cont
 
 export const PortraitCont = styled.div`
-    height: 565px;
 
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        height: 620px;
-    }
     @media (min-width: ${theme.tabletSize}) {
         width: 645px;
         height: 965px;
@@ -46,7 +42,10 @@ export const PortraitCont = styled.div`
 `
 
 export const LandscapeCont = styled.div`
-    width: 875px;
+
+    @media (min-width: ${theme.tabletSize}) {
+        width: 875px;
+    }
 `
 
 //////////////// Img
