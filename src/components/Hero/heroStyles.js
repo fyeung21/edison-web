@@ -53,16 +53,12 @@ export const LinkCont = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-`
-export const Txt = styled.h3`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     :hover {
         color: ${({ theme }) => theme.hoverTxtColor};
     }
 `
-export const iconStyle = {
-    fontWeight: 600,
-    margin: 3
-}
+export const Txt = styled.h3`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.h3FontSize};
+`

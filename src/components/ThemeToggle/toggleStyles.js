@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../Theme";
 
 export const ThemeBtn = styled.button`
     background-color: transparent;
@@ -14,4 +15,17 @@ export const ThemeCont = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+`
+export const ThemeIconCont = styled.div`
+    color: ${({ theme }) => theme.inactiveTxtColor};
+    :hover {
+        color: ${({ theme }) => theme.mainTxtColor};
+    }
+
+    @media (min-width: ${theme.tabletSize}) {
+        color: ${({ theme }) => theme.mainTxtColor};
+        :hover {
+            color: ${({ theme }) => theme.hoverTxtColor};
+        }
+    }
 `

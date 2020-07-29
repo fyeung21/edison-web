@@ -1,11 +1,13 @@
 import React from "react";
-import { ThemeCont } from "./toggleStyles";
-import { Sun } from "react-feather";
+import { ThemeCont, ThemeIconCont } from "./toggleStyles";
+import Sun from "../Icons/Sun";
 
 const Light = () => {
     return (
         <ThemeCont >
-            <Sun color={"#BBBBBB"} size={21} />
+            <ThemeIconCont>
+                <Sun />
+            </ThemeIconCont>
         </ThemeCont>
     );
 };

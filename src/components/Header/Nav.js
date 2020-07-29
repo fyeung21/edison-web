@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { linkStyle } from "../globalStyles";
-import { NavCont, NavTxt, IconCont } from "./headerStyles";
+import { NavCont, NavTxt, NavIconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
 import MountSun from "../Icons/MountSun";
 import UserIcon from "../Icons/UserIcon";
@@ -11,24 +11,24 @@ const Nav = ({ children }) => {
     return (
         <NavCont>
             <Link to="/work" style={linkStyle}>
-                <IconCont>
+                <NavIconCont>
                     <Edit />
-                </IconCont>
+                </NavIconCont>
                 <NavTxt>work</NavTxt>
             </Link>
 
             <Link to="/photo" style={linkStyle}>
-                <IconCont>
+                <NavIconCont>
                     <MountSun />
-                </IconCont>
+                </NavIconCont>
                 <NavTxt>photo</NavTxt>
             </Link>
 
 
             <Link to="/about" style={linkStyle}>
-                <IconCont>
+                <NavIconCont>
                     <UserIcon />
-                </IconCont>
+                </NavIconCont>
                 <NavTxt>about</NavTxt>
             </Link>
 

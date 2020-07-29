@@ -1,11 +1,13 @@
 import React from "react";
-import { ThemeCont } from "./toggleStyles";
-import { Moon } from "react-feather";
+import { ThemeCont, ThemeIconCont } from "./toggleStyles";
+import Moon from "../Icons/Moon";
 
 const Dark = () => {
     return (
         <ThemeCont>
-            <Moon color={"#BBBBBB"} size={21} />
+            <ThemeIconCont>
+                <Moon />
+            </ThemeIconCont>
         </ThemeCont>
     );
 };

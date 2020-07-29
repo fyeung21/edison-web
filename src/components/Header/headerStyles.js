@@ -53,9 +53,8 @@ export const NavCont = styled.div`
         width: 320px;
     }
 `
-export const IconCont = styled.div`
+export const NavIconCont = styled.div`
     color: ${({ theme }) => theme.inactiveTxtColor};
-    
     :hover {
         color: ${({ theme }) => theme.mainTxtColor};
     }
