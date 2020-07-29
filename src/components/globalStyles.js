@@ -48,7 +48,7 @@ export const Container = styled.div`
 
 export const Heading = styled.h2`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h5FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
 
     @media (min-width: ${theme.desktopSize}) {

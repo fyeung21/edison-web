@@ -13,14 +13,13 @@ export const HeroCont = styled.div`
 
 export const HeroTxt = styled.h1`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h5FontSize};
+    font-size: ${theme.h2FontSize};
     font-weight: 500;
     color: ${({ theme }) => theme.mainTxtColor};
     line-height: 40px;
     width: 340px;
 
     @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h2FontSize};
         line-height: 60px;
         width: 350px;
     }
@@ -43,13 +42,9 @@ export const HeroSubCont = styled.div`
 `
 export const SubTxt = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h6FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 1rem 0 4rem;
-
-    @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h3FontSize};
-    }
 `
 
 //////////////// LinkToWork
@@ -61,14 +56,10 @@ export const LinkCont = styled.div`
 `
 export const Txt = styled.h3`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h6FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     :hover {
         color: ${({ theme }) => theme.hoverTxtColor};
-    }
-
-    @media (min-width: ${theme.tabletSize}) {
-        font-size: ${theme.h3FontSize};
     }
 `
 export const iconStyle = {
