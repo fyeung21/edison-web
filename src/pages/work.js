@@ -3,6 +3,8 @@ import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
 import Wide from "../components/Work/Wide";
 import Tall from "../components/Work/Tall";
+import NoLinkTall from "../components/Work/NoLinkTall";
+import NoLinkWide from "../components/Work/NoLinkWide";
 
 const Work = () => {
     return (
@@ -56,17 +58,15 @@ const Work = () => {
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/work/concepts"}
                 />
-                <Tall
+                <NoLinkTall
                     title={"AssistList"}
                     description={null}
                     img={require("../assets/case-studies/coverimage-assistlist.jpg")}
-                    link={null}
                 />
-                <Wide
+                <NoLinkWide
                     title={"Skyrocket Digital"}
                     description={null}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
-                    link={null}
                 />
 
             </WorkCont>
