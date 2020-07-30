@@ -21,6 +21,9 @@ export const HeaderSubCont = styled.div`
         width: 650px;
         margin: 0 auto;
     }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 850px;
+    }
     @media (min-width: ${theme.desktopSize}) {
         width: 1000px;
     }

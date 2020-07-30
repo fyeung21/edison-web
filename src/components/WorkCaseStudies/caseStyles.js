@@ -28,18 +28,7 @@ export const BannerImg = styled.img`
 ///////////// Stats
 
 export const StatsMainCont = styled.div`
-    width: 325px;
-    margin: 4rem auto;
-
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 365px;
-    }
-    @media (min-width: ${theme.tabletSize}) {
-        width: 650px;
-    }
-    @media (min-width: ${theme.desktopSize}) {
-        width: 1000px;
-    }
+    margin: 4rem 0;
 `
 
 export const ProjectTitle = styled.h1`
@@ -72,8 +61,14 @@ export const TypeCont = styled.div`
     margin: 0.75rem 0;
     
     @media (min-width: ${theme.tabletSize}) {
-        width: 225px;
-        margin: 2rem 6rem 2rem 0;
+        width: 175px;
+        margin: 2rem 2rem 2rem 0;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        margin: 2rem 2.25rem 2rem 0;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        margin: 2rem 4.5rem 2rem 0;
     }
 `
 export const Category = styled.h1`
@@ -122,7 +117,7 @@ export const Image = styled.img`
     }
 `
 
-////////////////// Description 
+////////////////// Description (found in case study pages, not in a component)
 
 export const Description = styled.p`
     font-family: ${theme.bodyFont};
@@ -133,13 +128,16 @@ export const Description = styled.p`
     margin: 1rem auto 2rem;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 365px;
+        width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
-      width: 650px;
+        width: 650px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 850px;
     }
     @media (min-width: ${theme.desktopSize}) {
-      width: 1000px;
+        width: 1000px;
     }
 `
 
@@ -153,13 +151,16 @@ export const ContentHeading = styled.h2`
     margin: 0 auto;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 365px;
+        width: 365px;
     }
     @media (min-width: ${theme.tabletSize}) {
-      width: 650px;
+        width: 650px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 850px;
     }
     @media (min-width: ${theme.desktopSize}) {
-      width: 1000px;
+        width: 1000px;
     }
 `
 

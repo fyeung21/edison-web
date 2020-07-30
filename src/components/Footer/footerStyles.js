@@ -4,10 +4,10 @@ import { theme } from "../Theme";
 export const FooterCont = styled.div`
     display: flex;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
-        margin-bottom: 3.5rem;
+        margin: 3.5rem 0;
     }
 `
 export const FooterTxt = styled.p`

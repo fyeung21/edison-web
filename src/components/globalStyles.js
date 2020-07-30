@@ -22,6 +22,9 @@ export const MainCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;
     }
+    @media (min-width: ${theme.smallLaptopSize}) {
+      width: 850px;
+    }
     @media (min-width: ${theme.desktopSize}) {
       width: 1000px;
     }
@@ -38,6 +41,9 @@ export const Container = styled.div`
     }
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+      width: 850px;
     }
     @media (min-width: ${theme.desktopSize}) {
       width: 1000px;

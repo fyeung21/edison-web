@@ -1,10 +1,10 @@
 import React from "react";
-import { Heading } from "../globalStyles";
-import { AboutCont, AboutTxt } from "./aboutStyles";
+import { MainCont, Heading } from "../globalStyles";
+import { AboutTxt } from "./aboutStyles";
 
 const AboutMe = () => {
     return (
-        <AboutCont>
+        <MainCont>
             <Heading>about.</Heading>
             <AboutTxt>
                 The limitless universe of art has sparked a curiosity in me. I categorize myself as
@@ -35,7 +35,7 @@ const AboutMe = () => {
             <AboutTxt>
                 PS: If you know of any good books please recommend them to me!
             </AboutTxt>
-        </AboutCont>
+        </MainCont>
     );
 }
 

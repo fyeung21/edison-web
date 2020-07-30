@@ -35,6 +35,10 @@ export const TallCont = styled.div`
         height: 446px;
         width: 650px;
     }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        height: 500px;
+        width: 850px;
+    }
     @media (min-width: ${theme.desktopSize}) {
         height: 448px;
         width: 317px;
@@ -52,6 +56,10 @@ export const WideCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
         height: 446px;
         width: 650px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        height: 500px;
+        width: 850px;
     }
     @media (min-width: ${theme.desktopSize}) {
         height: 446px;
@@ -116,13 +124,16 @@ export const CardDesc = styled.p`
         display: block;
     }
 `
-///////////// Container for Mobile/Tablet version
+///////////// Container for Mobile/Tablet version's Card Info
 
 export const MobileVer = styled.div`
     margin: 1.5rem 0 5rem;
 
     @media (min-width: ${theme.tabletSize}) {
         margin: 2rem 0 6rem;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        margin: 1rem 0 4rem;
     }
     @media (min-width: ${theme.desktopSize}) {
         display: none;

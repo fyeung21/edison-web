@@ -9,6 +9,9 @@ export const PhotoCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
         width: 650px;
     }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 850px;
+    }
     @media (min-width: ${theme.desktopSize}) {
         width: 1000px;
     }
@@ -36,8 +39,8 @@ export const PortraitCont = styled.div`
         width: 645px;
         height: 965px;
     }
-    @media (min-width: ${theme.desktopSize}) {
-        height: 965px;
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 600px;
     }
 `
 
