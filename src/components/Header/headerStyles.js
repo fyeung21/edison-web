@@ -50,13 +50,13 @@ export const NavCont = styled.div`
     }
     @media (min-width: ${theme.tabletSize}) {
         margin: 0;
-        width: 320px;
+        width: 256px;
     }
 `
 export const NavIconCont = styled.div`
     color: ${({ theme }) => theme.inactiveTxtColor};
     :hover {
-        color: ${({ theme }) => theme.mainTxtColor};
+        color: ${({ theme }) => theme.hoverTxtColor};
     }
 
     @media (min-width: ${theme.tabletSize}) {

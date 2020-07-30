@@ -19,7 +19,7 @@ export const ThemeCont = styled.div`
 export const ThemeIconCont = styled.div`
     color: ${({ theme }) => theme.inactiveTxtColor};
     :hover {
-        color: ${({ theme }) => theme.mainTxtColor};
+        color: ${({ theme }) => theme.hoverTxtColor};
     }
 
     @media (min-width: ${theme.tabletSize}) {

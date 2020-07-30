@@ -8,6 +8,6 @@ export const AboutTxt = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
-    line-height: 2.5rem;
+    line-height: 2rem;
     margin: 2rem auto;
 `

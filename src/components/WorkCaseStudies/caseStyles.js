@@ -15,7 +15,7 @@ export const BannerCont = styled.div`
     height: 400px;
 
     @media (min-width: ${theme.tabletSize}) {
-        height: 700px;
+        height: 850px;
     }
 `
 export const BannerImg = styled.img`
@@ -44,9 +44,13 @@ export const StatsMainCont = styled.div`
 
 export const ProjectTitle = styled.h1`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h2FontSize};
+    font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     font-weight: 500;
+
+    @media (min-width: ${theme.tabletSize}) {
+        font-size: ${theme.h2FontSize};
+    }
 `
 
 ////////////////// Stats SubCont

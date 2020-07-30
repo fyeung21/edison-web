@@ -95,10 +95,14 @@ export const HoverCont = styled.div`
 `
 export const CardTitle = styled.p`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h3FontSize};
+    font-size: ${theme.h4FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
-    font-weight: 500;
-    margin: 0.5rem 0 1rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+
+    @media (min-width: ${theme.tabletSize}) {
+        font-weight: 500;
+    }
 `
 export const CardDesc = styled.p`
     font-family: ${theme.bodyFont};
@@ -115,10 +119,10 @@ export const CardDesc = styled.p`
 ///////////// Container for Mobile/Tablet version
 
 export const MobileVer = styled.div`
-    margin: 1.5rem 0 3rem;
+    margin: 1.5rem 0 5rem;
 
     @media (min-width: ${theme.tabletSize}) {
-        margin: 2rem 0 4rem;
+        margin: 2rem 0 6rem;
     }
     @media (min-width: ${theme.desktopSize}) {
         display: none;
