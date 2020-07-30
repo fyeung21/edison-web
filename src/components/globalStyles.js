@@ -65,9 +65,12 @@ export const Heading = styled.h2`
 /////////////// JS Styling for Link to's
 
 export const linkStyle = {
-  textDecoration: 'none'
+  color: "#727272",
+  textDecoration: "none"
 }
 
-export const activeStyle = {
-  color: "#000"
+export const activeLinkStyle = {
+  color: "#2CC18F",
+  fontWeight: "400",
+  textDecoration: "none"
 }

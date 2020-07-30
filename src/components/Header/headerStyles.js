@@ -61,6 +61,9 @@ export const NavIconCont = styled.div`
     :hover {
         color: ${({ theme }) => theme.hoverTxtColor};
     }
+    :active {
+        color: ${({ theme }) => theme.activeTxtColor};
+    }
 
     @media (min-width: ${theme.tabletSize}) {
         display: none;
@@ -77,6 +80,9 @@ export const NavTxt = styled.p`
 
         :hover {
             color: ${({ theme }) => theme.hoverTxtColor};
+        }
+        :active {
+            color: ${({ theme }) => theme.activeTxtColor};
         }
     }
 `

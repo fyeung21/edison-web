@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { linkStyle } from "../globalStyles";
+import { NavLink } from "react-router-dom";
+import { linkStyle, activeLinkStyle } from "../globalStyles";
 import { NavCont, NavTxt, NavIconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
 import MountSun from "../Icons/MountSun";
@@ -10,27 +10,44 @@ import UserIcon from "../Icons/UserIcon";
 const Nav = ({ children }) => {
     return (
         <NavCont>
-            <Link to="/work" style={linkStyle}>
-                <NavIconCont>
+            {/* Work */}
+            <NavIconCont>
+                <NavLink strict to="/work/" style={linkStyle} activeStyle={activeLinkStyle}>
                     <Edit />
-                </NavIconCont>
-                <NavTxt>work</NavTxt>
-            </Link>
+                </NavLink>
+            </NavIconCont>
 
-            <Link to="/photo" style={linkStyle}>
-                <NavIconCont>
+            <NavTxt>
+                <NavLink strict to="/work/" style={linkStyle} activeStyle={activeLinkStyle}>
+                    work
+                </NavLink>
+            </NavTxt>
+
+            {/* Photography */}
+            <NavIconCont>
+                <NavLink exact to="/photo" style={linkStyle} activeStyle={activeLinkStyle}>
                     <MountSun />
-                </NavIconCont>
-                <NavTxt>photo</NavTxt>
-            </Link>
+                </NavLink>
+            </NavIconCont>
 
+            <NavTxt>
+                <NavLink exact to="/photo" style={linkStyle} activeStyle={activeLinkStyle}>
+                    photo
+                </NavLink>
+            </NavTxt>
 
-            <Link to="/about" style={linkStyle}>
-                <NavIconCont>
+            {/* About */}
+            <NavIconCont>
+                <NavLink exact to="/about" style={linkStyle} activeStyle={activeLinkStyle}>
                     <UserIcon />
-                </NavIconCont>
-                <NavTxt>about</NavTxt>
-            </Link>
+                </NavLink>
+            </NavIconCont>
+
+            <NavTxt>
+                <NavLink exact to="/about" style={linkStyle} activeStyle={activeLinkStyle}>
+                    about
+            </NavLink>
+            </NavTxt>
 
             {children}
 

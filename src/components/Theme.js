@@ -4,6 +4,7 @@ export const lightTheme = {
     mainTxtColor: "#727272",
     hoverTxtColor: "#000",
     inactiveTxtColor: "#8B8B8B",
+    activeTxtColor: "#000",
     headerBkgColor: "rgba(250, 250, 250, 0.70)",
     imgBrightness: "100%",
     cardHoverColor: "rgba(250, 250, 250, 0.95)"
@@ -14,6 +15,7 @@ export const darkTheme = {
     mainTxtColor: "#E9E9E9",
     hoverTxtColor: "#FAFAFA",
     inactiveTxtColor: "#BBBBBB",
+    activeTxtColor: "#FAFAFA",
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
     imgBrightness: "90%",
     cardHoverColor: "rgba(18, 18, 18, 0.95)"
