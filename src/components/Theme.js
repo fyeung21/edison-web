@@ -11,7 +11,7 @@ export const lightTheme = {
 
 export const darkTheme = {
     body: "#121212",
-    mainTxtColor: "#ABABAB",
+    mainTxtColor: "#E9E9E9",
     hoverTxtColor: "#FAFAFA",
     inactiveTxtColor: "#BBBBBB",
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
