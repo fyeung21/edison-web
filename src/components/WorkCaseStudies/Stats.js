@@ -2,7 +2,7 @@ import React from "react";
 import { StatsMainCont, ProjectTitle, StatsSubCont, TypeCont, Category, DataTxt, PresLink } from "./caseStyles";
 import { Container } from "../globalStyles";
 
-const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, demo, team, client }) => {
+const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, code, demo, team, client }) => {
     return (
         <Container>
             <StatsMainCont>
@@ -29,6 +29,14 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                         <TypeCont>
                             <Category>presentation</Category>
                             <PresLink href={presentation}>case study link</PresLink>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {code ?
+                        <TypeCont>
+                            <Category>code</Category>
+                            <DataTxt>{code}</DataTxt>
                         </TypeCont>
                         : null
                     }

@@ -13,8 +13,9 @@ const Pokemondb = () => {
                 projectName={"Pokemon Database"}
                 projectTime={"2.0 weeks"}
                 myRole={"UX + UI + Dev"}
-                tools={"PUG / CSS / JS / NodeJS / Bootstrap / Miro / Figma / Photoshop"}
+                tools={"Miro / Figma / Photoshop"}
                 platform={"desktop website"}
+                code={"PUG / CSS / JS / NodeJS / Bootstrap"}
                 github={"https://github.com/kedison/pokemon-web-db"}
                 demo={"https://pokemon-db-web.herokuapp.com/"}
             />
