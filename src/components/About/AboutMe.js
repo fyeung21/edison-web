@@ -1,11 +1,15 @@
 import React from "react";
 import { MainCont, Heading } from "../globalStyles";
-import { AboutTxt } from "./aboutStyles";
+import { AboutTxt, QuoteCont, Quote, QuoteAuthor } from "./aboutStyles";
 
 const AboutMe = () => {
     return (
         <MainCont>
             <Heading>about.</Heading>
+            <QuoteCont>
+                <Quote>" Design is content with intent. Content without intent is noise. Intent without content is decoration."</Quote>
+                <QuoteAuthor>- Joe Sparano</QuoteAuthor>
+            </QuoteCont>
             <AboutTxt>
                 The limitless universe of art has sparked a curiosity in me. I categorize myself as
                 an art addict, if that is a thing. Exploring all types of art has always been my

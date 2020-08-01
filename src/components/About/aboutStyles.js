@@ -1,8 +1,24 @@
 import styled from "styled-components";
 import { theme } from "../Theme";
 
-export const AboutCont = styled.div`
-    margin: 0 auto 8rem;
+export const QuoteCont = styled.div`
+    margin: 3rem auto;
+
+    @media (min-width: ${theme.smallLaptopSize}) {
+        margin: 4rem auto;
+    }
+`
+export const Quote = styled.p`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    color: ${({ theme }) => theme.activeTxtColor};
+    line-height: 2rem;
+`
+export const QuoteAuthor = styled.p`
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    color: ${({ theme }) => theme.activeTxtColor};
+    line-height: 2rem;
 `
 export const AboutTxt = styled.p`
     font-family: ${theme.bodyFont};

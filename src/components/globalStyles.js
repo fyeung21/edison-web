@@ -70,7 +70,7 @@ export const linkStyle = {
 }
 
 export const activeLinkStyle = {
-  color: "#2CC18F",
+  color: "#35AFF3",
   fontWeight: "400",
   textDecoration: "none"
 }
