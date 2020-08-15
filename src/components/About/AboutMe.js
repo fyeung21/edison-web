@@ -1,11 +1,11 @@
 import React from "react";
-import { MainCont, Heading } from "../globalStyles";
+import { MainCont, SectionHeading } from "../globalStyles";
 import { AboutTxt, QuoteCont, Quote, QuoteAuthor } from "./aboutStyles";
 
 const AboutMe = () => {
     return (
         <MainCont>
-            <Heading>about.</Heading>
+            <SectionHeading>about.</SectionHeading>
             <QuoteCont>
                 <Quote>" Design is content with intent. Content without intent is noise. Intent without content is decoration."</Quote>
                 <QuoteAuthor>- Joe Sparano</QuoteAuthor>
