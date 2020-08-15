@@ -19,7 +19,7 @@ export const IconCont = styled.div`
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 0.75rem 0.75rem 0 0;
 `
-export const SkillHeading = styled.p`
+export const SkillCategory = styled.p`
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     font-weight: 500;

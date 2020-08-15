@@ -22,7 +22,7 @@ const Photo = () => {
             <Landscape img={require("../assets/photography/edison_LE_007.jpg")} />
             <Landscape img={require("../assets/photography/edison_MS_004.jpg")} />
             <Landscape img={require("../assets/photography/edison_PT_abstract01b.jpg")} />
-            <Portrait img={require("../assets/photography/edison_MS_003.jpg")} />
+            {/* <Portrait img={require("../assets/photography/edison_MS_003.jpg")} /> */}
             <Landscape img={require("../assets/photography/edison_LK_001b.jpg")} />
             <Landscape img={require("../assets/photography/edison_WS_honey01.JPG")} />
             <Landscape img={require("../assets/photography/edison_WS_honey02.JPG")} />

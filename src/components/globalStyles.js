@@ -52,7 +52,7 @@ export const Container = styled.div`
 
 //////////////// General Section Heading
 
-export const Heading = styled.h2`
+export const SectionHeading = styled.h2`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h3FontSize};
     color: ${({ theme }) => theme.mainTxtColor};

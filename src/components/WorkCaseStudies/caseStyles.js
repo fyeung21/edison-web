@@ -117,51 +117,62 @@ export const Image = styled.img`
     }
 `
 
-////////////////// Description (found in case study pages, not in a component)
+////////////////// Styles for Writing Content (found in case study pages, not in a component)
 
-export const Description = styled.p`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.bodyFontSize};
-    color: ${({ theme }) => theme.mainTxtColor};
-    line-height: 26px;
-    width: 325px;
-    margin: 1rem auto 2rem;
+export const Columns = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0;
 
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 365px;
-    }
     @media (min-width: ${theme.tabletSize}) {
-        width: 650px;
-    }
-    @media (min-width: ${theme.smallLaptopSize}) {
-        width: 850px;
-    }
-    @media (min-width: ${theme.desktopSize}) {
-        width: 1000px;
+        flex-direction: row;
+        margin: 0;
     }
 `
+export const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
 
-export const ContentHeading = styled.h2`
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.bodyFontSize};
-    font-weight: 600;
-    color: ${({ theme }) => theme.mainTxtColor};
-    line-height: 26px;
-    width: 325px;
-    margin: 0 auto;
-
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        width: 365px;
+    :last-child {
+        margin-bottom: 0;
     }
+    
     @media (min-width: ${theme.tabletSize}) {
-        width: 650px;
+        width: 300px;
+        margin: 0;
     }
     @media (min-width: ${theme.smallLaptopSize}) {
-        width: 850px;
+        width: 400px;
     }
     @media (min-width: ${theme.desktopSize}) {
-        width: 1000px;
+        width: 475px;
+        margin: 0;
     }
+`
+export const Heading = styled.h1`
+    color: ${({ theme }) => theme.mainTxtColor};
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.h3FontSize};
+    font-weight: 400;
+    margin: 0.75rem 0 2rem;
+`
+export const SubHeading = styled.h2`
+    color: ${({ theme }) => theme.mainTxtColor};
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    font-weight: 500;
+`
+export const Description = styled.p`
+    color: ${({ theme }) => theme.mainTxtColor};
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    line-height: 30px;
+    margin: 1rem 0;
+`
+export const Spacer = styled.div`
+    margin: 4rem 0;
 `
 
 ///////////////// Project Navigation

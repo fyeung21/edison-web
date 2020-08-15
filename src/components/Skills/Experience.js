@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillCategory, Txt, TxtCont } from "./skillsStyles";
 import Award from "../Icons/Award";
 
 const Experience = () => {
@@ -10,7 +10,7 @@ const Experience = () => {
                     <Award />
                 </IconCont>
                 <TxtCont>
-                    <SkillHeading>experience</SkillHeading>
+                    <SkillCategory>experience</SkillCategory>
                     <Txt>ux + ui designer</Txt>
                     <Txt>design teaching assistant</Txt>
                     <Txt>financial advisor</Txt>

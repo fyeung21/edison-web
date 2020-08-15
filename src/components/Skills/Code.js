@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsSubCont, Flex, IconCont, SkillHeading, Txt, TxtCont } from "./skillsStyles";
+import { SkillsSubCont, Flex, IconCont, SkillCategory, Txt, TxtCont } from "./skillsStyles";
 import CodeBrace from "../Icons/CodeBrace";
 
 const Code = () => {
@@ -10,7 +10,7 @@ const Code = () => {
                     <CodeBrace />
                 </IconCont>
                 <TxtCont>
-                    <SkillHeading>code</SkillHeading>
+                    <SkillCategory>code</SkillCategory>
                     <Txt>html</Txt>
                     <Txt>css</Txt>
                     <Txt>javascript</Txt>
