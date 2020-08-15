@@ -123,7 +123,6 @@ export const Columns = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
@@ -152,17 +151,18 @@ export const Content = styled.div`
     }
 `
 export const Heading = styled.h1`
-    color: ${({ theme }) => theme.mainTxtColor};
+    color: #35AFF3;
     font-family: ${theme.bodyFont};
-    font-size: ${theme.h3FontSize};
+    font-size: ${theme.h4FontSize};
     font-weight: 400;
-    margin: 0.75rem 0 2rem;
+    padding: 0rem 0 0.75rem;
 `
 export const SubHeading = styled.h2`
     color: ${({ theme }) => theme.mainTxtColor};
     font-family: ${theme.bodyFont};
     font-size: ${theme.bodyFontSize};
     font-weight: 500;
+    margin: 0.75rem 0;
 `
 export const Description = styled.p`
     color: ${({ theme }) => theme.mainTxtColor};
@@ -172,7 +172,7 @@ export const Description = styled.p`
     margin: 1rem 0;
 `
 export const Spacer = styled.div`
-    margin: 4rem 0;
+    margin: 5rem 0;
 `
 
 ///////////////// Project Navigation
