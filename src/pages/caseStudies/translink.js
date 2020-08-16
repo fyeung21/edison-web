@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { CaseStudyCont, Description, Heading, SubHeading, Columns, Content, Spacer } from "../../components/WorkCaseStudies/caseStyles";
+import { CaseStudyCont, Description, Heading, SubHeading, Columns, Content, Spacer, Image, TrioContent, TrioImgCont } from "../../components/WorkCaseStudies/caseStyles";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
@@ -135,6 +135,64 @@ const Translink = () => {
                             “ … sometimes you think North America has the latest tech, but when you look at Asia, Japan, they’ve been using mobile payments to tap way before the iPhone was even developed. Europe has been implementing ‘Express Transit’ technology, and here, we just have a website that does the bare minimum …”
                         </Description>
                     </Content>
+                </Columns>
+
+
+
+
+
+
+                <Spacer />
+
+                <SubHeading>indepth interviews</SubHeading>
+                <Columns>
+                    <Content>
+                        <Heading>Fiona-</Heading>
+                        
+                        <Description>
+                            “I transit everyday and using the website to do what I need is a hassle. It was only recently they made the site mobile friendly, but I still find it slow. Also, the machines at the stations are very dirty and line ups are usually long.”
+                        </Description>
+                    </Content>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/cardovp 4.jpg")}/>
+                    </Content>
+                </Columns>
+
+                <Spacer />
+
+                <Columns>
+                    <TrioContent>
+                        <TrioImgCont>
+                            <Image src={require("../../assets/case-studies/translink/cardovp 4.jpg")}/>
+                        </TrioImgCont>
+
+                        <Description>
+                            “ … sometimes you think North America has the latest tech, but when you look at Asia, Japan, they’ve been using mobile payments to tap way before the iPhone was even developed. Europe has been implementing ‘Express Transit’ technology, and here, we just have a website that does the bare minimum …”
+                        </Description>
+                    </TrioContent>
+
+
+                    <TrioContent>
+                        <TrioImgCont>
+                            <Image src={require("../../assets/case-studies/translink/cardovp 4.jpg")}/>
+                        </TrioImgCont>
+
+                        <Description>
+                            “ … sometimes you think North America has the latest tech, but when you look at Asia, Japan, they’ve been using mobile payments to tap way before the iPhone was even developed. Europe has been implementing ‘Express Transit’ technology, and here, we just have a website that does the bare minimum …”
+                        </Description>
+                    </TrioContent>
+
+
+                    <TrioContent>
+                        <TrioImgCont>
+                            <Image src={require("../../assets/case-studies/translink/cardovp 4.jpg")}/>
+                        </TrioImgCont>
+
+                        <Description>
+                            “ … sometimes you think North America has the latest tech, but when you look at Asia, Japan, they’ve been using mobile payments to tap way before the iPhone was even developed. Europe has been implementing ‘Express Transit’ technology, and here, we just have a website that does the bare minimum …”
+                        </Description>
+                    </TrioContent>
+                    
                 </Columns>
 
                 
