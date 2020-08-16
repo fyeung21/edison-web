@@ -173,7 +173,7 @@ export const TrioContent = styled.div`
     }
     
     @media (min-width: ${theme.smallLaptopSize}) {
-        width: 250px;
+        width: 265px;
     }
     @media (min-width: ${theme.desktopSize}) {
         width: 300px;
@@ -181,14 +181,7 @@ export const TrioContent = styled.div`
     }
 `
 export const TrioImgCont = styled.div`
-    height: 250px;
-
-    @media (min-width: ${theme.tabletSize}) {
-        height: 400px;
-    }
-    @media (min-width: ${theme.smallLaptopSize}) {
-        height: 250px;
-    }
+    object-fit: contain;
 `
 
 ///////////////// Project Navigation
