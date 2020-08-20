@@ -90,42 +90,58 @@ export const PresLink = styled.a`
     color: ${({ theme }) => theme.mainTxtColor};
 `
 
-////////////////// Image
+////////////////// ProjectImage
 
 export const ProjectImgCont = styled.div`
-    margin: 1rem 0;
-    height: 350px;
-    margin: 3rem auto;
+    margin: 0.5rem auto;
 
-    @media (min-width: ${theme.tabletSize}) {
-        height: auto;
-    }
     @media (min-width: ${theme.desktopSize}) {
-        border-radius: 25px;
         width: 1000px; 
-        margin: 4rem auto;
+        margin: 3rem auto;
     }
 `
 export const Image = styled.img`
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     filter: brightness(${({ theme }) => theme.imgBrightness});
-
-    @media (min-width: ${theme.desktopSize}) {
-        border-radius: 25px;
-    }
 `
 
 ////////////////// Styles for Writing Content (found in case study pages, not in a component)
+
+export const Heading = styled.h1`
+    color: #35AFF3;
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.h4FontSize};
+    font-weight: 400;
+    padding: 0rem 0 0.75rem;
+`
+export const SubHeading = styled.h2`
+    color: ${({ theme }) => theme.mainTxtColor};
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    font-weight: 500;
+    margin: 0.75rem 0;
+`
+export const Description = styled.p`
+    color: ${({ theme }) => theme.mainTxtColor};
+    font-family: ${theme.bodyFont};
+    font-size: ${theme.bodyFontSize};
+    line-height: 30px;
+    margin: 1rem 0;
+`
+export const Spacer = styled.div`
+    margin: 5rem 0;
+`
+
+////////////////// Styles for Columns
 
 export const Columns = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3rem 0;
 
-    @media (min-width: ${theme.tabletSize}) {
+    @media (min-width: ${theme.smallLaptopSize}) {
         flex-direction: row;
         margin: 0;
     }
@@ -139,10 +155,6 @@ export const Content = styled.div`
         margin-bottom: 0;
     }
     
-    @media (min-width: ${theme.tabletSize}) {
-        width: 300px;
-        margin: 0;
-    }
     @media (min-width: ${theme.smallLaptopSize}) {
         width: 400px;
     }
@@ -151,28 +163,25 @@ export const Content = styled.div`
         margin: 0;
     }
 `
-export const Heading = styled.h1`
-    color: ${({ theme }) => theme.mainTxtColor};
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.h3FontSize};
-    font-weight: 400;
-    margin: 0.75rem 0 2rem;
+export const TrioContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    :last-child {
+        margin-bottom: 0;
+    }
+    
+    @media (min-width: ${theme.smallLaptopSize}) {
+        width: 265px;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        width: 300px;
+        margin: 0;
+    }
 `
-export const SubHeading = styled.h2`
-    color: ${({ theme }) => theme.mainTxtColor};
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.bodyFontSize};
-    font-weight: 500;
-`
-export const Description = styled.p`
-    color: ${({ theme }) => theme.mainTxtColor};
-    font-family: ${theme.bodyFont};
-    font-size: ${theme.bodyFontSize};
-    line-height: 30px;
-    margin: 1rem 0;
-`
-export const Spacer = styled.div`
-    margin: 4rem 0;
+export const TrioImgCont = styled.div`
+    object-fit: contain;
 `
 
 ///////////////// Project Navigation
