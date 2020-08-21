@@ -282,21 +282,19 @@ const Translink = () => {
                 <SubHeading>user stories</SubHeading>
                 <Heading>as a 'blank'-</Heading>
                 <Description>
-                    As a student who transits daily, I don’t want to constantly check the arrival time of my buses so that I can focus on what matters to me the most.
+                    <ul>
+                        <li>· As a student who transits daily, I don’t want to constantly check the arrival time of my buses so that I can focus on what matters to me the most.</li>
+                        <li>· As a mother of three who manages the family’s financials, I want to manage my family’s transit cards on-the-go as well so that I have more time to take care of other financials.</li>
+                        <li>· As a regular jogger in the morning, I want my phone to do everything so that I can carry one less thing (my wallet).</li>
+                    </ul>
                 </Description>
-                <Description>
-                    As a mother of three who manages the family’s financials, I want to manage my family’s transit cards on-the-go as well so that I have more time to take care of other financials.
-                </Description>
-                <Description>
-                    As a regular jogger in the morning, I want my phone to do everything so that I can carry one less thing (my wallet).
-                </Description>
-
+               
                 <Spacer />
                 
                 <SubHeading>redefining the scope</SubHeading>
                 <Heading>mvp prioritization matrix-</Heading>
                 <Description>
-                    This project ended up being a huge project. Tackling all the points and features isn't the most strategic method. Instead, using the MVP prioritization matrix, I have divided the features into four categories: 
+                    Tackling all the points and features at once is not the most strategic method to approach this project. Instead, using the MVP prioritization matrix, I have divided the features into four categories as this will help me identify which task I should focus first:
                 </Description>
                 <Description>
                     <ul>
@@ -310,45 +308,205 @@ const Translink = () => {
                 <Spacer />
                 
                 <SubHeading>user journey map</SubHeading>
-                <Image src={require("../../assets/case-studies/translink/cardovp 1.jpg")}/>
+                <Image src={require("../../assets/case-studies/translink/journey map.jpg")}/>
 
                 <Spacer />
            
                 <SubHeading>information architecture</SubHeading>
-                <Image src={require("../../assets/case-studies/translink/cardovp 1.jpg")}/>
+                <Image src={require("../../assets/case-studies/translink/app information arc.jpg")}/>
 
                 <Spacer />
 
                 <SubHeading>user flow</SubHeading>
-                <Image src={require("../../assets/case-studies/translink/cardovp 1.jpg")}/>
+                <Image src={require("../../assets/case-studies/translink/userflow.png")}/>
                 <Spacer />
-                <Image src={require("../../assets/case-studies/translink/cardovp 1.jpg")}/>
+                <Image src={require("../../assets/case-studies/translink/userflow2.png")}/>
 
                 <Spacer />
 
-                <SubHeading>solution</SubHeading>
+                
                 <Columns>
                     <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 1.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
                         <Heading>ready to go-</Heading>
                         
                         <Description>
                             <ul>
-                                <li>1) If the user has set up the account and cards already, the next time the app is launched, it will go directly to the scanning tap with the default card selected. This will make a more seemless experience of ready-to-go.</li>
+                                <li>1) If the user has already gotten the account set-up with a card inputted, the next time the app is launched, it will go directly to the card tap screen with the default card selected. This will make a more seamless experience of ready-to-go for the user.</li>
                                 <br></br>
-                                <li>2) The default card is set by the account holder and can be changed. Selected card wlll show the card name and balance. If user finds the balance isn't updated correctly, s/he can choose to refresh it.</li>
+                                <li>2) The default card is set by the account holder and can be changed. Selected card will show the card name and balance.</li>
                                 <br></br>
-                                <li>3) In addition, the app will be ready to verify the user after the app is launched. Once verified, the user can tap at terminals.</li>
+                                <li>3) In addition, the app will be ready to verify the user once the app is launched. Once verified, the user can start tapping at terminals.</li>
                                 <br></br>
-                                <li>4) If the user decides to use other cards or manage other cards, s/he can select them at the bottom or swipe up to see the expanded view of all the cards under the account.</li>
+                                <li>4) If the user decides to use other cards or manage other cards, s/he can select them at the bottom or swipe up to see the expanded view of all the cards under the main account.</li>
                             </ul>
                         </Description>
                     </Content>
+                    
+                </Columns>
+
+                <Spacer />
+                
+                <Columns>
                     <Content>
-                        <Image src={require("../../assets/case-studies/translink/feature 1.png")}/>
+                        <Image src={require("../../assets/case-studies/translink/feature 2.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>card tap-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) During the card tapping process, there will be a pulse animation at the back of the card, stretching to 3/4 of the screen. This will give the user more visual clue. Once tap is successful, it will pop up with a 'check mark' and the word 'success' at the top. A short sound and animation of the fee ducted will be played/shown. In addition, app will also send a notification to the user of the fee deducted, transaction date and time, total balance, and card name.</li>
+                                <br></br>
+                                <li>2) If the tap was unsuccessful, the top will show 'failed' with an 'X' icon and a short description stating why it failed.</li>
+                                <br></br>
+                                <li>3) Other cards will be collapsed further to make more room for the content above, allowing more white space for user to focus on the main information. Cards are colour coded in respective to their categories of: adult, concession, contractors, CNIB, and employees.</li>
+                            </ul>
+                        </Description>
+                    </Content>
+                    
+                </Columns>
+
+                <Spacer />
+                
+                <Columns>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 3.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>card details-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) When the user selects more icon on the top right, user can access further information of the card. Here the user can manage the card's details, purchase of passes and programs.</li>
+                                <br></br>
+                                <li>2) The user will also have access to the card's history of transactions. Swiping left on the transaction; user can choose to report unrecognized transactions.</li>
+                                <br></br>
+                                <li>3) Further features can be accessed but clicking the more button. Hidden here will be more sensitive and less used features, such as managing auto-reload, request for physical card, report lost or stolen, and remove card from the account.</li>
+                            </ul>
+                        </Description>
+                    </Content>
+                    
+                </Columns>
+
+                <Spacer />
+                
+                <Columns>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 4.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>adding funds & cards-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) Within the card details panel, the user can add funds to the Compass card. A pop up will be shown to request for more details from the user. By default, the system will select the compass card that has already been selected, but user can change to add funds to another Compass card.</li>
+                                <br></br>
+                                <li>2) ) The user can also select which payment to use: credit cards and Apple Pay. If the user did not set up a payment method, user can create one by selecting add new card. A new page will be shown for the user to add the payment info.</li>
+                                <br></br>
+                                <li>3) In addition, if the user does not have a Compass card added, the user can add and purchase new Compass cards. This is to generate new Compass card numbers.</li>
+                            </ul>
+                        </Description>
                     </Content>
                 </Columns>
 
                 <Spacer />
+                
+                <Columns>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 5.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>transit map-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) Each bus station will show a specific bus route color. This allows the user to see which bus goes where across the map.</li>
+                                <br></br>
+                                <li>2) The tiny info box provides next on-coming bus schedule without the user to click in.</li>
+                                <br></br>
+                                <li>3) Once the user clicks the station, it will only show the bus routes for that selected station as each station has more than one bus.</li>
+                                <br></br>
+                                <li>4) Furthermore, user will get a pull-able card with more detailed information and features for the selected bus station.</li>
+                            </ul>
+                        </Description>
+                    </Content>
+                    
+                </Columns>
+
+                <Spacer />
+                
+                <Columns>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 6.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>transit tools-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) Further sub-features are labelled at the top in which the user can scroll left to access.</li>
+                                <br></br>
+                                <li>2) Each bus will have its own description in showing the ETA, scheduled time, next stop, occupancy level, and alerts.</li>
+                                <br></br>
+                                <li>3) Further down will show the bus station schedule for all buses, fare pricing, and photos of the station.</li>
+                                <br></br>
+                                <li>4) Tracking is a feature where the user can track a specific bus at the selected bus station. Here the user can select the timeframe of when the tracking should start and stop.</li>
+                                <br></br>
+                                <li>5) User then can select the buses s/he wants to track.</li>
+                                <br></br>
+                                <li>6) User then select how the information should be delivered to him/her. The user can make select multiple selections.</li>
+                            </ul>
+                        </Description>
+                    </Content>
+                </Columns>
+
+                <Spacer />
+
+                <Columns>
+                    <Content>
+                        <Image src={require("../../assets/case-studies/translink/feature 7.png")}/>
+                    </Content>
+                    <Content>
+                        <SubHeading>solution</SubHeading>
+                        <Heading>home & Apple Pay-</Heading>
+                        
+                        <Description>
+                            <ul>
+                                <li>1) There is also a 'home' tab that will store all the other basic information. At the top, it will show the featured article.</li>
+                                <br></br>
+                                <li>2) Other information includes city wide transit alerts, news, pricing, fare estimator, FAQ, and contacting TransLink.</li>
+                                <br></br>
+                                <li>3) The app will also allow user to add it to Apple Pay for faster access. Depending on Apple Pay's limitation, user may only be able to add one Compass card to Apple Pay.</li>
+                            </ul>
+                        </Description>
+                    </Content>
+                </Columns>
+
+                <Spacer />
+                
+                <SubHeading>in summary</SubHeading>
+                <Heading>reflection-</Heading>
+                <Description>
+                    It was an amazing challenge to finish a project this size in such a short period. I have learned a lot and understand why it is better to work in teams to solve problems like this. It seems such a simple problem, but in fact there are a lot smaller problems tie to it. Working out a solution for one issue and you find yourself another issue that ties with it. The more I look at how companies polish their designs the more I appreciate how much time and effort they put in to make such a seamless experience. I learned a lot just digging through their apps, finding out what works and what doesn't. If I had more time, I would definitely want to:
+                </Description>
+                <Description>
+                    <ul>
+                        <li>· Spend more time on user research and do more in depth interviews</li>
+                        <li>· User test with a wider range of audiences</li>
+                        <li>· Add animation for a better prototype experience</li>
+                        <li>· Fine tune details</li>
+                        <li>· Explore more features</li>
+                    </ul>
+                </Description>
 
             </Container>
 
