@@ -360,7 +360,7 @@ const Translink = () => {
                         
                         <Description>
                             <ul>
-                                <li>1) During the card tapping process, there will be a pulse animation at the back of the card, stretching to 3/4 of the screen. This will give the user more visual clue. Once tap is successful, it will pop up with a 'check mark' and the word 'success' at the top. A short sound and animation of the fee ducted will be played/shown. In addition, app will also send a notification to the user of the fee deducted, transaction date and time, total balance, and card name.</li>
+                                <li>1) During the card tapping process, there will be a pulse animation at the back of the card as well as a haptic feedback, stretching to 3/4 of the screen. This will give the user more visual and psychical clue. Once tap is successful, it will have a pop up with a 'check mark' along with a firm haptic feedback and the word 'success' at the top. A short sound and animation of the fee ducted will be played/shown. In addition, app will also send a notification to the user of the fee deducted, transaction date and time, total balance, and card name.</li>
                                 <br></br>
                                 <li>2) If the tap was unsuccessful, the top will show 'failed' with an 'X' icon and a short description stating why it failed.</li>
                                 <br></br>
@@ -496,15 +496,30 @@ const Translink = () => {
                 <SubHeading>in summary</SubHeading>
                 <Heading>reflection-</Heading>
                 <Description>
-                    It was an amazing challenge to finish a project this size in such a short period. I have learned a lot and understand why it is better to work in teams to solve problems like this. It seems such a simple problem, but in fact there are a lot smaller problems tie to it. Working out a solution for one issue and you find yourself another issue that ties with it. The more I look at how companies polish their designs the more I appreciate how much time and effort they put in to make such a seamless experience. I learned a lot just digging through their apps, finding out what works and what doesn't. If I had more time, I would definitely want to:
+                    It was an amazing challenge to finish a project this size in such a short period of time. I have learned a lot and understand how valuable it is to work in teams to tackle a project this size. Solving problems along the way was very rewarding. I learned a lot about why and how users use their apps, and why even big companies are constantly updating their apps to solve problems. During the research phase, survey and in-depth interviews really gave me a lot of insights that I would have never be able to find on the internet.
                 </Description>
                 <Description>
+                    What worked:
                     <ul>
-                        <li>· Spend more time on user research and do more in depth interviews</li>
-                        <li>· User test with a wider range of audiences</li>
-                        <li>· Add animation for a better prototype experience</li>
-                        <li>· Fine tune details</li>
-                        <li>· Explore more features</li>
+                        <li>· Using the default card as the main landing screen, users were very pleased and commented on how efficient it would be on-the-go when using the app.</li>
+                        <li>· Users absolutely appreciated when I told them during the card tapping process there will be a pulse like effect with haptic feedback. These visual and haptic feedback provide a sense confirmation response to the user without the need to read.</li>
+                    </ul>
+                </Description>
+                <Description>
+                    What didn't work:
+                    <ul>
+                        <li>· Initially I had the cards displayed horizontally but later after user testing, users did not find it comfortable when holding the phone one-handed. Changing to vertical card display, I was able to maintain to display more information while allowing the users to hold the phone comfortably one handed.</li>
+                        <li>· Initially I had the navigation bar present on all screens. After user testing, I found out majority of the users find it distracting, especially when they are focusing on an important task such as adding funds or dealing with sensitive information. Users would like crucial screens to have unnecessary information removed.</li>
+                    </ul>
+                </Description>
+                <Description>
+                    What to improve:
+                    <ul>
+                        <li>· Spend more time on user research and do more in-depth interviews for further insights.</li>
+                        <li>· Add animation for a better prototype experience.</li>
+                        <li>· Explore more features.</li>
+                        <li>· User test with a wider range of audiences.</li>
+                        <li>· Fine tune details.</li>
                     </ul>
                 </Description>
 
@@ -514,6 +529,10 @@ const Translink = () => {
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 3.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 5.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 6.png")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 7.png")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 8.png")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/applepay iso.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/overview iso.jpg")} />
