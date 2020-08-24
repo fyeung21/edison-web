@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazy-load";
 import { linkStyle } from "../globalStyles";
 import { TallCont, StyledImg, MobileVer } from "./workStyles";
 import HoverCard from "./HoverCard";
 import CardInfo from "./CardInfo";
-import LazyLoad from "react-lazy-load";
 
 const Tall = ({ title, description, img, link }) => {
     return (
