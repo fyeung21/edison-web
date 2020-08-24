@@ -1,17 +1,17 @@
 import React from "react";
-import { PositionCont, LandscapeCont, PhotoImg } from "./photoStyles";
 import LazyLoad from "react-lazy-load";
+import { PositionCont, LandscapeCont, PhotoImg } from "./photoStyles";
 
 const Landscape = ({ img }) => {
     return (
         <PositionCont>
-            <LandscapeCont>
-                <LazyLoad debounce={false} offsetVertical={1000}>
+            <LazyLoad debounce={false} offsetVertical={1000}>
+                <LandscapeCont>
                     <PhotoImg
                         src={img}
                         alt="photo" />
-                </LazyLoad>
-            </LandscapeCont>
+                </LandscapeCont>
+            </LazyLoad>
         </PositionCont>
     );
 }
