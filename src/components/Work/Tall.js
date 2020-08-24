@@ -4,16 +4,19 @@ import { linkStyle } from "../globalStyles";
 import { TallCont, StyledImg, MobileVer } from "./workStyles";
 import HoverCard from "./HoverCard";
 import CardInfo from "./CardInfo";
+import LazyLoad from "react-lazy-load";
 
 const Tall = ({ title, description, img, link }) => {
     return (
         <Link to={link} rel="noopener noreferrer" style={linkStyle}>
-            <TallCont>
-                <StyledImg
-                    src={img}
-                    alt="project thumbnail" />
-                <HoverCard title={title} description={description} />
-            </TallCont>
+            <LazyLoad debounce={false} offsetVertical={1000}>
+                <TallCont>
+                    <StyledImg
+                        src={img}
+                        alt="project thumbnail" />
+                    <HoverCard title={title} description={description} />
+                </TallCont>
+            </LazyLoad>
             <MobileVer>
                 <CardInfo title={title} description={description} />
             </MobileVer>
