@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { CaseStudyCont, Description, Heading, SubHeading, Columns, Content, Spacer, Image, TrioContent, TrioImgCont } from "../../components/WorkCaseStudies/caseStyles";
+import { Description, Heading, SubHeading, Columns, Content, Spacer, Image, TrioContent, TrioImgCont } from "../../components/WorkCaseStudies/caseStyles";
+import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
@@ -8,7 +9,7 @@ import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Translink = () => {
     return (
-        <CaseStudyCont>
+        <CaseLayout>
             <Banner bannerImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")} />
             <Stats
                 projectName={"TransLink Compass"}
@@ -537,7 +538,7 @@ const Translink = () => {
             <ProjectImg projectImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/overview iso.jpg")} />
             <ProjectNav />
-        </CaseStudyCont>
+        </CaseLayout>
     );
 }
 

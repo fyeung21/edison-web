@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { CaseStudyCont, Heading, Description } from "../../components/WorkCaseStudies/caseStyles";
+import { Heading, Description } from "../../components/WorkCaseStudies/caseStyles";
+import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
@@ -8,7 +9,7 @@ import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Ecommerce = () => {
     return (
-        <CaseStudyCont>
+        <CaseLayout>
             <Banner bannerImg={require("../../assets/case-studies/ecommerce/coverimage-ecommerce.jpg")} />
             <Stats
                 projectName={"E-commerce Retail"}
@@ -49,7 +50,7 @@ const Ecommerce = () => {
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectNav />
-        </CaseStudyCont>
+        </CaseLayout>
     );
 }
 
