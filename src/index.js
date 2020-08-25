@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 import "./reset.css";
 import "./index.css";
 import "./assets/fonts.css";
@@ -18,4 +18,4 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.register();
+// serviceWorker.register();
