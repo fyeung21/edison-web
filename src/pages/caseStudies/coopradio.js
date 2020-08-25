@@ -1,5 +1,5 @@
 import React from "react";
-import { CaseStudyCont } from "../../components/WorkCaseStudies/caseStyles";
+import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
@@ -7,7 +7,7 @@ import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const CoopRadio = () => {
     return (
-        <CaseStudyCont>
+        <CaseLayout>
             <Banner bannerImg={require("../../assets/case-studies/coopradio/coverimage-coopradio.jpg")} />
             <Stats
                 projectName={"Coop Radio"}
@@ -23,7 +23,7 @@ const CoopRadio = () => {
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectNav />
-        </CaseStudyCont>
+        </CaseLayout>
     );
 }
 

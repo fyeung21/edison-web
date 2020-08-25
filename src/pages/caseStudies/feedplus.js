@@ -1,5 +1,6 @@
 import React from "react";
-import { CaseStudyCont, Description } from "../../components/WorkCaseStudies/caseStyles";
+import { Description } from "../../components/WorkCaseStudies/caseStyles";
+import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
@@ -7,7 +8,7 @@ import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 
 const Feedplus = () => {
     return (
-        <CaseStudyCont>
+        <CaseLayout>
             <Banner bannerImg={require("../../assets/case-studies/feedplus/coverimage-feedplus.jpg")} />
             <Stats
                 projectName={"feed+"}
@@ -35,7 +36,7 @@ const Feedplus = () => {
                 </Description>
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectNav />
-        </CaseStudyCont>
+        </CaseLayout>
     );
 }
 
