@@ -1,11 +1,13 @@
 import React from "react";
 import { PhotoCont } from "../components/Photo/photoStyles";
+import BackTop from "../components/BackTop/BackTop";
 import Portrait from "../components/Photo/Portrait";
 import Landscape from "../components/Photo/Landscape";
 
 const Photo = () => {
     return (
         <PhotoCont>
+            <BackTop />
             <Portrait img={require("../assets/photography/edison_CR_002.jpg")} />
             <Portrait img={require("../assets/photography/edison_CR_001.jpg")} />
             <Landscape img={require("../assets/photography/edison_CR_003.JPG")} />

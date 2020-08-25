@@ -1,0 +1,9 @@
+.back-top {
+    background-color: transparent;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #727272;
+    border-radius: 25px;
+    cursor: pointer;
+}
