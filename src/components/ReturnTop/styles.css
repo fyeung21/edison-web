@@ -1,5 +1,6 @@
 .return-top {
     background-color: transparent;
+    backdrop-filter: blur(5px);
     outline: none;
     height: 50px;
     width: 50px;

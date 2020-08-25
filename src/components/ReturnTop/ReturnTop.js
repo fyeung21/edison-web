@@ -10,16 +10,17 @@ const ReturnTopCont = styled.div`
     position: fixed;
     justify-content: flex-end;
     z-index: 5;
-    bottom: 50px;
+    bottom: 70px;
     padding-right: 1px;
 
-    width: 325px;
+    width: 337px;
     margin: 0 auto;
 
     @media (min-width: ${theme.skinnyWindowSize}) {
-      width: 365px;
+      width: 377px;
     }
     @media (min-width: ${theme.tabletSize}) {
+      bottom: 50px;
       width: 650px;
     }
     @media (min-width: ${theme.smallLaptopSize}) {
