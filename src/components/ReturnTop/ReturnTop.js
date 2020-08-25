@@ -1,11 +1,11 @@
 import React from "react";
-import ChevronUp from "../Icons/ChevronUp";
 import ScrollToTop from "react-scroll-to-top";
-import { theme } from "../Theme";
+import ChevronUp from "../Icons/ChevronUp";
 import styled from "styled-components";
+import { theme } from "../Theme";
 import "./styles.css";
 
-const BackTopCont = styled.div`
+const ReturnTopCont = styled.div`
     display: flex;
     position: fixed;
     justify-content: flex-end;
@@ -30,12 +30,12 @@ const BackTopCont = styled.div`
     }
 `
 
-const BackTop = () => {
-    return (
-        <BackTopCont>
-            <ScrollToTop smooth component={<ChevronUp />} className="back-top" />
-        </BackTopCont>
-    );
+const ReturnTop = () => {
+  return (
+    <ReturnTopCont>
+      <ScrollToTop smooth component={<ChevronUp />} className="return-top" />
+    </ReturnTopCont>
+  );
 }
 
-export default BackTop;
+export default ReturnTop;
