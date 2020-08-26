@@ -28,7 +28,7 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                     {presentation ?
                         <TypeCont>
                             <Category>presentation</Category>
-                            <PresLink href={presentation}>case study link</PresLink>
+                            <PresLink target="_blank" href={presentation}>case study link</PresLink>
                         </TypeCont>
                         : null
                     }
@@ -44,7 +44,7 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                     {github ?
                         <TypeCont>
                             <Category>github</Category>
-                            <PresLink href={github}>github link</PresLink>
+                            <PresLink target="_blank" href={github}>github link</PresLink>
                         </TypeCont>
                         : null
                     }
@@ -52,7 +52,7 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                     {demo ?
                         <TypeCont>
                             <Category>presentation</Category>
-                            <PresLink href={demo}>demo link</PresLink>
+                            <PresLink target="_blank" href={demo}>live demo link</PresLink>
                         </TypeCont>
                         : null
                     }
