@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { Description, Heading, SubHeading, Columns, Content, Spacer, Image, TrioContent, TrioImgCont } from "../../components/WorkCaseStudies/caseStyles";
+import { Description, Heading, SubHeading, Columns, Content, Spacer, Image } from "../../components/WorkCaseStudies/caseStyles";
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
@@ -24,7 +24,7 @@ const Pokemondb = () => {
             />
 
             <Container>
-            <Heading>what is Pokémon Database-</Heading>
+                <Heading>what is Pokémon Database-</Heading>
                 <Description>
                     Pokémon Database is a website library that showcases Pokémon stats. This is a personal project that was created for educational purposes only and has no relations to the official Pokémon Franchise. For this project anyone can input a Pokémon stat card to the database or modify the details in the admin page. Each stat card contains an image, attack, defense, health points, element types and a short description of the Pokémon. Please be mindful of the information inputted. This database is not monitored and is hosted on Heroku platform live.
                 </Description>
