@@ -10,15 +10,19 @@ const Concepts = () => {
             <Banner
                 bannerImg={require("../../assets/case-studies/concepts/coverimage-concepts.jpg")}
             />
-            <ProjectImg
-                projectImg={"https://via.placeholder.com/650x450/d3d3d3"}
-            />
-            <ProjectImg
-                projectImg={"https://via.placeholder.com/650x450/d3d3d3"}
-            />
-            <ProjectImg
-                projectImg={"https://via.placeholder.com/650x450/d3d3d3"}
-            />
+
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept1.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept1a.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept2.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept_hor.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup02.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/marshmbook.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/buttonstudy.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/catvconceptedison-01.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/flatpotleafexerciseedison-01.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/abstlogoexerciseedison-01.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );
