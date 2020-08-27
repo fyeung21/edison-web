@@ -4,11 +4,11 @@ import { BannerCont, BannerImg } from "./caseStyles";
 
 const Banner = ({ bannerImg }) => {
     return (
-        <BannerCont>
-            <LazyLoad debounce={false} offsetVertical={750}>
+        <LazyLoad debounce={false} offsetVertical={750}>
+            <BannerCont>
                 <BannerImg src={bannerImg} alt={"banner img"} />
-            </LazyLoad>
-        </BannerCont>
+            </BannerCont>
+        </LazyLoad>
     );
 }
 
