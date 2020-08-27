@@ -9,7 +9,7 @@ import CardInfo from "./CardInfo";
 const Wide = ({ title, description, img, link }) => {
     return (
         <Link to={link} rel="noopener noreferrer" style={linkStyle}>
-            <LazyLoad debounce={false} offsetVertical={1000}>
+            <LazyLoad debounce={false} offsetVertical={750}>
                 <WideCont>
                     <StyledImg
                         src={img}

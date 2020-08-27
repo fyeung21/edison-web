@@ -5,13 +5,13 @@ import { PositionCont, PortraitCont, PhotoImg } from "./photoStyles";
 const Portrait = ({ img }) => {
     return (
         <PositionCont>
-            <LazyLoad debounce={false} offsetVertical={1000}>
-                <PortraitCont>
+            <PortraitCont>
+                <LazyLoad debounce={false} offsetVertical={750}>
                     <PhotoImg
                         src={img}
                         alt="photo" />
-                </PortraitCont>
-            </LazyLoad>
+                </LazyLoad>
+            </PortraitCont>
         </PositionCont>
     );
 }

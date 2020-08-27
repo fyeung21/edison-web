@@ -4,11 +4,11 @@ import { ProjectImgCont, Image } from "./caseStyles";
 
 const ProjectImg = ({ projectImg }) => {
     return (
-        <LazyLoad debounce={false} offsetVertical={1000}>
-            <ProjectImgCont>
+        <ProjectImgCont>
+            <LazyLoad debounce={false} offsetVertical={1000}>
                 <Image src={projectImg} alt={"project image"} />
-            </ProjectImgCont>
-        </LazyLoad>
+            </LazyLoad>
+        </ProjectImgCont>
     );
 }
 
