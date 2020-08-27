@@ -108,6 +108,8 @@ const Pokemondb = () => {
                 <Description>
                     If I have more time, I would definitely explore the idea of allowing users to create their own accounts (user and password) then allow them to log in with the right credentials and load the data they have inputted. I suspect I will most likely get stuck on finding and matching the right credentials with the backend data. Further features I would consider are allowing the user to sort the data based on their likings such as a filter and maybe even allow users to leave comments on the stat cards and interact with other users.
                 </Description>
+                
+                <Spacer />
             </Container>
 
             <ProjectImg projectImg={require("../../assets/case-studies/pokemondb/pokemon-header-image.jpg")} />
