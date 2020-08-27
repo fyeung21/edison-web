@@ -5,13 +5,13 @@ import { PositionCont, LandscapeCont, PhotoImg } from "./photoStyles";
 const Landscape = ({ img }) => {
     return (
         <PositionCont>
-            <LazyLoad debounce={false} offsetVertical={1000}>
-                <LandscapeCont>
+            <LandscapeCont>
+                <LazyLoad debounce={false} offsetVertical={750}>
                     <PhotoImg
                         src={img}
                         alt="photo" />
-                </LandscapeCont>
-            </LazyLoad>
+                </LazyLoad>
+            </LandscapeCont>
         </PositionCont>
     );
 }
