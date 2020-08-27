@@ -50,6 +50,7 @@ const Feedplus = () => {
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp cardovp 5.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp cardovp 6.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp cardovp 7.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp cardovp 8.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp-overview1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/coverimage-feedplus.jpg")} />
             <ProjectNav />
