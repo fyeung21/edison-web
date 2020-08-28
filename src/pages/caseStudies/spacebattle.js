@@ -16,9 +16,12 @@ const Spacebattle = () => {
                 tools={"Sketch / Illustrator / Photoshop / Figma"}
                 platform={"iOS Mobile App"}
             />
-            <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
-            <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
-            <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
+
+            <ProjectImg projectImg={require("../../assets/case-studies/spacebattle/sb cardovp 1.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/spacebattle/sb cardovp 2.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/spacebattle/sb cardovp 3.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/spacebattle/sb cardovp 4.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );
