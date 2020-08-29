@@ -10,14 +10,14 @@ const Work = () => {
         <MainCont>
             <WorkCont>
                 <Full
-                    title={"Assist List"}
-                    description={"A database project built with NodeJS and Bootstrap"}
+                    title={"AssistList"}
+                    description={"A charity design revamp that focuses on user experience and interface"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
                 />
                 <Tall
                     title="TransLink Compass"
-                    description={"A concept project providing an on-the-go solution for an essential city service."}
+                    description={"A concept project providing an on-the-go solution for an essential city service"}
                     img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
                     link={"/work/translink"}
                 />
@@ -59,7 +59,7 @@ const Work = () => {
                 />
                 <Tall
                     title={"Experimental Designs"}
-                    description={null}
+                    description={"Design concepts and studies"}
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/work/concepts"}
                 />
