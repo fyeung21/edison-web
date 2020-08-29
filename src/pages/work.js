@@ -1,15 +1,20 @@
 import React from "react";
 import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
-import Wide from "../components/Work/Wide";
 import Tall from "../components/Work/Tall";
-import NoLinkTall from "../components/Work/NoLinkTall";
-import NoLinkWide from "../components/Work/NoLinkWide";
+import Wide from "../components/Work/Wide";
+import Full from "../components/Work/Full";
 
 const Work = () => {
     return (
         <MainCont>
             <WorkCont>
+                <Full
+                    title={"Assist List"}
+                    description={"A database project built with NodeJS and Bootstrap"}
+                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                    link={"/work/assistlist"}
+                />
                 <Tall
                     title="TransLink Compass"
                     description={"A concept project providing an on-the-go solution for an essential city service."}
@@ -58,12 +63,7 @@ const Work = () => {
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/work/concepts"}
                 />
-                <NoLinkTall
-                    title={"AssistList"}
-                    description={null}
-                    img={require("../assets/case-studies/coverimage-assistlist.jpg")}
-                />
-                <NoLinkWide
+                <Tall
                     title={"Skyrocket Digital"}
                     description={null}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}

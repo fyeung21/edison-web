@@ -8,19 +8,36 @@ import CardInfo from "./CardInfo";
 
 const Wide = ({ title, description, img, link }) => {
     return (
-        <Link to={link} rel="noopener noreferrer" style={linkStyle}>
-            <LazyLoad debounce={false} offsetVertical={750}>
-                <WideCont>
-                    <StyledImg
-                        src={img}
-                        alt="project thumbnail" />
-                    <HoverCard title={title} description={description} />
-                </WideCont>
-            </LazyLoad>
-            <MobileVer>
-                <CardInfo title={title} description={description} />
-            </MobileVer>
-        </Link>
+        <>
+            {link ?
+                <Link to={link} rel="noopener noreferrer" style={linkStyle}>
+                    <LazyLoad debounce={false} offsetVertical={1000}>
+                        <WideCont>
+                            <StyledImg
+                                src={img}
+                                alt="project thumbnail" />
+                            <HoverCard title={title} description={description} />
+                        </WideCont>
+                    </LazyLoad>
+                    <MobileVer>
+                        <CardInfo title={title} description={description} />
+                    </MobileVer>
+                </Link>
+                :
+                <div>
+                    <WideCont>
+                        <StyledImg
+                            src={img}
+                            alt="project thumbnail" />
+                        <HoverCard title={title} description={description} />
+                    </WideCont>
+                    <MobileVer>
+                        <CardInfo title={title} description={description} />
+                    </MobileVer>
+                </div>
+            }
+
+        </>
     );
 }
 

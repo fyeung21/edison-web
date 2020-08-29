@@ -5,6 +5,7 @@ import Work from "../pages/work";
 import Photo from "../pages/photo";
 import About from "../pages/about";
 // import NotFound from "../pages/404";
+import Assistlist from "../pages/caseStudies/assistlist"
 import Translink from "../pages/caseStudies/translink";
 import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
@@ -42,6 +43,9 @@ const Routes = () => {
                 </Header>
                 <MobileHeader />
                 <Switch>
+                    <Route path="/work/assistlist">
+                        <Assistlist />
+                    </Route>
                     <Route path="/work/translink">
                         <Translink />
                     </Route>

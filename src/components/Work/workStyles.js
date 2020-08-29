@@ -67,6 +67,25 @@ export const WideCont = styled.div`
         margin: 1.75rem auto;
     }
 `
+export const FullCont = styled.div`
+    display: flex;
+    position: relative;
+    height: 446px;
+
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        height: 546px;
+    }
+    @media (min-width: ${theme.tabletSize}) {
+        height: 446px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        height: 500px;
+    }
+    @media (min-width: ${theme.desktopSize}) {
+        height: 448px;
+        margin: 1.75rem auto;
+    }
+`
 
 /////////////  Img
 
