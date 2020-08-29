@@ -1,8 +1,9 @@
 import React from "react";
 import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
-import Wide from "../components/Work/Wide";
 import Tall from "../components/Work/Tall";
+import Wide from "../components/Work/Wide";
+import Full from "../components/Work/Full";
 import NoLinkTall from "../components/Work/NoLinkTall";
 import NoLinkWide from "../components/Work/NoLinkWide";
 
@@ -10,7 +11,7 @@ const Work = () => {
     return (
         <MainCont>
             <WorkCont>
-                <Wide
+                <Full
                     title={"Assist List"}
                     description={"A database project built with NodeJS and Bootstrap"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
