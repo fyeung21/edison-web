@@ -4,8 +4,6 @@ import { WorkCont } from "../components/Work/workStyles";
 import Tall from "../components/Work/Tall";
 import Wide from "../components/Work/Wide";
 import Full from "../components/Work/Full";
-import NoLinkTall from "../components/Work/NoLinkTall";
-import NoLinkWide from "../components/Work/NoLinkWide";
 
 const Work = () => {
     return (
@@ -65,7 +63,7 @@ const Work = () => {
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/work/concepts"}
                 />
-                <NoLinkWide
+                <Tall
                     title={"Skyrocket Digital"}
                     description={null}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
