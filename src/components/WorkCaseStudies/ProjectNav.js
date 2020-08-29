@@ -6,6 +6,11 @@ const ProjectNav = () => {
     return (
         <ProjectNavCont>
             <NavCard
+                title="Assist List"
+                cardImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                link={"/work/assistlist"}
+            />
+            <NavCard
                 title="TransLink Compass"
                 cardImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")}
                 link={"/work/translink"}

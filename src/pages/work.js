@@ -10,6 +10,12 @@ const Work = () => {
     return (
         <MainCont>
             <WorkCont>
+                <Wide
+                    title={"Assist List"}
+                    description={"A database project built with NodeJS and Bootstrap"}
+                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                    link={"/work/assistlist"}
+                />
                 <Tall
                     title="TransLink Compass"
                     description={"A concept project providing an on-the-go solution for an essential city service."}
@@ -57,11 +63,6 @@ const Work = () => {
                     description={null}
                     img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                     link={"/work/concepts"}
-                />
-                <NoLinkTall
-                    title={"AssistList"}
-                    description={null}
-                    img={require("../assets/case-studies/coverimage-assistlist.jpg")}
                 />
                 <NoLinkWide
                     title={"Skyrocket Digital"}
