@@ -10,8 +10,7 @@ const ReturnTopCont = styled.div`
     position: fixed;
     justify-content: flex-end;
     z-index: 5;
-    bottom: 70px;
-    padding-right: 1px;
+    bottom: 80px;
 
     width: 337px;
     margin: 0 auto;

@@ -13,17 +13,19 @@ const Assistlist = () => {
             <Banner bannerImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")} />
             <Stats
                 projectName={"AssistList"}
-                projectTime={"8.0 weeks"}
+                projectTime={"8.0 weeks + ongoing volunteer"}
                 myRole={"UX + UI, Scrum master"}
+                team={"1 UX + UI / 2 Web Devs / 2 Community Coor"}
+                others={"Design volunteers"}
                 tools={"Figma / Illustrator / Photoshop / Miro"}
                 platform={"Desktop and mobile site"}
             />
             <Container>
                 <Description>
-                    description
+                    page under construction
                 </Description>
             </Container>
-            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/coverimage-assistlist-la.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );
