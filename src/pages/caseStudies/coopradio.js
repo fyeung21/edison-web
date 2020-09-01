@@ -1,4 +1,6 @@
 import React from "react";
+import { Container } from "../../components/globalStyles";
+import { Description } from "../../components/WorkCaseStudies/caseStyles";
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
@@ -19,8 +21,11 @@ const CoopRadio = () => {
                 team={"3 UX / 3 UI / 4 Dev "}
                 client={"Vancouver Coop Radio"}
             />
-            <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
-            <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
+            <Container>
+                <Description>
+                    page under construction
+                </Description>
+            </Container>
             <ProjectImg projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectNav />
         </CaseLayout>
