@@ -2,7 +2,7 @@ import React from "react";
 import { StatsMainCont, ProjectTitle, StatsSubCont, TypeCont, Category, DataTxt, PresLink } from "./caseStyles";
 import { Container } from "../globalStyles";
 
-const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, code, demo, team, client }) => {
+const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, code, demo, team, client, others }) => {
     return (
         <Container>
             <StatsMainCont>
@@ -16,6 +16,23 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                         <Category>my role</Category>
                         <DataTxt>{myRole}</DataTxt>
                     </TypeCont>
+
+                    {team ?
+                        <TypeCont>
+                            <Category>team breakdown</Category>
+                            <DataTxt>{team}</DataTxt>
+                        </TypeCont>
+                        : null
+                    }
+
+                    {others ?
+                        <TypeCont>
+                            <Category>other members</Category>
+                            <DataTxt>{others}</DataTxt>
+                        </TypeCont>
+                        : null
+                    }
+
                     <TypeCont>
                         <Category>tools</Category>
                         <DataTxt>{tools}</DataTxt>
@@ -53,14 +70,6 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                         <TypeCont>
                             <Category>presentation</Category>
                             <PresLink target="_blank" href={demo}>live demo link</PresLink>
-                        </TypeCont>
-                        : null
-                    }
-
-                    {team ?
-                        <TypeCont>
-                            <Category>team breakdown</Category>
-                            <DataTxt>{team}</DataTxt>
                         </TypeCont>
                         : null
                     }
