@@ -27,7 +27,7 @@ const Assistlist = () => {
 
                 <Spacer />
 
-                <SubHeading>design stages</SubHeading>
+                <SubHeading>design process</SubHeading>
                 <Columns>
                     <Content>
                         <Heading>the blueprint-</Heading>
@@ -46,12 +46,14 @@ const Assistlist = () => {
 
                 <Spacer />
             </Container>
-            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-5.jpg")} />
+            
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-4.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-6.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-3.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-5.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-ipad-aboutus.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")} />
             <ProjectNav />
         </CaseLayout>
