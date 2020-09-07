@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { Heading, Description } from "../../components/WorkCaseStudies/caseStyles";
+import { Description } from "../../components/WorkCaseStudies/caseStyles";
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
