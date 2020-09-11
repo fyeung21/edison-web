@@ -27,7 +27,31 @@ const Assistlist = () => {
 
                 <Spacer />
 
-                <SubHeading>design process</SubHeading>
+                <Heading>who is AssistList-</Heading>
+                <Description>
+                    AssistList is a non-profit charity in British Columbia that provides an online platform to allow the community to buy, sell or donate health and medical equipment. The mission of AssistList is to improve the quality of life by: going green, reuse health equipment that are no longer in use, and to provide opportunities for those in need without the concern to purchase brand new health equipment.
+                </Description>
+
+                <Spacer />
+
+                <Heading>what are we trying to solve-</Heading>
+                <Description>
+                AssistList is built by the community volunteers and they have contributed over thousands of hours ever since it was launched in 2018. Over the past two years, the organization has evolved to a reliable online platform where the community can rely on. The next stage is to evolve the platform to a more resourceful platform while bringing a new modern and fresh design to allow everything to be cohesive and consistent.
+                </Description>
+
+                <Spacer />
+
+                <Heading>defining a feasible goal-</Heading>
+                <Description>
+                    <ul>
+                        <li>· Define a design system and style for the brand, keeping accessibility and simplicity in mind.</li>
+                        <li>· Find ways to revise and improve the support to its end users.</li>
+                    </ul>
+                </Description>
+                
+                <Spacer />
+
+                <SubHeading>design stage</SubHeading>
                 <Columns>
                     <Content>
                         <Heading>the blueprint-</Heading>
