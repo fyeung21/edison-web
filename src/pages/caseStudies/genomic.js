@@ -6,10 +6,12 @@ import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 const Genomic = () => {
     return (
         <CaseLayout>
+            <Head title={"Genomic Science"} />
             <Banner
                 bannerImg={require("../../assets/case-studies/genomic/coverimage-genomic.jpg")}
             />
@@ -29,7 +31,7 @@ const Genomic = () => {
                 </Description>
             </Container>
             <ProjectImg
-                projectImg={"https://via.placeholder.com/650x450/d3d3d3"}/>
+                projectImg={"https://via.placeholder.com/650x450/d3d3d3"} />
             <ProjectNav />
         </CaseLayout>
     );

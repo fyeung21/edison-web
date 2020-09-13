@@ -6,10 +6,12 @@ import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 const Assistlist = () => {
     return (
         <CaseLayout>
+            <Head title={"AssistList"} />
             <Banner bannerImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")} />
             <Stats
                 projectName={"AssistList"}
