@@ -4,10 +4,12 @@ import { PhotoCont } from "../components/Photo/photoStyles";
 import ReturnTop from "../components/ReturnTop/ReturnTop";
 import Portrait from "../components/Photo/Portrait";
 import Landscape from "../components/Photo/Landscape";
+import Head from "../components/Head/Head";
 
 const Photo = () => {
     return (
         <PhotoCont>
+            <Head title={"Photography"} />
             <Container>
                 <ReturnTop />
             </Container>

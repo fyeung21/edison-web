@@ -3,10 +3,12 @@ import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 const Concepts = () => {
     return (
         <CaseLayout>
+            <Head title={"Concepts"} />
             <Banner
                 bannerImg={require("../../assets/case-studies/concepts/coverimage-concepts.jpg")}
             />

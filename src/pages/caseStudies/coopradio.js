@@ -6,10 +6,12 @@ import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 const CoopRadio = () => {
     return (
         <CaseLayout>
+            <Head title={"Coop Radio"} />
             <Banner bannerImg={require("../../assets/case-studies/coopradio/coverimage-coopradio.jpg")} />
             <Stats
                 projectName={"Coop Radio"}

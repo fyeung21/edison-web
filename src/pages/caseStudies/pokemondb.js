@@ -6,14 +6,16 @@ import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 
 const Pokemondb = () => {
     return (
         <CaseLayout>
+            <Head title={"Pokémon Database"} />
             <Banner bannerImg={require("../../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")} />
             <Stats
-                projectName={"Pokemon Database"}
+                projectName={"Pokémon Database"}
                 projectTime={"2.0 weeks"}
                 myRole={"UX + UI + Dev"}
                 tools={"Miro / Figma / Photoshop"}
@@ -28,7 +30,7 @@ const Pokemondb = () => {
                 <Description>
                     Pokémon Database is a website library that showcases Pokémon stats. This is a personal project that was created for educational purposes only and has no relations to the official Pokémon Franchise. For this project anyone can input a Pokémon stat card to the database or modify the details in the admin page. Each stat card contains an image, attack, defense, health points, element types and a short description of the Pokémon. Please be mindful of the information inputted. This database is not monitored and is hosted on Heroku platform live.
                 </Description>
-                    
+
                 <Spacer />
 
                 <Heading>the challenge-</Heading>
@@ -64,7 +66,7 @@ const Pokemondb = () => {
                     <Content>
                         <Heading>the nice to have-</Heading>
                         <Description>
-                             <ul>
+                            <ul>
                                 <li>· On the front end, sort data base on the official Pokémon number.</li>
                                 <li>· On the front end admin page, sort data base on when the Pokémon was inputted.</li>
                                 <li>· User to upload images or reference images from other sites.</li>
@@ -108,7 +110,7 @@ const Pokemondb = () => {
                 <Description>
                     If I have more time, I would definitely explore the idea of allowing users to create their own accounts (user and password) then allow them to log in with the right credentials and load the data they have inputted. I suspect I will most likely get stuck on finding and matching the right credentials with the backend data. Further features I would consider are allowing the user to sort the data based on their likings such as a filter and maybe even allow users to leave comments on the stat cards and interact with other users.
                 </Description>
-                
+
                 <Spacer />
             </Container>
 

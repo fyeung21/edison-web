@@ -4,10 +4,12 @@ import { WorkCont } from "../components/Work/workStyles";
 import Tall from "../components/Work/Tall";
 import Wide from "../components/Work/Wide";
 import Full from "../components/Work/Full";
+import Head from "../components/Head/Head";
 
 const Work = () => {
     return (
         <MainCont>
+            <Head title={"Design"} />
             <WorkCont>
                 <Full
                     title={"AssistList"}

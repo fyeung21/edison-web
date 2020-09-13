@@ -6,10 +6,12 @@ import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
+import Head from "../../components/Head/Head";
 
 const Feedplus = () => {
     return (
         <CaseLayout>
+            <Head title={"Feed+"} />
             <Banner bannerImg={require("../../assets/case-studies/feedplus/coverimage-feedplus.jpg")} />
             <Stats
                 projectName={"feed+"}
@@ -21,7 +23,7 @@ const Feedplus = () => {
             />
 
             <Container>
-            <Heading>what is feed plus-</Heading>
+                <Heading>what is feed plus-</Heading>
                 <Description>
                     Feed Plus is a concept mobile app. The focus of this project is to explore the theory of how people spend too much time on mobile social media apps and the solution is Feed Plus. It is currently a global problem that users are facing and are not doing anything about it. Major companies like Google and Apple have incorporated screen time management features into their respective mobile operating systems, but users are not taking advantage of them. Why? Simply because the users are still in control.
                 </Description>
@@ -29,18 +31,18 @@ const Feedplus = () => {
                 <Description>
                     I designed this mobile app that combines the major social media apps all together but it comes with strict restrictions that no other mobile apps have. Through research, I found out that users tend to get side tracked when switching between mobile apps, and users tend to spend more time in total on each individual social media app. By using Feed Plus, users will spend less time in total and be less side tracked.
                 </Description>
-                    
-            <Spacer />
 
-            <SubHeading>user flow</SubHeading>
+                <Spacer />
+
+                <SubHeading>user flow</SubHeading>
                 <Image src={require("../../assets/case-studies/feedplus/userflow.jpg")} />
-            
-            <Spacer />
 
-            <SubHeading>sketches</SubHeading>
+                <Spacer />
+
+                <SubHeading>sketches</SubHeading>
                 <Image src={require("../../assets/case-studies/feedplus/fp cardovp 0.jpg")} />
 
-            <Spacer />
+                <Spacer />
             </Container>
 
             <ProjectImg projectImg={require("../../assets/case-studies/feedplus/fp cardovp 1.jpg")} />
