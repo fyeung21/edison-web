@@ -47,7 +47,7 @@ const ProjectNav = () => {
             />
             <NavCard
                 title={"Experimental Designs"}
-                cardImg={require("../../assets/case-studies/concepts/coverimage-concepts.jpg")}
+                cardImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
                 link={"/work/concepts"}
             />
         </ProjectNavCont>
