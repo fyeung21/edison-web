@@ -10,16 +10,19 @@ const Concepts = () => {
         <CaseLayout>
             <Head title={"Concepts"} />
             <Banner
-                bannerImg={require("../../assets/case-studies/concepts/coverimage-concepts.jpg")}
+                bannerImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
             />
 
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro1.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro2.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup02.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept1a.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept_hor.jpg")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup02.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/coverimage-concepts.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/marshmbook.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/buttonstudy.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/catvconceptedison-01.jpg")} />

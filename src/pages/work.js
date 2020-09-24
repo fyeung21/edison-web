@@ -62,7 +62,7 @@ const Work = () => {
                 <Tall
                     title={"Experimental Designs"}
                     description={"Design concepts and studies"}
-                    img={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
+                    img={require("../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
                     link={"/work/concepts"}
                 />
                 <Tall
