@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "../pages/index";
 import Work from "../pages/work";
-import Photo from "../pages/photo";
+// import Photo from "../pages/photo";
 import About from "../pages/about";
 // import NotFound from "../pages/404";
 import Assistlist from "../pages/caseStudies/assistlist"
@@ -74,9 +74,9 @@ const Routes = () => {
                     <Route exact path="/work">
                         <Work />
                     </Route>
-                    <Route exact path="/photo">
+                    {/* <Route exact path="/photo">
                         <Photo />
-                    </Route>
+                    </Route> */}
                     <Route exact path="/about">
                         <About />
                     </Route>
