@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { linkStyle, activeLinkStyle } from "../globalStyles";
 import { NavCont, NavTxt, NavIconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
-import MountSun from "../Icons/MountSun";
+// import MountSun from "../Icons/MountSun";
 import UserIcon from "../Icons/UserIcon";
 
 
@@ -24,7 +24,7 @@ const Nav = ({ children }) => {
             </NavTxt>
 
             {/* Photography */}
-            <NavIconCont>
+            {/* <NavIconCont>
                 <NavLink exact to="/photo" style={linkStyle} activeStyle={activeLinkStyle}>
                     <MountSun />
                 </NavLink>
@@ -34,7 +34,7 @@ const Nav = ({ children }) => {
                 <NavLink exact to="/photo" style={linkStyle} activeStyle={activeLinkStyle}>
                     photo
                 </NavLink>
-            </NavTxt>
+            </NavTxt> */}
 
             {/* About */}
             <NavIconCont>
