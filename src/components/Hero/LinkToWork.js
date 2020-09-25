@@ -6,7 +6,7 @@ import ChevronRight from "../Icons/ChevronRight";
 
 const LinkToWork = () => {
     return (
-        <Link to="/work" style={linkStyle}>
+        <Link to="/" style={linkStyle}>
             <LinkCont>
                 <Txt>work</Txt>
                 <ChevronRight />

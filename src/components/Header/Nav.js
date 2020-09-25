@@ -12,13 +12,13 @@ const Nav = ({ children }) => {
         <NavCont>
             {/* Work */}
             <NavIconCont>
-                <NavLink strict to="/work/" style={linkStyle} activeStyle={activeLinkStyle}>
+                <NavLink strict to="/" style={linkStyle} activeStyle={activeLinkStyle}>
                     <Edit />
                 </NavLink>
             </NavIconCont>
 
             <NavTxt>
-                <NavLink strict to="/work/" style={linkStyle} activeStyle={activeLinkStyle}>
+                <NavLink strict to="/" style={linkStyle} activeStyle={activeLinkStyle}>
                     work
                 </NavLink>
             </NavTxt>
