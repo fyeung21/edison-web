@@ -76,7 +76,7 @@ const Assistlist = () => {
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-3.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-5.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-ipad-aboutus.jpg")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-c.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );

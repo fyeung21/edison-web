@@ -3,7 +3,7 @@ import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
 import Tall from "../components/Work/Tall";
 import Wide from "../components/Work/Wide";
-import Full from "../components/Work/Full";
+// import Full from "../components/Work/Full";
 import Head from "../components/Head/Head";
 
 const Work = () => {
@@ -11,23 +11,29 @@ const Work = () => {
         <MainCont>
             <Head title={"Design"} />
             <WorkCont>
-                <Full
+                <Wide
                     title={"AssistList"}
                     description={"A charity design revamp that focuses on user experience and interface"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
                 />
                 <Tall
-                    title="TransLink Compass"
-                    description={"A concept project providing an on-the-go solution for an essential city service"}
-                    img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
-                    link={"/work/translink"}
+                    title={"Experimental Designs"}
+                    description={"Design concepts and studies"}
+                    img={require("../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
+                    link={"/work/concepts"}
                 />
-                <Wide
+                <Tall
                     title={"Pokedex Database"}
                     description={"A database project built with NodeJS and Bootstrap"}
                     img={require("../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
                     link={"/work/pokemondb"}
+                />
+                <Wide
+                    title="TransLink Compass"
+                    description={"A concept project providing an on-the-go solution for an essential city service"}
+                    img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
+                    link={"/work/translink"}
                 />
                 <Wide
                     title={"feed+"}
@@ -58,12 +64,6 @@ const Work = () => {
                     description={"A space themed revision of a retro game called Puzzle Bobble"}
                     img={require("../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
                     link={"/work/spacebattle"}
-                />
-                <Tall
-                    title={"Experimental Designs"}
-                    description={"Design concepts and studies"}
-                    img={require("../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
-                    link={"/work/concepts"}
                 />
                 <Tall
                     title={"Skyrocket Digital"}
