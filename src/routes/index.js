@@ -75,12 +75,12 @@ const Routes = () => {
                     <Route exact path="/about">
                         <About />
                     </Route>
-                    <Route exact path="/">
+                    <Route exact path="/work">
                         <Home />
                     </Route>
                     <Route path="*" >
                         {/* <NotFound /> */}
-                        <Redirect to="/" />
+                        <Redirect to="/work" />
                     </Route>
                 </Switch>
                 <Footer />
