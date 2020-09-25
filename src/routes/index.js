@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Home from "../pages/index";
+// import Home from "../pages/index";
 import Work from "../pages/work";
 // import Photo from "../pages/photo";
 import About from "../pages/about";
@@ -71,9 +71,9 @@ const Routes = () => {
                         <Concepts />
                     </Route>
 
-                    <Route exact path="/work">
+                    {/* <Route exact path="/work">
                         <Work />
-                    </Route>
+                    </Route> */}
                     {/* <Route exact path="/photo">
                         <Photo />
                     </Route> */}
@@ -81,7 +81,7 @@ const Routes = () => {
                         <About />
                     </Route>
                     <Route exact path="/">
-                        <Home />
+                        <Work />
                     </Route>
                     <Route path="*" >
                         {/* <NotFound /> */}
