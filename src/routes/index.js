@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-// import Home from "../pages/index";
-import Work from "../pages/work";
+import Home from "../pages/index";
+// import Work from "../pages/work";
 // import Photo from "../pages/photo";
 import About from "../pages/about";
 // import NotFound from "../pages/404";
@@ -14,7 +14,6 @@ import Genomic from "../pages/caseStudies/genomic";
 import Ecommerce from "../pages/caseStudies/ecommerce";
 import Spacebattle from "../pages/caseStudies/spacebattle";
 import Concepts from "../pages/caseStudies/concepts";
-
 
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -81,7 +80,7 @@ const Routes = () => {
                         <About />
                     </Route>
                     <Route exact path="/">
-                        <Work />
+                        <Home />
                     </Route>
                     <Route path="*" >
                         {/* <NotFound /> */}
