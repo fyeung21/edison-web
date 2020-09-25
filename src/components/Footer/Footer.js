@@ -7,8 +7,20 @@ const Footer = () => {
         <Container>
             <FooterCont>
                 <FooterTxt> copyright &copy; 2020 </FooterTxt>
-                <ContactLink href="https://www.linkedin.com/in/koedison/">LinkedIn</ContactLink>
-                <ContactLink href="https://www.linkedin.com/in/koedison/">Email</ContactLink>
+                <ContactLink
+                    href="https://www.linkedin.com/in/koedison/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </ContactLink>
+                <ContactLink
+                    href="mailto:koedison@gmail.com?subject=Let's grab a coffee!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Emailtest
+                </ContactLink>
             </FooterCont>
         </Container>
     );
