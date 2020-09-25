@@ -19,7 +19,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Emailtest
+                    Email
                 </ContactLink>
             </FooterCont>
         </Container>
