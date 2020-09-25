@@ -21,6 +21,9 @@ export const ContactLink = styled.a`
     font-size: ${theme.smallFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 0 0.25rem;
+    cursor: pointer;
+    z-index: 5;
+    
     :hover {
         color: ${({ theme }) => theme.hoverTxtColor};
     }
