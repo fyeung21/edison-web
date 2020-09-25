@@ -6,19 +6,24 @@ const ProjectNav = () => {
     return (
         <ProjectNavCont>
             <NavCard
-                title="Assist List"
-                cardImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
-                link={"/work/assistlist"}
-            />
-            <NavCard
                 title="TransLink Compass"
                 cardImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")}
                 link={"/work/translink"}
             />
             <NavCard
+                title={"Experimental Designs"}
+                cardImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
+                link={"/work/concepts"}
+            />
+            <NavCard
                 title={"Pokedex Database"}
                 cardImg={require("../../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
                 link={"/work/pokemondb"}
+            />
+            <NavCard
+                title="AssistList"
+                cardImg={require("../../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                link={"/work/assistlist"}
             />
             <NavCard
                 title={"feed+"}
@@ -44,11 +49,6 @@ const ProjectNav = () => {
                 title={"Space Battle Ex Mobile Game"}
                 cardImg={require("../../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
                 link={"/work/spacebattle"}
-            />
-            <NavCard
-                title={"Experimental Designs"}
-                cardImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
-                link={"/work/concepts"}
             />
         </ProjectNavCont>
     );

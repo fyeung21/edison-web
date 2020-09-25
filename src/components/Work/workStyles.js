@@ -91,7 +91,7 @@ export const FullCont = styled.div`
 
 export const StyledImg = styled.img`
     width: 100%;
-    border-radius: 25px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(${({ theme }) => theme.imgBrightness});
 `

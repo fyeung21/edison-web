@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const HeroCont = styled.div`
-    margin: 15rem auto 0rem;
+    margin: 7rem auto 0rem;
 
     @media (min-width: ${theme.tabletSize}) {
-        margin: 20rem auto 0rem;
+        margin: 10rem auto 0rem;
     }
 `
 
@@ -14,7 +14,7 @@ export const HeroCont = styled.div`
 export const HeroTxt = styled.h1`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h2FontSize};
-    font-weight: 500;
+    font-weight: 400;
     color: ${({ theme }) => theme.mainTxtColor};
     line-height: 40px;
     width: 340px;
@@ -42,7 +42,7 @@ export const SubTxt = styled.h3`
     font-family: ${theme.bodyFont};
     font-size: ${theme.h4FontSize};
     color: ${({ theme }) => theme.mainTxtColor};
-    margin: 1rem 0 4rem;
+    margin: 1rem 0 5rem;
 `
 
 //////////////// LinkToWork

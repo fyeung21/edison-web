@@ -4,7 +4,7 @@ import { theme } from "../Theme";
 ////////////// Main Skills Container
 
 export const SkillsCont = styled.div`
-    margin: 8rem auto;
+    margin: 4rem 0 8rem 0;
 `
 ////////////// Styling for each Skills category
 
