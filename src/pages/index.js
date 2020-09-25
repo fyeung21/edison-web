@@ -16,10 +16,10 @@ const Home = () => {
             <Hero />
             <WorkCont>
                 <Wide
-                    title={"AssistList"}
-                    description={"A charity design revamp that focuses on user experience and interface"}
-                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
-                    link={"/work/assistlist"}
+                    title="TransLink Compass"
+                    description={"A concept project providing an on-the-go solution for an essential city service"}
+                    img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
+                    link={"/work/translink"}
                 />
                 <Tall
                     title={"Experimental Designs"}
@@ -34,10 +34,10 @@ const Home = () => {
                     link={"/work/pokemondb"}
                 />
                 <Wide
-                    title="TransLink Compass"
-                    description={"A concept project providing an on-the-go solution for an essential city service"}
-                    img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
-                    link={"/work/translink"}
+                    title={"AssistList"}
+                    description={"A charity design revamp that focuses on user experience and interface"}
+                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                    link={"/work/assistlist"}
                 />
                 <Wide
                     title={"feed+"}

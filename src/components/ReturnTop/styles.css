@@ -4,7 +4,7 @@
     outline: none;
     height: 50px;
     width: 50px;
-    border: 1px solid #f9f9f9;
+    border: 0px solid #f9f9f9;
     border-radius: 25px;
     cursor: pointer;
 }
