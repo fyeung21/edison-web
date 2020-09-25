@@ -1,6 +1,5 @@
 import React from "react";
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
-import Banner from "../../components/WorkCaseStudies/Banner";
 import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 import Head from "../../components/Head/Head";
@@ -9,10 +8,6 @@ const Concepts = () => {
     return (
         <CaseLayout>
             <Head title={"Concepts"} />
-            <Banner
-                bannerImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
-            />
-
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/website_concept.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro2.jpg")} />
