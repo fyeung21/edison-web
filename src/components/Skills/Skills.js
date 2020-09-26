@@ -9,9 +9,9 @@ const Skills = () => {
     return (
         <SkillsCont>
             <Experience />
-            <Education />
+            {/* <Education />
             <Design />
-            <Code />
+            <Code /> */}
         </SkillsCont>
     );
 }

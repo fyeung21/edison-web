@@ -16,12 +16,12 @@ export const HeroTxt = styled.h1`
     font-size: ${theme.h2FontSize};
     font-weight: 400;
     color: ${({ theme }) => theme.mainTxtColor};
-    line-height: 40px;
+    line-height: 50px;
     width: 340px;
 
     @media (min-width: ${theme.tabletSize}) {
         font-size: ${theme.h1FontSize};
-        line-height: 60px;
+        line-height: 70px;
         width: 550px;
     }
  
@@ -32,10 +32,12 @@ export const HeroTxt = styled.h1`
 export const HeroSubCont = styled.div`
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 
     @media (min-width: ${theme.tabletSize}) {
         flex-direction: row;
         justify-content: space-between;
+        line-height: 30px;
     }
 `
 export const SubTxt = styled.h3`

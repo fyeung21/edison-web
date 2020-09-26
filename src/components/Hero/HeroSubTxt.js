@@ -4,7 +4,7 @@ import { HeroSubCont, SubTxt } from "./heroStyles";
 const HeroSubTxt = () => {
     return (
         <HeroSubCont>
-            <SubTxt>product. visual. experience.</SubTxt>
+            <SubTxt>just a curious designer who loves to design, code and connect with people-</SubTxt>
         </HeroSubCont>
     );
 }
