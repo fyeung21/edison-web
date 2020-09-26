@@ -11,6 +11,7 @@ const Experience = () => {
                 </IconCont>
                 <TxtCont>
                     <SkillCategory>experience</SkillCategory>
+                    <Txt>web designer</Txt>
                     <Txt>ux + ui designer</Txt>
                     <Txt>design teaching assistant</Txt>
                     <Txt>financial advisor</Txt>
