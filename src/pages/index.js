@@ -71,7 +71,7 @@ const Home = () => {
                 />
                 <Tall
                     title={"Skyrocket Digital"}
-                    description={null}
+                    description={"NDA"}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
                 />
 
