@@ -534,9 +534,9 @@ const Translink = () => {
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 3.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 5.jpg")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 6.png")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 7.png")} />
-            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 8.png")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 6.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 7.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/translink/cardovp 8.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/applepay iso.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/iso mock.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/translink/overview iso.jpg")} />
