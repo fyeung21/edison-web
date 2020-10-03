@@ -41,15 +41,20 @@ const ProjectNav = () => {
                 link={"/work/genomic"}
             />
             <NavCard
+                title={"FF Autoworks"}
+                cardImg={require("../../assets/case-studies/coverimage-ffautoworks.jpg")}
+                
+            />
+            {/* <NavCard
                 title={"E-Commerce Retail"}
                 cardImg={require("../../assets/case-studies/ecommerce/coverimage-ecommerce.jpg")}
                 link={"/work/ecommerce"}
-            />
-            <NavCard
+            /> */}
+            {/* <NavCard
                 title={"Space Battle Ex Mobile Game"}
                 cardImg={require("../../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
                 link={"/work/spacebattle"}
-            />
+            /> */}
         </ProjectNavCont>
     );
 }
