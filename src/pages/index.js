@@ -57,22 +57,27 @@ const Home = () => {
                     img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
                     link={"/work/genomic"}
                 />
-                <Wide
+                {/* <Wide
                     title={"E-Commerce Retail"}
                     description={"Combining local retail shops on West Van to design a one stop shop e-commerce experience"}
                     img={require("../assets/case-studies/ecommerce/coverimage-ecommerce.jpg")}
                     link={"/work/ecommerce"}
-                />
-                <Wide
+                /> */}
+                {/* <Wide
                     title={"Space Battle Ex Mobile Game"}
                     description={"A space themed revision of a retro game called Puzzle Bobble"}
                     img={require("../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
                     link={"/work/spacebattle"}
-                />
-                <Tall
+                /> */}
+                <Wide
                     title={"Skyrocket Digital"}
                     description={"NDA"}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
+                />
+                <Wide 
+                    title={"FF Autoworks"}
+                    description={"Coming soon - Brand Identity with logo, website, t-shirt, brochure designs"}
+                    img={require("../assets/case-studies/coverimage-ffautoworks.jpg")}
                 />
 
             </WorkCont>

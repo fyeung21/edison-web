@@ -10,8 +10,8 @@ import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
 import CoopRadio from "../pages/caseStudies/coopradio";
 import Genomic from "../pages/caseStudies/genomic";
-import Ecommerce from "../pages/caseStudies/ecommerce";
-import Spacebattle from "../pages/caseStudies/spacebattle";
+// import Ecommerce from "../pages/caseStudies/ecommerce";
+// import Spacebattle from "../pages/caseStudies/spacebattle";
 import Concepts from "../pages/caseStudies/concepts";
 
 import Header from "../components/Header/Header";
@@ -59,12 +59,12 @@ const Routes = () => {
                     <Route path="/work/genomic">
                         <Genomic />
                     </Route>
-                    <Route path="/work/ecommerce">
+                    {/* <Route path="/work/ecommerce">
                         <Ecommerce />
-                    </Route>
-                    <Route path="/work/spacebattle">
+                    </Route> */}
+                    {/* <Route path="/work/spacebattle">
                         <Spacebattle />
-                    </Route>
+                    </Route> */}
                     <Route path="/work/concepts">
                         <Concepts />
                     </Route>
