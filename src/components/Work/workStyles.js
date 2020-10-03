@@ -133,11 +133,11 @@ export const CardTitle = styled.p`
 `
 export const CardDesc = styled.p`
     font-family: ${theme.bodyFont};
-    font-size: ${theme.smallFontSize};
+    font-size: ${theme.bodyFontSize};
     color: ${({ theme }) => theme.mainTxtColor};
     margin: 0.5rem 0;
-    line-height: 22px;
-    display: none;
+    line-height: 26px;
+    // display: none;
 
     @media (min-width: ${theme.desktopSize}) {
         display: block;
