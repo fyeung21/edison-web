@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "../pages/index";
 // import Photo from "../pages/photo";
+import Play from "../pages/play";
 import About from "../pages/about";
 // import NotFound from "../pages/404";
 import Assistlist from "../pages/caseStudies/assistlist"
@@ -72,6 +73,9 @@ const Routes = () => {
                     {/* <Route exact path="/photo">
                         <Photo />
                     </Route> */}
+                    <Route exact path="/play">
+                        <Play />
+                    </Route>
                     <Route exact path="/about">
                         <About />
                     </Route>
