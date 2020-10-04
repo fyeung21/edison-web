@@ -28,7 +28,7 @@ export const BottomBarCont = styled.div`
     position: sticky;
     z-index: 20;
     bottom: 0;
-    border-top: 0.1px solid lightgrey;
+    // border-top: 0.1px solid lightgrey;
     background-color: ${({ theme }) => theme.headerBkgColor};
     backdrop-filter: blur(15px);
     transition: all 0.50s linear;
