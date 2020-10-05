@@ -8731,6 +8731,16 @@ react-lazy-load@^3.1.13:
     lodash.throttle "^4.0.0"
     prop-types "^15.5.8"
 
+react-modal-image@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-modal-image/-/react-modal-image-2.5.0.tgz#c9f047ae2a1b8ca54c35dbdad3bbca846cf21632"
+  integrity sha512-QucQrgOLmF44CD4EFDLZ9ICrbHEZwztjALgx1GsNmMWZrAtmzDLarG+T1TK2OSE4w1eHfkXtmEhQibjbt0mT2g==
+
+react-modal-wrap@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/react-modal-wrap/-/react-modal-wrap-0.1.3.tgz#75e4f2f891909d0adcd030ca79d58727fcc2171f"
+  integrity sha512-cpAbhJ0eyGZgutCFnosdPvoTm7unZ5aAWze+KphA+9WLiCyke9MUrsiw7Qh3VM+CmEJN9X/4OsHPCoRyeXxl0g==
+
 react-router-dom@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
