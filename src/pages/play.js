@@ -1,21 +1,82 @@
 import React from "react";
-import { MainCont } from "../components/globalStyles";
+import { MainCont, SectionHeading } from "../components/globalStyles";
+import { HeadingDesc, DisplayFlex } from "../components/Play/playStyles";
 import Head from "../components/Head/Head";
-import ModalImage from "react-modal-image";
+import ImgModal from "../components/Play/ImgModal";
 
 const Play = () => {
     return (
         <MainCont>
             <Head title={"Play"} />
-            <h1>test</h1>
+            <SectionHeading>play.</SectionHeading>
+            <HeadingDesc>This section is for design concepts that I've created on the side.</HeadingDesc>
 
-            <div style={{ width: 300 }}>
-                <ModalImage
-                    small={require("../assets/case-studies/concepts/ov_LPAbro1.jpg")}
-                    large={require("../assets/case-studies/concepts/ov_LPAbro1.jpg")}
-                    alt="Hello World!"
+            <DisplayFlex>
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/ov_LPAbro1.jpg")}
+                    imgName={"test"}
                 />
-            </div>
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/ov_LPAbro2.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/edison_bcard_mockup02.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/website_concept1ab.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/website_concept_hor.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/coverimage-ecommerce.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/r1 cardovp 2.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/r1 cardovp 3.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/marshmbook.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/buttonstudy.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/coverimage-spacebattle.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/sb cardovp 2.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/sb cardovp 3.jpg")}
+                    imgName={"test"}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/flatpotleafexerciseedison-01.jpg")}
+                    imgName={"test"}
+                />
+            </DisplayFlex>
 
         </MainCont>
     );
