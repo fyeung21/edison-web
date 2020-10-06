@@ -1,12 +1,12 @@
 import React from "react";
-import { MainCont } from "../components/globalStyles";
-import { DisplayFlex } from "../components/Play/playStyles";
+// import { MainCont } from "../components/globalStyles";
+import { PlayCont, DisplayFlex } from "../components/Play/playStyles";
 import Head from "../components/Head/Head";
 import ImgModal from "../components/Play/ImgModal";
 
 const Play = () => {
     return (
-        <MainCont>
+        <PlayCont>
             <Head title={"Play"} />
 
             <DisplayFlex>
@@ -60,7 +60,7 @@ const Play = () => {
                 />
             </DisplayFlex>
 
-        </MainCont>
+        </PlayCont>
     );
 }
 
