@@ -43,28 +43,12 @@ export const ImageExpand = styled.img`
 `
 export const ImgExpandCont = styled.div`
     margin: 0 auto;
-    width: 100%;
-    height: 500px;
-    padding: 3.5rem 0 7rem;
-
-    @media (min-width: ${theme.skinnyWindowSize}) {
-        height: 600px;
-        padding: 2.5rem 0 5rem;
-    }
-    @media (min-width: ${theme.tabletSize}) {
-        width: 800px;
-        height: 650px;
-        padding: 13rem 0;
-    }
-    @media (min-width: ${theme.smallLaptopSize}) {
-        padding: 3.75rem 0;
-    }
-    @media (min-width: ${theme.desktopSize}) {
-        padding: 5rem 0;
-    }
+    width: 100vw;
+    height: 100vh;
 `
 export const OverlayCont = styled.div`
     background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
+    min-width: 100vw;
+    min-height: 100vh;
     z-index: 10;
 `
