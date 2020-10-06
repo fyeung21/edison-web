@@ -19,6 +19,26 @@ export const DisplayFlex = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `
+export const MobileShow = styled.div`
+    display: block;
+
+    @media (min-width: ${theme.tabletSize}) {
+        display: none;
+    }
+`
+export const TabletShow = styled.div`
+    display: none;
+
+    @media (min-width: ${theme.tabletSize}) {
+        display: block;
+    }
+`
+export const OverlayCont = styled.div`
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 10;
+`
 export const ImgSmallCont = styled.div`
     width: 100%;
     padding: 1rem 0;
@@ -46,19 +66,13 @@ export const ImageThumb = styled.img`
         border-radius: 20px;
     }
 `
-export const ImageExpand = styled.img`
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-`
 export const ImgExpandCont = styled.div`
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
 `
-export const OverlayCont = styled.div`
-    background-color: rgba(0, 0, 0, 0.8);
-    min-width: 100vw;
-    min-height: 100vh;
-    z-index: 10;
+export const ImageExpand = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 `
