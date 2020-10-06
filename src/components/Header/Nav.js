@@ -5,6 +5,7 @@ import { NavCont, NavTxt, NavIconCont } from "./headerStyles";
 import Edit from "../Icons/Edit";
 // import MountSun from "../Icons/MountSun";
 import UserIcon from "../Icons/UserIcon";
+import Grid from "../Icons/Grid";
 
 
 const Nav = ({ children }) => {
@@ -20,6 +21,19 @@ const Nav = ({ children }) => {
             <NavTxt>
                 <NavLink strict to="/work" style={linkStyle} activeStyle={activeLinkStyle}>
                     work
+                </NavLink>
+            </NavTxt>
+
+            {/* Play */}
+            <NavIconCont>
+                <NavLink exact to="/play" style={linkStyle} activeStyle={activeLinkStyle}>
+                    <Grid />
+                </NavLink>
+            </NavIconCont>
+
+            <NavTxt>
+                <NavLink exact to="/play" style={linkStyle} activeStyle={activeLinkStyle}>
+                    play
                 </NavLink>
             </NavTxt>
 
