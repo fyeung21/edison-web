@@ -1,6 +1,6 @@
 import React from "react";
-import { Image, ImgSmallCont, ImgExpandCont, OverlayCont } from "./playStyles";
 import { Modal, ModalWrapper, useModal } from "react-modal-wrap";
+import { ImageThumb, ImageExpand, ImgSmallCont, ImgExpandCont, OverlayCont } from "./playStyles";
 
 const ModalCloseButton = ({ children }) => {
     const { close } = useModal()
@@ -17,16 +17,15 @@ const ImgModal = ({ imgURL, imgName }) => {
             <ModalWrapper style={{ position: "relative" }}>
                 <ModalOpenButton>
                     <ImgSmallCont>
-                        <Image src={imgURL} alt={imgName} />
+                        <ImageThumb src={imgURL} alt={imgName} />
                     </ImgSmallCont>
                 </ModalOpenButton>
-
 
                 <Modal overlay={true} lockScroll={true}>
                     <OverlayCont>
                         <ModalCloseButton>
                             <ImgExpandCont>
-                                <Image src={imgURL} alt={imgName} />
+                                <ImageExpand src={imgURL} alt={imgName} />
                             </ImgExpandCont>
                         </ModalCloseButton>
                     </OverlayCont>
