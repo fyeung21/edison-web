@@ -35,9 +35,9 @@ export const TabletShow = styled.div`
 `
 export const OverlayCont = styled.div`
     background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
     min-width: 100vw;
     min-height: 100vh;
-    z-index: 10;
 `
 export const ImgSmallCont = styled.div`
     width: 100%;
@@ -46,6 +46,7 @@ export const ImgSmallCont = styled.div`
     @media (min-width: ${theme.tabletSize}) {
         width: 200px;
         height: 200px;
+        cursor: pointer;
     }
     @media (min-width: ${theme.smallLaptopSize}) {
         width: 250px;
