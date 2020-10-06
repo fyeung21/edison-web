@@ -1,6 +1,6 @@
 import React from "react";
-import { MainCont, SectionHeading } from "../components/globalStyles";
-import { HeadingDesc, DisplayFlex } from "../components/Play/playStyles";
+import { MainCont, SectionHeading, HeadingDesc } from "../components/globalStyles";
+import { DisplayFlex } from "../components/Play/playStyles";
 import Head from "../components/Head/Head";
 import ImgModal from "../components/Play/ImgModal";
 
