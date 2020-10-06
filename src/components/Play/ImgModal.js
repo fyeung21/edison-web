@@ -11,13 +11,13 @@ const ModalOpenButton = ({ children }) => {
     return <div onClick={open}>{children}</div>
 }
 
-const ImgModal = ({ imgURL, imgName }) => {
+const ImgModal = ({ imgURL }) => {
     return (
         <>
             <ModalWrapper style={{ position: "relative" }}>
                 <ModalOpenButton>
                     <ImgSmallCont>
-                        <ImageThumb src={imgURL} alt={imgName} />
+                        <ImageThumb src={imgURL} alt={"Image Thumbnail"} />
                     </ImgSmallCont>
                 </ModalOpenButton>
 
@@ -25,7 +25,7 @@ const ImgModal = ({ imgURL, imgName }) => {
                     <OverlayCont>
                         <ModalCloseButton>
                             <ImgExpandCont>
-                                <ImageExpand src={imgURL} alt={imgName} />
+                                <ImageExpand src={imgURL} alt={"Expanded Image"} />
                             </ImgExpandCont>
                         </ModalCloseButton>
                     </OverlayCont>
