@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, ModalWrapper, useModal } from "react-modal-wrap";
-import { ImageThumb, ImageExpand, ImgSmallCont, ImgExpandCont, OverlayCont } from "./playStyles";
+import { ImageThumb, ImageExpand, ImgSmallCont, ImgExpandCont, OverlayCont, MobileShow, TabletShow } from "./playStyles";
 
 const ModalCloseButton = ({ children }) => {
     const { close } = useModal()
@@ -14,23 +14,31 @@ const ModalOpenButton = ({ children }) => {
 const ImgModal = ({ imgURL }) => {
     return (
         <>
-            <ModalWrapper style={{ position: "relative" }}>
-                <ModalOpenButton>
-                    <ImgSmallCont>
-                        <ImageThumb src={imgURL} alt={"Image Thumbnail"} />
-                    </ImgSmallCont>
-                </ModalOpenButton>
+            <MobileShow>
+                <ImgSmallCont>
+                    <ImageThumb src={imgURL} alt={"Image Thumbnail"} />
+                </ImgSmallCont>
+            </MobileShow>
 
-                <Modal overlay={true} lockScroll={true}>
-                    <OverlayCont>
-                        <ModalCloseButton>
-                            <ImgExpandCont>
-                                <ImageExpand src={imgURL} alt={"Expanded Image"} />
-                            </ImgExpandCont>
-                        </ModalCloseButton>
-                    </OverlayCont>
-                </Modal>
-            </ModalWrapper>
+            <TabletShow>
+                <ModalWrapper>
+                    <ModalOpenButton>
+                        <ImgSmallCont>
+                            <ImageThumb src={imgURL} alt={"Image Thumbnail"} />
+                        </ImgSmallCont>
+                    </ModalOpenButton>
+
+                    <Modal overlay={true}>
+                        <OverlayCont>
+                            <ModalCloseButton>
+                                <ImgExpandCont>
+                                    <ImageExpand src={imgURL} alt={"Expanded Image"} />
+                                </ImgExpandCont>
+                            </ModalCloseButton>
+                        </OverlayCont>
+                    </Modal>
+                </ModalWrapper>
+            </TabletShow>
         </>
     );
 }

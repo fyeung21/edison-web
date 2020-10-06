@@ -1,15 +1,12 @@
 import React from "react";
-import { MainCont, SectionHeading, HeadingDesc } from "../components/globalStyles";
-import { DisplayFlex } from "../components/Play/playStyles";
+import { PlayCont, DisplayFlex } from "../components/Play/playStyles";
 import Head from "../components/Head/Head";
 import ImgModal from "../components/Play/ImgModal";
 
 const Play = () => {
     return (
-        <MainCont>
+        <PlayCont>
             <Head title={"Play"} />
-            <SectionHeading>play.</SectionHeading>
-            <HeadingDesc>This section is for design concepts that I've created on the side.</HeadingDesc>
 
             <DisplayFlex>
                 <ImgModal
@@ -62,7 +59,7 @@ const Play = () => {
                 />
             </DisplayFlex>
 
-        </MainCont>
+        </PlayCont>
     );
 }
 
