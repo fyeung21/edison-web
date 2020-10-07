@@ -43,6 +43,9 @@ const Play = () => {
                     imgURL={require("../assets/case-studies/concepts/r1 cardovp 3.jpg")}
                 />
                 <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/coverimage-coopradio.jpg")}
+                />
+                <ImgModal
                     imgURL={require("../assets/case-studies/concepts/coverimage-concepts.jpg")}
                 />
                 <ImgModal

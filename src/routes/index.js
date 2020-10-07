@@ -54,22 +54,12 @@ const Routes = () => {
                     <Route path="/work/feedplus">
                         <Feedplus />
                     </Route>
-                    <Route path="/work/coopradio">
-                        <CoopRadio />
-                    </Route>
                     <Route path="/work/genomic">
                         <Genomic />
                     </Route>
-                    {/* <Route path="/work/ecommerce">
-                        <Ecommerce />
-                    </Route> */}
-                    {/* <Route path="/work/spacebattle">
-                        <Spacebattle />
-                    </Route> */}
-                    <Route path="/work/concepts">
+                    {/* <Route path="/work/concepts">
                         <Concepts />
-                    </Route>
-
+                    </Route> */}
                     {/* <Route exact path="/photo">
                         <Photo />
                     </Route> */}

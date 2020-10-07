@@ -10,11 +10,11 @@ const ProjectNav = () => {
                 cardImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")}
                 link={"/work/translink"}
             />
-            <NavCard
+            {/* <NavCard
                 title={"Experimental Designs"}
                 cardImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
                 link={"/work/concepts"}
-            />
+            /> */}
             <NavCard
                 title={"Pokedex Database"}
                 cardImg={require("../../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
@@ -31,30 +31,18 @@ const ProjectNav = () => {
                 link={"/work/feedplus"}
             />
             <NavCard
-                title={"Coop-radio"}
-                cardImg={require("../../assets/case-studies/coopradio/coverimage-coopradio.jpg")}
-                link={"/work/coopradio"}
-            />
-            <NavCard
                 title={"Genomic Science"}
                 cardImg={require("../../assets/case-studies/genomic/coverimage-genomic.jpg")}
                 link={"/work/genomic"}
             />
             <NavCard
+                title={"Skyrocket Digital"}
+                cardImg={require("../../assets/case-studies/coverimage-skyrocket.jpg")}
+            />
+            <NavCard
                 title={"FF Autoworks"}
                 cardImg={require("../../assets/case-studies/coverimage-ffautoworks.jpg")}
-                
             />
-            {/* <NavCard
-                title={"E-Commerce Retail"}
-                cardImg={require("../../assets/case-studies/ecommerce/coverimage-ecommerce.jpg")}
-                link={"/work/ecommerce"}
-            /> */}
-            {/* <NavCard
-                title={"Space Battle Ex Mobile Game"}
-                cardImg={require("../../assets/case-studies/spacebattle/coverimage-spacebattle.jpg")}
-                link={"/work/spacebattle"}
-            /> */}
         </ProjectNavCont>
     );
 }
