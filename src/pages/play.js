@@ -1,13 +1,17 @@
 import React from "react";
+import { Container } from "../components/globalStyles";
 import { PlayCont, DisplayFlex } from "../components/Play/playStyles";
 import Head from "../components/Head/Head";
+import ReturnTop from "../components/ReturnTop/ReturnTop";
 import ImgModal from "../components/Play/ImgModal";
 
 const Play = () => {
     return (
         <PlayCont>
             <Head title={"Play"} />
-
+            <Container>
+                <ReturnTop />
+            </Container>
             <DisplayFlex>
                 {/* Graphics */}
                 <ImgModal

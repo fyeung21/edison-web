@@ -17,7 +17,7 @@ export const darkTheme = {
     inactiveTxtColor: "#BBBBBB",
     activeTxtColor: "#FAFAFA",
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
-    imgBrightness: "90%",
+    // imgBrightness: "90%",
     cardHoverColor: "rgba(18, 18, 18, 0.95)"
 }
 
