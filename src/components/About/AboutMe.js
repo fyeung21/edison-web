@@ -1,11 +1,10 @@
 import React from "react";
-import { MainCont, SectionHeading } from "../globalStyles";
+import { MainCont } from "../globalStyles";
 import { AboutTxt, QuoteCont, Quote, QuoteAuthor } from "./aboutStyles";
 
 const AboutMe = () => {
     return (
         <MainCont>
-            <SectionHeading>about.</SectionHeading>
             <QuoteCont>
                 <Quote>" Design is content with intent. Content without intent is noise. Intent without content is decoration."</Quote>
                 <QuoteAuthor>- Joe Sparano</QuoteAuthor>
@@ -17,7 +16,7 @@ const AboutMe = () => {
                 In today's modern society, important information can easily get unnoticed if presented incorrectly. Therefore, I have further developed my skill set in business marketing and sales to more effectively connect people. Modern, simplistic and minimalistic are currently my styles of focus. You can have a glimpse of my work throughout the site as it is fully designed by me.
             </AboutTxt>
             <AboutTxt>
-                Even though my formal education has been completed, I have never stopped learning. Currently I am learning how to do basic code to better understand how to design with development in mind which would ensure a more efficient handover to developers. In terms of UX knowledge, I am working to become a T-shaped designer, keeping myself updatedd on current trends by reading UX design blogs and books. "Don't make me think" and the "Design of everyday things" are the current read of mine. And most importantly, continuing to develop my skillset in graphic design. I am eager to learn and hopefully bring new creative ideas and solutions to the table!
+                Even though my formal education has been completed, I have never stopped learning. Currently I am learning how to do basic code to better understand how to design with development in mind which would ensure a more efficient handover to developers. In terms of UX and UI, I am working towards to become a better T-shaped designer, keeping myself updated on current trends by reading UX/UI design blogs and books. "Don't make me think" and the "Design of everyday things" are the current read of mine. And most importantly, continuing to develop my skillset in graphic design. I am eager to learn and hopefully bring new creative ideas and solutions to the table!
             </AboutTxt>
             <AboutTxt>
                 PS: If you know of any good books please recommend them to me!
