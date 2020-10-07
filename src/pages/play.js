@@ -22,6 +22,12 @@ const Play = () => {
                     imgURL={require("../assets/case-studies/concepts/edison_bcard_mockup02.jpg")}
                 />
                 <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/website_concept.jpg")}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/website_concept1.jpg")}
+                />
+                <ImgModal
                     imgURL={require("../assets/case-studies/concepts/website_concept1ab.jpg")}
                 />
                 <ImgModal

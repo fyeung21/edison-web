@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../Theme";
 
 export const PlayCont = styled.div`
-    margin: 0 auto;
+    margin: 4rem auto 8rem;
 
     @media (min-width: ${theme.tabletSize}) {
       width: 650px;
@@ -41,21 +41,21 @@ export const OverlayCont = styled.div`
 `
 export const ImgSmallCont = styled.div`
     width: 100%;
-    padding: 1rem 0;
+    padding: 0.25rem 0;
 
     @media (min-width: ${theme.tabletSize}) {
-        width: 200px;
-        height: 200px;
+        width: 210px;
+        height: 210px;
         cursor: pointer;
     }
     @media (min-width: ${theme.smallLaptopSize}) {
-        width: 250px;
-        height: 250px;
-        padding: 1.5rem 0;
+        width: 275px;
+        height: 275px;
+        padding: 0.35rem 0;
     }
     @media (min-width: ${theme.desktopSize}) {
-        width: 300px;
-        height: 300px;
+        width: 325px;
+        height: 325px;
     }
 `
 export const ImageThumb = styled.img`
@@ -64,7 +64,10 @@ export const ImageThumb = styled.img`
     object-fit: cover;
 
     @media (min-width: ${theme.tabletSize}) {
-        border-radius: 20px;
+        border-radius: 5px;
+    }
+    @media (min-width: ${theme.smallLaptopSize}) {
+        border-radius: 10px;
     }
 `
 export const ImgExpandCont = styled.div`
