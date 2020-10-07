@@ -3,10 +3,6 @@ import { theme } from "../Theme";
 
 export const QuoteCont = styled.div`
     margin: 3rem auto;
-
-    @media (min-width: ${theme.smallLaptopSize}) {
-        margin: 4rem auto;
-    }
 `
 export const Quote = styled.p`
     font-family: ${theme.bodyFont};
