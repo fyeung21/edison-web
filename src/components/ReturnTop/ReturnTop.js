@@ -10,7 +10,7 @@ const ReturnTopCont = styled.div`
     position: fixed;
     justify-content: flex-end;
     z-index: 5;
-    bottom: 80px;
+    bottom: 105px;
 
     width: 337px;
     margin: 0 auto;
@@ -19,7 +19,7 @@ const ReturnTopCont = styled.div`
       width: 377px;
     }
     @media (min-width: ${theme.tabletSize}) {
-      bottom: 50px;
+      bottom: 65px;
       width: 650px;
     }
     @media (min-width: ${theme.smallLaptopSize}) {
