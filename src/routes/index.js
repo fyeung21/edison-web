@@ -9,11 +9,7 @@ import Assistlist from "../pages/caseStudies/assistlist"
 import Translink from "../pages/caseStudies/translink";
 import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
-import CoopRadio from "../pages/caseStudies/coopradio";
 import Genomic from "../pages/caseStudies/genomic";
-// import Ecommerce from "../pages/caseStudies/ecommerce";
-// import Spacebattle from "../pages/caseStudies/spacebattle";
-import Concepts from "../pages/caseStudies/concepts";
 
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -54,22 +50,12 @@ const Routes = () => {
                     <Route path="/work/feedplus">
                         <Feedplus />
                     </Route>
-                    <Route path="/work/coopradio">
-                        <CoopRadio />
-                    </Route>
                     <Route path="/work/genomic">
                         <Genomic />
                     </Route>
-                    {/* <Route path="/work/ecommerce">
-                        <Ecommerce />
-                    </Route> */}
-                    {/* <Route path="/work/spacebattle">
-                        <Spacebattle />
-                    </Route> */}
-                    <Route path="/work/concepts">
+                    {/* <Route path="/work/concepts">
                         <Concepts />
-                    </Route>
-
+                    </Route> */}
                     {/* <Route exact path="/photo">
                         <Photo />
                     </Route> */}
