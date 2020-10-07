@@ -9,11 +9,7 @@ import Assistlist from "../pages/caseStudies/assistlist"
 import Translink from "../pages/caseStudies/translink";
 import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
-import CoopRadio from "../pages/caseStudies/coopradio";
 import Genomic from "../pages/caseStudies/genomic";
-// import Ecommerce from "../pages/caseStudies/ecommerce";
-// import Spacebattle from "../pages/caseStudies/spacebattle";
-import Concepts from "../pages/caseStudies/concepts";
 
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
