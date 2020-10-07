@@ -2,7 +2,7 @@ import React from "react";
 import { MainCont } from "../components/globalStyles";
 import { WorkCont } from "../components/Work/workStyles";
 import Head from "../components/Head/Head";
-import ReturnTop from "../components/ReturnTop/ReturnTop";
+// import ReturnTop from "../components/ReturnTop/ReturnTop";
 import Hero from '../components/Hero/Hero';
 import Tall from "../components/Work/Tall";
 import Wide from "../components/Work/Wide";
@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <MainCont>
             <Head title={"Design"} />
-            <ReturnTop />
+            {/* <ReturnTop /> */}
             <Hero />
             <WorkCont>
                 <Wide
