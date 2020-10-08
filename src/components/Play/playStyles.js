@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import { theme } from "../Theme";
 
+
+/////////////  Page Containers
+
 export const PlayCont = styled.div`
     margin: 4rem auto 8rem;
 
@@ -19,6 +22,9 @@ export const DisplayFlex = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `
+
+////////////  Mobile vs Tablet show containers
+
 export const MobileShow = styled.div`
     display: block;
 
@@ -33,15 +39,13 @@ export const TabletShow = styled.div`
         display: block;
     }
 `
-export const OverlayCont = styled.div`
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(15px);
-    min-width: 100vw;
-    min-height: 100vh;
-`
+
+///////////  Image Thumbnail related
+
 export const ImgSmallCont = styled.div`
     width: 100%;
     padding: 0.25rem 0;
+    position: relative;
 
     @media (min-width: ${theme.tabletSize}) {
         width: 210px;
@@ -62,6 +66,7 @@ export const ImageThumb = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 
     @media (min-width: ${theme.tabletSize}) {
         border-radius: 5px;
@@ -69,6 +74,39 @@ export const ImageThumb = styled.img`
     @media (min-width: ${theme.smallLaptopSize}) {
         border-radius: 10px;
     }
+`
+export const HoverMask = styled.div`
+    display: none;
+
+    @media (min-width: ${theme.skinnyWindowSize}) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 1.5rem;
+        background-color: ${({ theme }) => theme.maskHoverColor};
+        opacity: 0;
+        transition: opacity 0.25s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }   
+    }
+`
+
+///////////  Modal popup related
+
+export const OverlayCont = styled.div`
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 50;
 `
 export const ImgExpandCont = styled.div`
     margin: 0 auto;
@@ -79,4 +117,5 @@ export const ImageExpand = styled.img`
     width: 100%;
     height: 100%;
     object-fit: contain;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
