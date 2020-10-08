@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, ModalWrapper, useModal } from "react-modal-wrap";
-import { ImageThumb, ImageExpand, ImgSmallCont, ImgExpandCont, OverlayCont, MobileShow, TabletShow } from "./playStyles";
+import { ImageThumb, ImageExpand, ImgSmallCont, ImgExpandCont, OverlayCont, MobileShow, TabletShow, HoverMask } from "./playStyles";
 
 const ModalCloseButton = ({ children }) => {
     const { close } = useModal()
@@ -25,6 +25,7 @@ const ImgModal = ({ imgURL }) => {
                     <ModalOpenButton>
                         <ImgSmallCont>
                             <ImageThumb src={imgURL} alt={"Image Thumbnail"} />
+                            <HoverMask />
                         </ImgSmallCont>
                     </ModalOpenButton>
 
