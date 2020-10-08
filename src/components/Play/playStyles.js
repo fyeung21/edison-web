@@ -66,6 +66,7 @@ export const ImageThumb = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 
     @media (min-width: ${theme.tabletSize}) {
         border-radius: 5px;
@@ -116,4 +117,5 @@ export const ImageExpand = styled.img`
     width: 100%;
     height: 100%;
     object-fit: contain;
+    filter: brightness(${({ theme }) => theme.imgBrightness});
 `
