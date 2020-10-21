@@ -39,22 +39,22 @@ const Home = () => {
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
                 />
-                <Wide
-                    title={"Genomic Science"}
-                    description={"An educational mobile app that links existing desktop data into mobile"}
-                    img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
-                    link={"/work/genomic"}
-                />
+                <Wide 
+                    title={"FF Autoworks"}
+                    description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
+                    img={require("../assets/case-studies/ffautoworks/bcard-mockup-02.jpg")}
+                    link={"/work/ffautoworks"}
+                />    
                 <Tall
                     title={"Skyrocket Digital"}
                     description={"NDA"}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
                 />
-                <Tall 
-                    title={"FF Autoworks"}
-                    description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
-                    img={require("../assets/case-studies/ffautoworks/coverimage-ffautoworks.jpg")}
-                    link={"/work/ffautoworks"}
+                <Tall
+                    title={"Genomic Science"}
+                    description={"An educational mobile app that links existing desktop data into mobile"}
+                    img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
+                    link={"/work/genomic"}
                 />
             </WorkCont>
         </MainCont>

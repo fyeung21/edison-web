@@ -26,18 +26,18 @@ const ProjectNav = () => {
                 link={"/work/feedplus"}
             />
             <NavCard
-                title={"Genomic Science"}
-                cardImg={require("../../assets/case-studies/genomic/coverimage-genomic.jpg")}
-                link={"/work/genomic"}
+                title={"FF Autoworks"}
+                cardImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-02.jpg")}
+                link={"/work/ffautoworks"}
             />
             <NavCard
                 title={"Skyrocket Digital"}
                 cardImg={require("../../assets/case-studies/coverimage-skyrocket.jpg")}
             />
             <NavCard
-                title={"FF Autoworks"}
-                cardImg={require("../../assets/case-studies/ffautoworks/coverimage-ffautoworks.jpg")}
-                link={"/work/ffautoworks"}
+                title={"Genomic Science"}
+                cardImg={require("../../assets/case-studies/genomic/coverimage-genomic.jpg")}
+                link={"/work/genomic"}
             />
         </ProjectNavCont>
     );

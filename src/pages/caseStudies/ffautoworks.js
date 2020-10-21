@@ -12,14 +12,14 @@ const FFautoworks = () => {
     return (
         <CaseLayout>
             <Head title={"Form + Function Autoworks"} />
-            <Banner bannerImg={require("../../assets/case-studies/ffautoworks/coverimage-ffautoworks.jpg")} />
+            <Banner bannerImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-03.jpg")} />
             <Stats
                 projectName={"Form + Function Autoworks"}
                 projectTime={"4.0 weeks"}
                 myRole={"Graphic, UX + UI Designer"}
                 tools={"Figma / Illustrator / Photoshop / In Design"}
                 platform={"Branding, Desktop and Mobile"}
-                client={"Form + Function Autoworks"}
+                client={"Form and Function Autoworks"}
             />
             <Container>
                 <Description>
@@ -28,14 +28,22 @@ const FFautoworks = () => {
 
                 <Spacer />
 
-                <SubHeading>design stage</SubHeading>
-                <Image src={require("../../assets/case-studies/assistlist/listing-redesign.jpg")} />
+                <SubHeading>logo design</SubHeading>
+                <Image src={require("../../assets/case-studies/ffautoworks/fflogo_main_final.jpg")} />
+                
+                <Spacer />
+
+                <SubHeading>t-shirt design</SubHeading>
+                <Image src={require("../../assets/case-studies/ffautoworks/fftshirt_design.jpg")} />
                 
                 <Spacer />
             </Container>
 
-            <ProjectImg projectImg={require("../../assets/case-studies/assistlist/al-cardovp-4.jpg")} />
-
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/fftshirt-mockup-front.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/fftshirt-mockup-back.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-01.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-03.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-02.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );
