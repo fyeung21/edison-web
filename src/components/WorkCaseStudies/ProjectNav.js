@@ -10,11 +10,6 @@ const ProjectNav = () => {
                 cardImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")}
                 link={"/work/translink"}
             />
-            {/* <NavCard
-                title={"Experimental Designs"}
-                cardImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
-                link={"/work/concepts"}
-            /> */}
             <NavCard
                 title={"Pokedex Database"}
                 cardImg={require("../../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
@@ -41,7 +36,8 @@ const ProjectNav = () => {
             />
             <NavCard
                 title={"FF Autoworks"}
-                cardImg={require("../../assets/case-studies/coverimage-ffautoworks.jpg")}
+                cardImg={require("../../assets/case-studies/ffautoworks/coverimage-ffautoworks.jpg")}
+                link={"/work/ffautoworks"}
             />
         </ProjectNavCont>
     );

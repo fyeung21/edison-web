@@ -52,15 +52,10 @@ const Home = () => {
                 />
                 <Tall 
                     title={"FF Autoworks"}
-                    description={"Coming soon - Brand Identity with logo, website, t-shirt, brochure designs"}
-                    img={require("../assets/case-studies/coverimage-ffautoworks.jpg")}
+                    description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
+                    img={require("../assets/case-studies/ffautoworks/coverimage-ffautoworks.jpg")}
+                    link={"/work/ffautoworks"}
                 />
-                {/* <Tall
-                    title={"Experimental Designs"}
-                    description={"Design concepts and studies"}
-                    img={require("../assets/case-studies/concepts/edison_bcard_mockup01.jpg")}
-                    link={"/work/concepts"}
-                /> */}
             </WorkCont>
         </MainCont>
     );

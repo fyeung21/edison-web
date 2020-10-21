@@ -10,6 +10,7 @@ import Translink from "../pages/caseStudies/translink";
 import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
 import Genomic from "../pages/caseStudies/genomic";
+import FFautoworks from "../pages/caseStudies/ffautoworks";
 
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -53,9 +54,9 @@ const Routes = () => {
                     <Route path="/work/genomic">
                         <Genomic />
                     </Route>
-                    {/* <Route path="/work/concepts">
-                        <Concepts />
-                    </Route> */}
+                    <Route path="/work/ffautoworks">
+                        <FFautoworks />
+                    </Route>
                     {/* <Route exact path="/photo">
                         <Photo />
                     </Route> */}
