@@ -39,11 +39,15 @@ const FFautoworks = () => {
                 <Spacer />
             </Container>
 
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/brochure-mockup.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/fftshirt-mockup-front.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/fftshirt-mockup-back.jpg")} />
+            {/* <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/ffhoodie-mockup-front.jpg")} /> */}
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/ffhoodie-mockup-frontwh.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-01.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-03.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/bcard-mockup-02.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/ffautoworks/fflogo.jpg")} />
             <ProjectNav />
         </CaseLayout>
     );
