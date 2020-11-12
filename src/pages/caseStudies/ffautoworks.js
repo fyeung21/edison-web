@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../components/globalStyles";
-import { Image, Description, SubHeading, Spacer } from "../../components/WorkCaseStudies/caseStyles";
+import { Image, Description, Spacer } from "../../components/WorkCaseStudies/caseStyles";
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
