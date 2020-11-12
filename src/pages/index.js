@@ -42,7 +42,7 @@ const Home = () => {
                 <Wide 
                     title={"FF Autoworks"}
                     description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
-                    img={require("../assets/case-studies/ffautoworks/bcard-mockup-02.jpg")}
+                    img={require("../assets/case-studies/ffautoworks/brochure-mockup.jpg")}
                     link={"/work/ffautoworks"}
                 />    
                 <Tall
