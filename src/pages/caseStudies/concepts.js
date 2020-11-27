@@ -8,6 +8,8 @@ const Concepts = () => {
     return (
         <CaseLayout>
             <Head title={"Concepts"} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/rest-brochure-menu1.jpg")} />
+            <ProjectImg projectImg={require("../../assets/case-studies/concepts/rest-brochure-menu2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro1.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/ov_LPAbro2.jpg")} />
             <ProjectImg projectImg={require("../../assets/case-studies/concepts/edison_bcard_mockup01.jpg")} />
