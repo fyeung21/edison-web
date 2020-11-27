@@ -15,6 +15,12 @@ const Play = () => {
             <DisplayFlex>
                 {/* Graphics */}
                 <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/rest-brochure-menu1.jpg")}
+                />
+                <ImgModal
+                    imgURL={require("../assets/case-studies/concepts/rest-brochure-menu2.jpg")}
+                />
+                <ImgModal
                     imgURL={require("../assets/case-studies/concepts/ov_LPAbro1.jpg")}
                 />
                 <ImgModal
