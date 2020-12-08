@@ -11,6 +11,7 @@ import Pokemondb from "../pages/caseStudies/pokemondb";
 import Feedplus from "../pages/caseStudies/feedplus";
 import Genomic from "../pages/caseStudies/genomic";
 import FFautoworks from "../pages/caseStudies/ffautoworks";
+import Netflix from "../pages/caseStudies/netflix";
 
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -41,6 +42,9 @@ const Routes = () => {
                 <Switch>
                     <Route path="/work/assistlist">
                         <Assistlist />
+                    </Route>
+                    <Route path="/work/netflix">
+                        <Netflix />
                     </Route>
                     <Route path="/work/translink">
                         <Translink />
