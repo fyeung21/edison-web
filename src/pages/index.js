@@ -23,8 +23,8 @@ const Home = () => {
                 />
                 <Tall
                     title={"Netflix"}
-                    description={"A solution for a common first world problem: the existence of multiple social media accounts"}
-                    img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
+                    description={"sharing"}
+                    img={require("../assets/case-studies/netflix/netflix_logo.jpg")}
                     link={"/work/netflix"}
                 />
                 <Tall

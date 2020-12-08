@@ -12,15 +12,14 @@ const Netflix = () => {
     return (
         <CaseLayout>
             <Head title={"Netflix"} />
-            <Banner bannerImg={require("../../assets/case-studies/translink/coverimage-translink.jpg")} />
+            <Banner bannerImg={require("../../assets/case-studies/netflix/netflix_logo.jpg")} />
             <Stats
                 projectName={"Netflix"}
-                projectTime={"2.0 weeks"}
-                myRole={"UX + UI"}
+                projectTime={"on-going"}
+                myRole={"Graphic, UX + UI"}
                 tools={"Figma / Illustrator / Photoshop"}
                 platform={"Desktop and Mobile"}
-                presentation={"https://www.canva.com/design/DAD_qKZLh2w/view?utm_content=DAD_qKZLh2w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}
-            />
+                />
 
             <Container>
                 <Heading>who is TransLink and what is Compass-</Heading>
