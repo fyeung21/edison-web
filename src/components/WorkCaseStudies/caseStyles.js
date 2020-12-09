@@ -134,6 +134,10 @@ export const Spacer = styled.div`
     margin: 5rem 0;
 `
 
+export const TxtLink = styled.a`
+    color: #35AFF3;
+`
+
 ////////////////// Styles for Columns
 
 export const Columns = styled.div`
