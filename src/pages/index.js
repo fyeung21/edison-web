@@ -22,10 +22,10 @@ const Home = () => {
                     link={"/work/translink"}
                 />
                 <Tall
-                    title={"feed+"}
-                    description={"A solution for a common first world problem: the existence of multiple social media accounts"}
-                    img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
-                    link={"/work/feedplus"}
+                    title={"Netflix"}
+                    description={"sharing"}
+                    img={require("../assets/case-studies/netflix/netflix_logo.jpg")}
+                    link={"/work/netflix"}
                 />
                 <Tall
                     title={"Pokedex Database"}
@@ -34,27 +34,33 @@ const Home = () => {
                     link={"/work/pokemondb"}
                 />
                 <Wide
+                    title={"feed+"}
+                    description={"A solution for a common first world problem: the existence of multiple social media accounts"}
+                    img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
+                    link={"/work/feedplus"}
+                />
+                <Wide
                     title={"AssistList"}
                     description={"A charity design revamp that focuses on user experience and interface"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
                 />
-                <Wide 
+                <Tall 
                     title={"FF Autoworks"}
                     description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
                     img={require("../assets/case-studies/ffautoworks/brochure-mockup.jpg")}
                     link={"/work/ffautoworks"}
                 />    
                 <Tall
-                    title={"Skyrocket Digital"}
-                    description={"NDA"}
-                    img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
-                />
-                <Tall
                     title={"Genomic Science"}
                     description={"An educational mobile app that links existing desktop data into mobile"}
                     img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
                     link={"/work/genomic"}
+                />
+                <Wide
+                    title={"Skyrocket Digital"}
+                    description={"NDA"}
+                    img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
                 />
             </WorkCont>
         </MainCont>
