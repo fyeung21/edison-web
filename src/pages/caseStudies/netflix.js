@@ -4,7 +4,7 @@ import { Description, Heading, SubHeading, Image, Spacer, TxtLink } from "../../
 import CaseLayout from "../../components/WorkCaseStudies/CaseLayout";
 import Stats from "../../components/WorkCaseStudies/Stats";
 import Banner from "../../components/WorkCaseStudies/Banner";
-import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
+// import ProjectImg from "../../components/WorkCaseStudies/ProjectImg";
 import ProjectNav from "../../components/WorkCaseStudies/ProjectNav";
 import Head from "../../components/Head/Head";
 
