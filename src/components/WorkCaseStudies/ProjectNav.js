@@ -11,6 +11,11 @@ const ProjectNav = () => {
                 link={"/work/translink"}
             />
             <NavCard
+                title={"Netflix"}
+                cardImg={require("../../assets/case-studies/netflix/netflix_logo.jpg")}
+                link={"/work/netflix"}
+            />
+            <NavCard
                 title={"Pokedex Database"}
                 cardImg={require("../../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
                 link={"/work/pokemondb"}
