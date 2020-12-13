@@ -56,7 +56,7 @@ const Netflix = () => {
                     </ul>
                 </Description>
                 <Description>
-                    <SubHeading>Hypothesis</SubHeading>
+                    <SubHeading>hypothesis</SubHeading>
                     <ul>
                         <li>· Users have the intention to watch movies/tv shows online with their loved ones (not in the same household) through online streaming services</li>
                         <li>· Users have to have the same streaming services to watch with each other, otherwise they are using screen share to watch together</li>
@@ -65,7 +65,7 @@ const Netflix = () => {
                     </ul>
                 </Description>
                 <Description>
-                    <SubHeading>Metrics and success indicators</SubHeading>
+                    <SubHeading>metrics and success indicators</SubHeading>
                     <ul>
                         <li>· Qualitative feedback during a/b testing phase with a target of first 50-100 paid users</li>
                         <li>· How many accounts are used with more than one IP address or different from signed up IP address and/or exceeds their account sharing tiers</li>
@@ -86,6 +86,12 @@ const Netflix = () => {
                 </Description>
                 <Description>
                     Over the past months, the pandemic has changed millions of consumers' behavior. Researchers are seeing changes in wide range of sectors such as food, shopping, investments, and media consumptions. Reported by <TxtLink><a href="https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/the-great-consumer-shift-ten-charts-that-show-how-us-shopping-behavior-is-changing">McKindsey & Company</a></TxtLink>, consumers are heavily relying on online shopping for their purchases and are led by majority of millennials. There is also a rising trend in shift in brand loyalty, meaning consumers are switching brands at a higher rate than before as people are trying out more different products. Other sectors like financial investment trading also trending up as reported by <TxtLink><a href="https://globalnews.ca/news/7200337/covid-19-investing-stock-market-canada/">Wealthsimple and WealthBar</a></TxtLink>, again driving up the trend by millennials.
+                </Description>
+                <Description>
+                    More importantly in the media sector, two researches done recently by <TxtLink><a href="https://www.nytimes.com/interactive/2020/04/07/technology/coronavirus-internet-use.html">The New York Times</a></TxtLink> and <TxtLink><a href="https://www.bbc.com/news/entertainment-arts-53637305">Ofcom</a></TxtLink>, illustrate that people are spending even more time on streaming services (Netflix, YouTube, Disney+, Hulu), with more than double the amount of what was recorded prior to the pandemic. The reports also indicate people are turning towards video chats to connect with each other, whether it’s for work or personal use. 
+                </Description>
+                <Description>
+                    So what does all this mean? Data shows that consumers are changing their habits at an exponential rate. The data shows that people are constantly finding new ways to spend their time and ways to connect with each other with trends mostly driven by the millennials. Keep in mind, any data collected prior to the pandemic or early stages of the pandemic may not be relevant anymore. Companies need to constantly research on its target users and predict where the shift is heading towards. In a case like this for Netflix, how can a streaming service provide that next level service to its current and potential subscription users? 
                 </Description>
                 
                 <Spacer />
