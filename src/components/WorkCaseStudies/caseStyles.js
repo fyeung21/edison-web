@@ -135,7 +135,11 @@ export const Spacer = styled.div`
 `
 
 export const TxtLink = styled.a`
-    color: #35AFF3;
+    color:${({ theme }) => theme.textLinkColor};
+`
+
+export const TxtHighlight = styled.span`
+    background-color:${({ theme }) => theme.textHighlightColor};
 `
 
 ////////////////// Styles for Columns
