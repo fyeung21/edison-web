@@ -106,6 +106,11 @@ const Netflix = () => {
 
                 <Spacer />
 
+                <SubHeading>user story map / MoSCoW / t-shirt estimation model</SubHeading>
+                <Image src={require("../../assets/case-studies/netflix/netflix_usm_m_tsh.jpg")} />
+
+                <Spacer />
+
                 <Description>
                     project in progress
                 </Description>
