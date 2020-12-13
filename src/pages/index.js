@@ -23,7 +23,7 @@ const Home = () => {
                 />
                 <Tall
                     title={"Netflix"}
-                    description={"sharing"}
+                    description={"Improving the streaming service experience with the on-going global pandemic"}
                     img={require("../assets/case-studies/netflix/netflix_logo.jpg")}
                     link={"/work/netflix"}
                 />
