@@ -8,7 +8,9 @@ export const lightTheme = {
     headerBkgColor: "rgba(250, 250, 250, 0.70)",
     imgBrightness: "100%",
     cardHoverColor: "rgba(250, 250, 250, 0.95)",
-    maskHoverColor: "rgba(250, 250, 250, 0.50)"
+    maskHoverColor: "rgba(250, 250, 250, 0.50)",
+    textHighlightColor: "rgba(173, 216, 230, 0.50)",
+    textLinkColor: "#black"
 }
 
 export const darkTheme = {
@@ -20,7 +22,9 @@ export const darkTheme = {
     headerBkgColor: "rgba(18, 18, 18, 0.80)",
     imgBrightness: "90%",
     cardHoverColor: "rgba(18, 18, 18, 0.95)",
-    maskHoverColor: "rgba(18, 18, 18, 0.50)"
+    maskHoverColor: "rgba(18, 18, 18, 0.50)",
+    textHighlightColor: "rgba(173, 216, 230, 0.50)",
+    textLinkColor: "white"
 }
 
 export const theme = {
