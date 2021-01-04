@@ -17,49 +17,49 @@ const Home = () => {
             <WorkCont>
                 <Wide
                     title="TransLink Compass"
-                    description={"A concept project providing an on-the-go solution for an essential city service"}
+                    description={"UX/UI: A concept project providing an on-the-go solution for an essential city service"}
                     img={require("../assets/case-studies/translink/coverimage-translink.jpg")}
                     link={"/work/translink"}
                 />
                 <Tall
                     title={"Netflix"}
-                    description={"Improving the streaming service experience with the on-going global pandemic"}
+                    description={"UX/UI: Improving the streaming service experience with the on-going global pandemic"}
                     img={require("../assets/case-studies/netflix/netflix_logo.jpg")}
                     link={"/work/netflix"}
                 />
                 <Tall
                     title={"Pokedex Database"}
-                    description={"A database project built with NodeJS and Bootstrap"}
+                    description={"BOOTSTRAP/JS/NODEJS: A database project built with NodeJS and Bootstrap"}
                     img={require("../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
                     link={"/work/pokemondb"}
                 />
                 <Wide
                     title={"feed+"}
-                    description={"A solution for a common first world problem: the existence of multiple social media accounts"}
+                    description={"UX/UI: A solution for a common first world problem: the existence of multiple social media accounts"}
                     img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
                     link={"/work/feedplus"}
                 />
                 <Wide
                     title={"AssistList"}
-                    description={"A charity design revamp that focuses on user experience and interface"}
+                    description={"UX/UI: A charity design revamp that focuses on user experience and interface"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
                 />
                 <Tall 
                     title={"FF Autoworks"}
-                    description={"In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
+                    description={"BRANDING: In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
                     img={require("../assets/case-studies/ffautoworks/brochure-mockup.jpg")}
                     link={"/work/ffautoworks"}
                 />    
                 <Tall
                     title={"Genomic Science"}
-                    description={"An educational mobile app that links existing desktop data into mobile"}
+                    description={"UX/UI: An educational mobile app that links existing desktop data into mobile"}
                     img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
                     link={"/work/genomic"}
                 />
                 <Wide
                     title={"Skyrocket Digital"}
-                    description={"NDA"}
+                    description={"UX/UI: NDA"}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
                 />
             </WorkCont>
