@@ -113,7 +113,7 @@ const Netflix = () => {
                             <Image src={require("../../assets/case-studies/netflix/finding1.jpg")} />
                         </TrioImgCont>
                         <Description>
-                            93% of users have access to one or multiple online streaming services such as Netflix, Disney+, Hulu, Amazon Prime Video … but 72% of those users do not own more than one streaming services. 
+                            93% of users have access to one or multiple online streaming services such as Netflix, Disney+, Hulu, Amazon Prime Video … but 72% of those users do not own more than one streaming services. <TxtHighlight>This means those 72% of users are not able to use the ‘watch party’ feature offered by the streaming services.</TxtHighlight>
                         </Description>
                     </TrioContent>
 
@@ -122,7 +122,7 @@ const Netflix = () => {
                             <Image src={require("../../assets/case-studies/netflix/finding2.jpg")} />
                         </TrioImgCont>
                         <Description>
-                            79% of the users are using some sort of video or call conference to connect and spend time with their loved ones as most of them actually do not live with their families and friends due to work or personal choices. That said, they find themselves even more reliant on their families and friends during the pandemic.
+                            79% of the users are using some sort of video or call conference to connect and spend time with their loved ones as most of them actually do not live with their families and friends due to work or personal choices. That said, they find themselves even more reliant on their families and friends during the pandemic. <TxtHighlight>This shows majority of the users are relying on online interactions to stay connected as social distancing and lockdowns are in place.</TxtHighlight>
                         </Description>
                     </TrioContent>
 
@@ -131,26 +131,20 @@ const Netflix = () => {
                             <Image src={require("../../assets/case-studies/netflix/finding3.jpg")} />
                         </TrioImgCont>
                         <Description>
-                            69% of users struggled to find a solution to watch movies and shows with their loved ones together. Currently, some users are using video chat platforms such as Google Meet, Zoom, Discord and others to screen share and voice chat with each other.
+                            69% of users struggled to find a solution to watch movies and shows with their loved ones together. Currently, some users are using video chat platforms such as Google Meet, Zoom, Discord and others to screen share and voice chat with each other. <TxtHighlight>This demonstrates users are seeking for solutions and there is a demand for it.</TxtHighlight>
                         </Description>
                     </TrioContent>
                 </Columns>
-                <Description>
-                    With these data, I found that <TxtHighlight>people are actually ‘watch partying’ shows and movies online via video chat platforms.</TxtHighlight> This is because there are not a lot of platforms that offer such feature. There are some disadvantages: <TxtHighlight>loss in video and audio quality, audio out of sync, hassle of syncing playtime or not having the same streaming services with one another.</TxtHighlight>
-                </Description>
 
                 <Spacer />
 
                 <SubHeading>competitive analysis</SubHeading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_competi_an.jpg")} />
                 <Description>
-                    By comparing the top online streaming services, <TxtHighlight>only Netflix is not offering any free trial to its non-subscription users.</TxtHighlight> In addition, out of all these services <TxtHighlight>only Disney+ and Hulu are offering a built-in solution to allow its paid subscribers to watch together with ‘Watch Party’ feature.</TxtHighlight> This feature allows their paid users to watch simultaneously together without the hassle of syncing playtime and audio. The downside to this is only accessible to those who have access to the same streaming services with the same or higher-level tier accounts.
+                    Based on the primary and secondary research, by comparing the top online streaming services, <TxtHighlight>only Netflix is not offering any free trial to its non-subscription users.</TxtHighlight> I also found that people are using video chat platforms to watch movies and shows together. The disadvantages with this method comes with loss in video and audio quality, audio out of sync, and hassle of syncing playtime. Interestingly, out of all these streaming services, <TxtHighlight>only Disney+ and Hulu are offering a built-in solution to allow its paid subscribers to watch together with the ‘Watch Party’ feature.</TxtHighlight> The downside to this is only accessible to those who have access to the same streaming services with the same or higher-level tier accounts.
                 </Description>
                 <Description>
-                    However, there are third party solutions for free and paid users with browser extensions such as, Netflix Party (Teleparty), Metastream Remote and many more. These browser extensions allow users to watch together with up to 50 participants and only the host need to have access to the streaming service. Third party solutions are usually free and easy to use but that does not mean there are no compromises. 
-                </Description>
-                <Description>
-                    Security and privacy are one of the top concerns for many and these extensions may <TxtHighlight>require access to view your browsing history and/or view and access your web page contents.</TxtHighlight> It is also good to mention usually these extensions are not build by the companies themselves, meaning features are not baked into the software and users are more likely to encounter bugs.
+                    I also found out users are using third party solutions for free with browser extensions such as, Netflix Party (Teleparty), Metastream Remote and many more. These browser extensions allow users to watch together with up to 50 participants and only the host need to have access to the streaming service. However, many of the <TxtHighlight>users I interviewed ranked security and privacy as their top concerns. Many of these extensions require access to view the users’ browsing history and/or view and access their web page contents.</TxtHighlight> 
                 </Description>
 
                 <Spacer />
