@@ -166,7 +166,7 @@ const Netflix = () => {
                 <Spacer />
 
                 <Description>
-                    project in progress
+                    project in progress . . .
                 </Description>
 
             </Container>
