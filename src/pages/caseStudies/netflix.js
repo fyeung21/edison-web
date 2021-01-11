@@ -138,7 +138,7 @@ const Netflix = () => {
 
                 <Spacer />
 
-                <SubHeading>competitive analysis</SubHeading>
+                <Heading>competitive analysis</Heading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_competi_an.jpg")} />
                 <Description>
                     Based on the primary and secondary research, by comparing the top online streaming services, <TxtHighlight>only Netflix is not offering any free trial to its non-subscription users.</TxtHighlight> I also found that people are using video chat platforms to watch movies and shows together. The disadvantages with this method comes with loss in video and audio quality, audio out of sync, and hassle of syncing playtime. Interestingly, out of all these streaming services, <TxtHighlight>only Disney+ and Hulu are offering a built-in solution to allow its paid subscribers to watch together with the ‘Watch Party’ feature.</TxtHighlight> The downside to this is only accessible to those who have access to the same streaming services with the same or higher-level tier accounts.
@@ -149,23 +149,24 @@ const Netflix = () => {
 
                 <Spacer />
 
-                <SubHeading>paid subscribers CJM</SubHeading>
+                <SubHeading>solution process</SubHeading>
+                <Heading>paid subscribers CJM</Heading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_paidsub_cjm.jpg")} />
  
                 <Spacer />
                 
-                <SubHeading>non-subscribers CJM</SubHeading>
+                <Heading>non-subscribers CJM</Heading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_freeuser_cjm.jpg")} />
 
                 <Spacer />
 
-                <SubHeading>user story map / MoSCoW / t-shirt estimation model</SubHeading>
+                <Heading>user story map / MoSCoW / t-shirt estimation model</Heading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_usm_m_tsh.jpg")} />
 
                 <Spacer />
 
                 <Description>
-                    project in progress
+                    project in progress . . .
                 </Description>
 
             </Container>
