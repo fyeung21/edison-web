@@ -5,22 +5,29 @@ import { AboutTxt, QuoteCont, Quote, QuoteAuthor } from "./aboutStyles";
 const AboutMe = () => {
     return (
         <MainCont>
+            <AboutTxt>
+                Throughout the past years, I have learned so much from companies and people I worked with. Each experience provided me an opportunity to master these skillsets that have contributed to shape who I am today as a designer.  
+            </AboutTxt>
+            <AboutTxt>
+                <ul>
+                    <li>· Being thrown in an art school early in my age prepared me for wireframe sketching and a keen eye for design visuals.</li>
+                    
+                    <li>· In university, marketing taught me the value of research and metrics to validate results in which I still apply in my user research. In fine arts, it strengthened my knowledge in color theory and compositions which prepared me for user interface designs.</li>
+           
+                    <li>· Working in retail prepared me to speak comfortably with people and be assertive in which I still apply when conducting interviews.</li>
+              
+                    <li>· Working as a financial advisor, it prepared me how to understand users’ needs with active listening, critical and analytical thinking skills to help find the best solution.</li>
+        
+                    <li>· Going back to school for user experience design further broaden my knowledge in user centric design. Learning how to code have enhanced my thinking abilities in tackling problems logically. </li>
+                </ul>
+            </AboutTxt>
+            <AboutTxt>
+                Even though my formal education has been completed, I have never stopped learning. I am continuing my journey to broaden my knowledge to provide new ideas and solutions to the table, and hopefully mentor new designers along the way.
+            </AboutTxt>
             <QuoteCont>
                 <Quote>" Design is content with intent. Content without intent is noise. Intent without content is decoration."</Quote>
                 <QuoteAuthor>- Joe Sparano</QuoteAuthor>
             </QuoteCont>
-            <AboutTxt>
-                The limitless universe of art has sparked a curiosity in me. I categorize myself as an art addict, if that is a thing. Exploring all types of art has always been my goal as art comes in different forms, mediums and approaches. I enjoy the process of turning a blank canvas into my own imaginative and creative playground. The outcome is highly rewarding and such satisfaction cannot be easily recreated. Throughout my years of studies, I have further developed my skills in pencil, acrylic painting, web-coding, UX/UI design, HCI design, and photography.
-            </AboutTxt>
-            <AboutTxt>
-                In today's modern society, important information can easily get unnoticed if presented incorrectly. Therefore, I have further developed my skill set in business marketing and sales to more effectively connect people. Modern, simplistic and minimalistic are currently my styles of focus. You can have a glimpse of my work throughout the site as it is fully designed by me.
-            </AboutTxt>
-            <AboutTxt>
-                Even though my formal education has been completed, I have never stopped learning. Currently I am learning how to do basic code to better understand how to design with development in mind which would ensure a more efficient handover to developers. In terms of UX and UI, I am working towards to become a better T-shaped designer, keeping myself updated on current trends by reading UX/UI design blogs and books. "Don't make me think" and the "Design of everyday things" are the current read of mine. And most importantly, continuing to develop my skillset in graphic design. I am eager to learn and hopefully bring new creative ideas and solutions to the table!
-            </AboutTxt>
-            <AboutTxt>
-                PS: If you know of any good books please recommend them to me!
-            </AboutTxt>
         </MainCont>
     );
 }
