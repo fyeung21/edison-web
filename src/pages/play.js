@@ -13,6 +13,19 @@ const Play = () => {
                 <ReturnTop />
             </Container>
             <DisplayFlex>
+                {/* Photography */}
+                <ImgModal
+                    imgURL={require("../assets/photography/edison_CR_007.jpg")}
+                />
+                <ImgModal
+                    imgURL={require("../assets/photography/edison_CR_008.jpg")}
+                />
+                <ImgModal
+                    imgURL={require("../assets/photography/edison_CR_002.jpg")}
+                />
+                <ImgModal
+                    imgURL={require("../assets/photography/edison_CF_005f.jpg")}
+                />
                 {/* Graphics */}
                 <ImgModal
                     imgURL={require("../assets/case-studies/concepts/rest-brochure-menu1.jpg")}
@@ -77,11 +90,7 @@ const Play = () => {
                 <ImgModal
                     imgURL={require("../assets/case-studies/concepts/flatpotleafexerciseedison-01.jpg")}
                 />
-
                 {/* Photography */}
-                <ImgModal
-                    imgURL={require("../assets/photography/edison_CR_002.jpg")}
-                />
                 <ImgModal
                     imgURL={require("../assets/photography/edison_CR_001.jpg")}
                 />
@@ -92,18 +101,8 @@ const Play = () => {
                     imgURL={require("../assets/photography/edison_CR_004.JPG")}
                 />
                 <ImgModal
-                    imgURL={require("../assets/photography/edison_CF_005f.jpg")}
-                />
-                <ImgModal
-                    imgURL={require("../assets/photography/edison_CR_007.jpg")}
-                />
-                <ImgModal
-                    imgURL={require("../assets/photography/edison_CR_008.jpg")}
-                />
-                <ImgModal
                     imgURL={require("../assets/photography/edison_CR_009.jpg")}
                 />
-
                 <ImgModal
                     imgURL={require("../assets/photography/edison_LE_001.JPG")}
                 />
