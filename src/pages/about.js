@@ -9,7 +9,7 @@ const About = () => {
         <MainCont>
             <Head title={"About"} />
             <AboutMe />
-            <Skills />
+            {/* <Skills /> */}
         </MainCont>
     );
 }
