@@ -29,7 +29,7 @@ const Home = () => {
                 />
                 <Tall
                     title={"Pokedex Database"}
-                    description={"BOOTSTRAP/JS/NODEJS: A database project built with NodeJS and Bootstrap"}
+                    description={"BACKEND DATABASE: A database project built with NodeJS and Bootstrap"}
                     img={require("../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
                     link={"/work/pokemondb"}
                 />
@@ -40,7 +40,7 @@ const Home = () => {
                     link={"/work/feedplus"}
                 />
                 <Wide
-                    title={"AssistList"}
+                    title={"AssistList Association"}
                     description={"UX/UI: A charity design revamp that focuses on user experience and interface"}
                     img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
                     link={"/work/assistlist"}
