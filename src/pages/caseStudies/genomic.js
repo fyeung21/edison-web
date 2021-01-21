@@ -23,7 +23,7 @@ const Genomic = () => {
                 platform={"iOS Mobile App"}
                 presentation={"https://blog.prototypr.io/genomic-science-e6389187554?gi=9bccff31ac01"}
                 team={"3 UX / 3 UI "}
-                client={"Koonkie"}
+                projectType={"Client Koonkie"}
             />
             <Container>
                 <Description>

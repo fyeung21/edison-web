@@ -21,7 +21,7 @@ const Assistlist = () => {
                 others={"Design volunteers"}
                 tools={"Figma / Illustrator / Photoshop / Miro"}
                 platform={"Desktop and mobile site"}
-                client={"AssistList"}
+                projectType={"Client AssistList"}
             />
             <Container>
                 <Description>
