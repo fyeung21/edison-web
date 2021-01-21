@@ -23,6 +23,7 @@ const Pokemondb = () => {
                 code={"PUG / CSS / JS / NodeJS / Bootstrap"}
                 github={"https://github.com/kedison/pokemon-web-db"}
                 demo={"https://pokemon-db-web.herokuapp.com/"}
+                projectType={"personal"}
             />
 
             <Container>

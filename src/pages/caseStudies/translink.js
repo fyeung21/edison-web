@@ -20,6 +20,7 @@ const Translink = () => {
                 tools={"Sketch / Illustrator / Photoshop"}
                 platform={"iOS Mobile App"}
                 presentation={"https://www.canva.com/design/DAD_qKZLh2w/view?utm_content=DAD_qKZLh2w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}
+                projectType={"personal"}
             />
 
             <Container>

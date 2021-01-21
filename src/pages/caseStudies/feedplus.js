@@ -20,6 +20,7 @@ const Feedplus = () => {
                 tools={"Sketch / Illustrator / Photoshop / Miro / Invision"}
                 platform={"iOS Mobile App"}
                 presentation={"https://www.canva.com/design/DADmU9T-5IA/UN2lqk3J2f09zNs6qYIRfw/view?utm_content=DADmU9T-5IA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"}
+                projectType={"personal"}
             />
 
             <Container>

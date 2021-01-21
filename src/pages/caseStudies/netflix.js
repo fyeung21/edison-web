@@ -19,6 +19,7 @@ const Netflix = () => {
                 myRole={"Graphic, UX + UI"}
                 tools={"Miro / Origami Studio / Figma / Illustrator / Photoshop"}
                 platform={"Desktop and Mobile"}
+                projectType={"personal"}
                 />
 
             <Container>
