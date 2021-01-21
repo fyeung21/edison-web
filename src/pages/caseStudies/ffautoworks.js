@@ -19,7 +19,7 @@ const FFautoworks = () => {
                 myRole={"Graphic, UX + UI Designer"}
                 tools={"Figma / Illustrator / Photoshop / In Design"}
                 platform={"Branding, Desktop and Mobile"}
-                client={"Form and Function Autoworks"}
+                projectType={"Client Form and Function Autoworks"}
             />
             <Container>
                 <Description>

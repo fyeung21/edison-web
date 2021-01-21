@@ -2,7 +2,7 @@ import React from "react";
 import { StatsMainCont, ProjectTitle, StatsSubCont, TypeCont, Category, DataTxt, PresLink } from "./caseStyles";
 import { Container } from "../globalStyles";
 
-const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, code, demo, team, client, others }) => {
+const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation, github, code, demo, team, projectType, others }) => {
     return (
         <Container>
             <StatsMainCont>
@@ -74,10 +74,10 @@ const Stats = ({ projectName, projectTime, myRole, tools, platform, presentation
                         : null
                     }
 
-                    {client ?
+                    {projectType ?
                         <TypeCont>
-                            <Category>client</Category>
-                            <DataTxt>{client}</DataTxt>
+                            <Category>project type</Category>
+                            <DataTxt>{projectType}</DataTxt>
                         </TypeCont>
                         : null
                     }

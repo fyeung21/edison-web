@@ -19,6 +19,7 @@ const Netflix = () => {
                 myRole={"Graphic, UX + UI"}
                 tools={"Miro / Origami Studio / Figma / Illustrator / Photoshop"}
                 platform={"Desktop and Mobile"}
+                projectType={"personal"}
                 />
 
             <Container>
@@ -150,6 +151,11 @@ const Netflix = () => {
                 <Spacer />
 
                 <SubHeading>solution process</SubHeading>
+                <Heading>site map</Heading>
+                <Image src={require("../../assets/case-studies/netflix/netflix_site_map.jpg")} />
+ 
+                <Spacer />
+
                 <Heading>paid subscribers CJM</Heading>
                 <Image src={require("../../assets/case-studies/netflix/netflix_paidsub_cjm.jpg")} />
  
