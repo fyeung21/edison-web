@@ -51,7 +51,7 @@ const Home = () => {
                     img={require("../assets/case-studies/ffautoworks/brochure-mockup.jpg")}
                     link={"/work/ffautoworks"}
                 />    
-                <Tall
+                {/* <Tall
                     title={"Genomic Science"}
                     description={"UX/UI: An educational mobile app that links existing desktop data into mobile"}
                     img={require("../assets/case-studies/genomic/coverimage-genomic.jpg")}
@@ -61,7 +61,7 @@ const Home = () => {
                     title={"Skyrocket Digital"}
                     description={"UX/UI: NDA"}
                     img={require("../assets/case-studies/coverimage-skyrocket.jpg")}
-                />
+                /> */}
             </WorkCont>
         </MainCont>
     );
