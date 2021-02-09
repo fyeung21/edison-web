@@ -24,6 +24,11 @@ const Feedplus = () => {
             />
 
             <Container>
+                <Description>
+                    page under construction
+                </Description>
+                <Spacer />
+
                 <Heading>what is feed plus-</Heading>
                 <Description>
                     Feed Plus is a concept mobile app. The focus of this project is to explore the theory of how people spend too much time on mobile social media apps and the solution is Feed Plus. It is currently a global problem that users are facing and are not doing anything about it. Major companies like Google and Apple have incorporated screen time management features into their respective mobile operating systems, but users are not taking advantage of them. Why? Simply because the users are still in control.

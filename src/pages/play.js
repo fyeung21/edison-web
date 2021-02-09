@@ -87,9 +87,6 @@ const Play = () => {
                 <ImgModal
                     imgURL={require("../assets/case-studies/concepts/sb cardovp 3.jpg")}
                 />
-                <ImgModal
-                    imgURL={require("../assets/case-studies/concepts/flatpotleafexerciseedison-01.jpg")}
-                />
                 {/* Photography */}
                 <ImgModal
                     imgURL={require("../assets/photography/edison_CR_001.jpg")}
