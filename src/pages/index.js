@@ -28,10 +28,10 @@ const Home = () => {
                     link={"/work/netflix"}
                 />
                 <Tall
-                    title={"Pokedex Database"}
-                    description={"BACKEND DATABASE: A database project built with NodeJS and Bootstrap"}
-                    img={require("../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
-                    link={"/work/pokemondb"}
+                    title={"AssistList Association"}
+                    description={"UX/UI: A charity design revamp that focuses on user experience and interface"}
+                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
+                    link={"/work/assistlist"}
                 />
                 <Wide
                     title={"feed+"}
@@ -39,18 +39,19 @@ const Home = () => {
                     img={require("../assets/case-studies/feedplus/coverimage-feedplus.jpg")}
                     link={"/work/feedplus"}
                 />
-                <Wide
-                    title={"AssistList Association"}
-                    description={"UX/UI: A charity design revamp that focuses on user experience and interface"}
-                    img={require("../assets/case-studies/assistlist/coverimage-assistlist.jpg")}
-                    link={"/work/assistlist"}
-                />
-                <Tall 
+                <Wide 
                     title={"FF Autoworks"}
                     description={"BRANDING: In Progress - Brand Identity with logo, website, t-shirt, brochure designs"}
                     img={require("../assets/case-studies/ffautoworks/brochure-mockup.jpg")}
                     link={"/work/ffautoworks"}
-                />    
+                />  
+                <Tall
+                    title={"Pokedex Database"}
+                    description={"BACKEND DATABASE: A database project built with NodeJS and Bootstrap"}
+                    img={require("../assets/case-studies/pokemondb/coverimage-pokemondb.jpg")}
+                    link={"/work/pokemondb"}
+                />
+                
                 {/* <Tall
                     title={"Genomic Science"}
                     description={"UX/UI: An educational mobile app that links existing desktop data into mobile"}
