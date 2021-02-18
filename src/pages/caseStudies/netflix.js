@@ -12,7 +12,7 @@ const Netflix = () => {
     return (
         <CaseLayout>
             <Head title={"Netflix"} />
-            <Banner bannerImg={require("../../assets/case-studies/netflix/netflix_logo.jpg")} />
+            <Banner bannerImg={require("../../assets/case-studies/netflix/netflix_ipadmockup.jpg")} />
             <Stats
                 projectName={"Netflix"}
                 projectTime={"on-going"}

@@ -12,7 +12,7 @@ const ProjectNav = () => {
             />
             <NavCard
                 title={"Netflix"}
-                cardImg={require("../../assets/case-studies/netflix/netflix_logo.jpg")}
+                cardImg={require("../../assets/case-studies/netflix/netflix_ipadmockup.jpg")}
                 link={"/work/netflix"}
             />
             <NavCard

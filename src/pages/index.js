@@ -23,8 +23,8 @@ const Home = () => {
                 />
                 <Tall
                     title={"Netflix"}
-                    description={"UX/UI: Improving the streaming service experience with the on-going global pandemic"}
-                    img={require("../assets/case-studies/netflix/netflix_logo.jpg")}
+                    description={"UX/UI: Improving the user experience while adapting to the on-going global pandemic"}
+                    img={require("../assets/case-studies/netflix/netflix_ipadmockup.jpg")}
                     link={"/work/netflix"}
                 />
                 <Tall
