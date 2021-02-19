@@ -9,7 +9,6 @@ export const HeroCont = styled.div`
     }
 `
 
-
 export const QuoteCont = styled.div`
     margin: 4rem auto;
 

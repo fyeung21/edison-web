@@ -11,7 +11,7 @@ const AboutMe = () => {
                 </Header>
 
                 <AboutTxt>
-                    I have always been a curious individual, being a designer in the tech industry is like a scientist and an artist. Understanding how users interact with digital products feed my curiosity, and creating designs to help solve real life problems feed my passion. Throughout the past years, I have learned so much from companies and people I worked with. Each experience provided me an opportunity to master these skillsets that have contributed to shape who I am today as a designer.  
+                    I have always been a curious individual, being a designer in the tech industry is like being a scientist and an artist. Understanding how users interact with digital products feed my curiosity, and creating designs to help solve real life problems feed my passion. Throughout the past years, I have learned so much from companies and people I worked with. Each experience provided me an opportunity to master these skillsets that have contributed to shape who I am today as a designer.  
                 </AboutTxt>
                 
                 <AboutTxt>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                 <AboutTxt>
                     Even though my formal education has been completed, I have never stopped learning. I am continuing my journey to broaden my knowledge to provide new ideas and solutions to the table, and hopefully mentor new designers along the way.
                 </AboutTxt>
-                
+
                 <QuoteCont>
                     <Quote>" Design is content with intent. Content without intent is noise. Intent without content is decoration."</Quote>
                     <QuoteAuthor>- Joe Sparano</QuoteAuthor>
