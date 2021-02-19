@@ -6,7 +6,9 @@ const AboutMe = () => {
     return (
         <MainCont>
             <AboutTxt>
-                Throughout the past years, I have learned so much from companies and people I worked with. Each experience provided me an opportunity to master these skillsets that have contributed to shape who I am today as a designer.  
+            I have always been a curious individual, being a designer in the tech industry is like a scientist and an artist. Understanding how users interact with digital products feed my curiosity, and creating designs to help solve real life problems feed my passion. 
+
+Throughout the past years, I have learned so much from companies and people I worked with. Each experience provided me an opportunity to master these skillsets that have contributed to shape who I am today as a designer.  
             </AboutTxt>
             <AboutTxt>
                 <ul>
