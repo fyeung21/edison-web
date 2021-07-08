@@ -14,13 +14,13 @@ const Footer = () => {
                 >
                     LinkedIn
                 </ContactLink>
-                <ContactLink
-                    href="mailto:koedison@gmail.com?subject=Let's grab a coffee!"
+                {/* <ContactLink
+                    href="mailto:someone@email.com?subject=Let's grab a coffee!"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     Email
-                </ContactLink>
+                </ContactLink> */}
             </FooterCont>
         </Container>
     );
